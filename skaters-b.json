@@ -1,0 +1,517 @@
+[
+  {
+    "name": "Keegan Palmer",
+    "matches": ["Keegan Palmer"],
+    "born": "2003-03-12",
+    "died": null,
+    "hometown": "Gold Coast, Queensland, Australia (born San Diego, California)",
+    "country": "Australia",
+    "stance": "goofy",
+    "discipline": "park",
+    "titles": [
+      "Olympic gold, men's park, Tokyo 2020",
+      "Olympic gold, men's park, Paris 2024",
+      "X Games park gold, Chiba 2023 and Ventura 2024",
+      "World Championship bronze, park, Nanjing 2018",
+      "Medal of the Order of Australia, 2022"
+    ],
+    "summary": "Australian-American park skater who won the first two Olympic men's park titles, at Tokyo 2020 and Paris 2024.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Keegan_Palmer_%28cropped%29.jpg/500px-Keegan_Palmer_%28cropped%29.jpg",
+    "photoCredit": "Photo: Andrew Durso, CC BY-SA 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Keegan_Palmer_(cropped).jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Keegan_Palmer",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Keegan_Palmer",
+      "https://commons.wikimedia.org/wiki/File:Keegan_Palmer_(cropped).jpg"
+    ]
+  },
+  {
+    "name": "Juni Kang",
+    "matches": ["Juni Kang", "Kang Juni", "Kang Jun-i", "Kang Jun"],
+    "born": "2008-09-29",
+    "died": null,
+    "hometown": "Seoul, South Korea",
+    "country": "South Korea",
+    "stance": "regular",
+    "discipline": "street",
+    "titles": [
+      "Tampa Am 2024 winner (first Korean to win)",
+      "SLS Championship Tour winner on debut, April 2026 (first Korean SLS winner)",
+      "X Games gold, Street Best Trick, Sacramento, Chiba and New Orleans 2026",
+      "X Games street silver, Osaka 2025"
+    ],
+    "summary": "South Korean street skater who won Tampa Am in 2024 and became the first Korean to win an SLS event, on his 2026 debut.",
+    "photo": null,
+    "photoCredit": null,
+    "photoPage": null,
+    "wiki": "https://en.wikipedia.org/wiki/Juni_Kang",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Juni_Kang",
+      "https://skateparkoftampa.com/blogs/skaters/juni-kang",
+      "https://skateparkoftampa.com/blogs/articles/tampa-am-2024-juni-kangs-winning-run"
+    ]
+  },
+  {
+    "name": "Jagger Eaton",
+    "matches": ["Jagger Eaton", "Jagger"],
+    "born": "2001-02-21",
+    "died": null,
+    "hometown": "Scottsdale, Arizona, U.S.",
+    "country": "United States",
+    "stance": "regular",
+    "discipline": "both",
+    "titles": [
+      "Olympic silver, men's street, Paris 2024",
+      "Olympic bronze, men's street, Tokyo 2020",
+      "World Champion: street 2021 (Jacksonville) and park 2023 (Sharjah)",
+      "SLS Super Crown champion 2021; Tampa Pro winner 2018 and 2026",
+      "3 X Games gold medals (Street Am 2017, Park 2022, Park 2023)"
+    ],
+    "summary": "Arizona all-rounder who medalled in street at both Tokyo 2020 and Paris 2024 and holds world titles in both street and park.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/XGames-Chiba-2022_2022-04-24_0392_cropped-2_%28cropped%29.jpg/500px-XGames-Chiba-2022_2022-04-24_0392_cropped-2_%28cropped%29.jpg",
+    "photoCredit": "Photo: RuinDig/Yuki Uchida, CC BY 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:XGames-Chiba-2022_2022-04-24_0392_cropped-2_(cropped).jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Jagger_Eaton",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jagger_Eaton",
+      "https://www.streetleague.com/skaters/jagger-eaton",
+      "https://en.wikipedia.org/wiki/Tampa_Pro_(skateboard_competition)",
+      "https://commons.wikimedia.org/wiki/File:XGames-Chiba-2022_2022-04-24_0392_cropped-2_(cropped).jpg"
+    ]
+  },
+  {
+    "name": "Shane O'Neill",
+    "matches": ["Shane O'Neill", "Shane O’Neill", "Shane ONeill", "Shane Oneill", "Nugget"],
+    "born": "1990-01-03",
+    "died": null,
+    "hometown": "Werribee, Melbourne, Victoria, Australia",
+    "country": "Australia",
+    "stance": "goofy",
+    "discipline": "street",
+    "titles": [
+      "SLS Super Crown / World Championship street gold, Los Angeles 2016",
+      "X Games street gold 2022 (plus silver Oslo 2016, bronze Sydney 2018)",
+      "Tampa Pro winner 2016 and 2021",
+      "Olympian, men's street, Tokyo 2020"
+    ],
+    "summary": "Melbourne technical street specialist who has won the X Games, Street League, Tampa Pro and a world championship.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Shane_O%27Neill_%28skateboarder%29.jpg/500px-Shane_O%27Neill_%28skateboarder%29.jpg",
+    "photoCredit": "Photo: Sharron Elkabas, CC BY-SA 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Shane_O%27Neill_(skateboarder).jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Shane_O%27Neill_(skateboarder)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shane_O%27Neill_(skateboarder)",
+      "https://www.xgames.com/athletes/shane-oneill/",
+      "https://en.wikipedia.org/wiki/Tampa_Pro_(skateboard_competition)",
+      "https://commons.wikimedia.org/wiki/File:Shane_O%27Neill_(skateboarder).jpg"
+    ]
+  },
+  {
+    "name": "Letícia Bufoni",
+    "matches": ["Letícia Bufoni", "Leticia Bufoni", "Bufoni"],
+    "born": "1993-04-13",
+    "died": null,
+    "hometown": "São Paulo, Brazil",
+    "country": "Brazil",
+    "stance": "goofy",
+    "discipline": "street",
+    "titles": [
+      "6 X Games gold medals (2013 x3, 2018, 2019, 2021)",
+      "SLS Super Crown / World Championship women's street winner, Chicago 2015",
+      "World Championship street silver 2016, 2017, 2018",
+      "Olympian, women's street, Tokyo 2020",
+      "Guinness World Record 2022: highest skateboard grind outside an aircraft"
+    ],
+    "summary": "Brazilian-American street skater and six-time X Games gold medallist, the first women's Street League Super Crown champion.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Skate-leticia-bufoni.jpg/500px-Skate-leticia-bufoni.jpg",
+    "photoCredit": "Photo: Leleco Carvalho, CC BY-SA 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Skate-leticia-bufoni.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Let%C3%ADcia_Bufoni",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Let%C3%ADcia_Bufoni",
+      "https://www.surfertoday.com/skateboarding/leticia-bufoni-the-life-and-career-of-an-influential-female-skater",
+      "https://commons.wikimedia.org/wiki/File:Skate-leticia-bufoni.jpg"
+    ]
+  },
+  {
+    "name": "Jamie Foy",
+    "matches": ["Jamie Foy", "Foy"],
+    "born": "1996-06-14",
+    "died": null,
+    "hometown": "Deerfield Beach, Florida, U.S.",
+    "country": "United States",
+    "stance": "regular",
+    "discipline": "street",
+    "titles": [
+      "Thrasher Skater of the Year 2017",
+      "Thrasher Skater of the Year 2024",
+      "Tampa Pro winner 2022",
+      "X Games gold, Street Best Trick, California 2021",
+      "X Games street silver 2021 and Real Street bronze 2019"
+    ],
+    "summary": "Florida rail destroyer who rides for Deathwish and is a two-time Thrasher Skater of the Year (2017, 2024).",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Jamie_Foy_during_best_trick_contest_2019-06_%28cropped%29.jpg/500px-Jamie_Foy_during_best_trick_contest_2019-06_%28cropped%29.jpg",
+    "photoCredit": "Photo: Wil540 art, CC BY-SA 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Jamie_Foy_during_best_trick_contest_2019-06_(cropped).jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Jamie_Foy",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jamie_Foy",
+      "https://en.wikipedia.org/wiki/Tampa_Pro_(skateboard_competition)",
+      "https://commons.wikimedia.org/wiki/File:Jamie_Foy_during_best_trick_contest_2019-06_(cropped).jpg"
+    ]
+  },
+  {
+    "name": "Ishod Wair",
+    "matches": ["Ishod Wair", "Ishod"],
+    "born": "1991-11-01",
+    "died": null,
+    "hometown": "Bordentown, New Jersey, U.S.",
+    "country": "United States",
+    "stance": "goofy",
+    "discipline": "street",
+    "titles": [
+      "Thrasher Skater of the Year 2013",
+      "X Games street gold, Norway 2019",
+      "X Games street bronze, Austin 2016 and 2021",
+      "SLS Super Crown World Championship bronze 2014"
+    ],
+    "summary": "New Jersey street pro for Real and Nike SB, Thrasher's 2013 Skater of the Year and an X Games street gold medallist.",
+    "photo": null,
+    "photoCredit": null,
+    "photoPage": null,
+    "wiki": "https://en.wikipedia.org/wiki/Ishod_Wair",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ishod_Wair",
+      "https://www.xgames.com/athletes/ishod-wair/",
+      "https://skateparkoftampa.com/blogs/skaters/ishod-wair"
+    ]
+  },
+  {
+    "name": "Tyshawn Jones",
+    "matches": ["Tyshawn Jones", "Tyshawn", "TJ"],
+    "born": "1998-12-24",
+    "died": null,
+    "hometown": "The Bronx, New York, U.S. (born Manhattan)",
+    "country": "United States",
+    "stance": "regular",
+    "discipline": "street",
+    "titles": [
+      "Thrasher Skater of the Year 2018",
+      "Thrasher Skater of the Year 2022",
+      "Thrasher covers, January 2019 and December 2022"
+    ],
+    "summary": "New York street skater for Supreme and Adidas, and a two-time Thrasher Skater of the Year (2018, 2022).",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tyshawn_Jones_2016_Daily_Grind_Interview.png/500px-Tyshawn_Jones_2016_Daily_Grind_Interview.png",
+    "photoCredit": "Photo: DAILY GRIND, CC BY 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Tyshawn_Jones_2016_Daily_Grind_Interview.png",
+    "wiki": "https://en.wikipedia.org/wiki/Tyshawn_Jones",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tyshawn_Jones",
+      "https://commons.wikimedia.org/wiki/File:Tyshawn_Jones_2016_Daily_Grind_Interview.png"
+    ]
+  },
+  {
+    "name": "Miles Silvas",
+    "matches": ["Miles Silvas", "Silvas"],
+    "born": "1995-10-21",
+    "died": null,
+    "hometown": "Sacramento, California, U.S.",
+    "country": "United States",
+    "stance": "regular",
+    "discipline": "street",
+    "titles": [
+      "Thrasher Skater of the Year 2023 (first from Sacramento)",
+      "Thrasher cover, November 2023 (issue 520, his third cover)"
+    ],
+    "summary": "Sacramento street skater for Primitive and Adidas whose 'City to City' part earned him Thrasher's 2023 Skater of the Year.",
+    "photo": null,
+    "photoCredit": null,
+    "photoPage": null,
+    "wiki": null,
+    "sources": [
+      "https://www.thrashermagazine.com/articles/skater-of-the-year-2023-miles-silvas/",
+      "https://www.streetleague.com/skaters/miles-silvas",
+      "https://www.abc10.com/article/news/local/sacramento/sacramento-skateboarder-miles-silvas-skater-of-the-year/103-03c11bfe-ba92-495c-8cc6-19fb057facc7",
+      "https://shop.thrashermagazine.com/products/november-2023",
+      "https://sportsbrief.com/other-sports/59157-the-life-story-miles-silvas-world-renowned-skater/"
+    ]
+  },
+  {
+    "name": "Mitchie Brusco",
+    "matches": ["Mitchie Brusco", "Mitch Brusco", "Mitchell Brusco"],
+    "born": "1997-02-20",
+    "died": null,
+    "hometown": "Kirkland, Washington, U.S.",
+    "country": "United States",
+    "stance": "goofy",
+    "discipline": "park",
+    "titles": [
+      "X Games Big Air gold, Minneapolis 2018",
+      "X Games Vert Best Trick gold, Chiba 2022",
+      "12 X Games medals (2 gold, 4 silver, 6 bronze)",
+      "First skateboarder to land a 1260 in competition, X Games Minneapolis 2019"
+    ],
+    "summary": "Vert and mega-ramp specialist who landed the first 1260 in competition at X Games 2019.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mitchie_Brusco.jpg/500px-Mitchie_Brusco.jpg",
+    "photoCredit": "Photo: alexsky0, CC BY 2.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Mitchie_Brusco.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Mitchie_Brusco",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mitchie_Brusco",
+      "https://skateparkoftampa.com/blogs/skaters/mitch-brusco",
+      "https://commons.wikimedia.org/wiki/File:Mitchie_Brusco.jpg"
+    ]
+  },
+  {
+    "name": "Pedro Barros",
+    "matches": ["Pedro Barros", "Pedrinho Barros"],
+    "born": "1995-03-15",
+    "died": null,
+    "hometown": "Florianópolis, Santa Catarina, Brazil",
+    "country": "Brazil",
+    "stance": "regular",
+    "discipline": "park",
+    "titles": [
+      "Olympic silver, men's park, Tokyo 2020",
+      "World Champion, park, Nanjing 2018",
+      "6 X Games park gold medals (2010, 2012, 2013 x2, 2014, 2016); 10 X Games park medals in all",
+      "Vans Park Series wins: Florianópolis 2016, Vancouver and São Paulo 2018"
+    ],
+    "summary": "Brazilian bowl and park powerhouse with the most X Games park golds ever and an Olympic silver from Tokyo 2020.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Pedro_Barros_2_%28crop%29.jpg/500px-Pedro_Barros_2_%28crop%29.jpg",
+    "photoCredit": "Photo: Breno Barros, CC BY 3.0 BR, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Pedro_Barros_2_(crop).jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Pedro_Barros_(skateboarder)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pedro_Barros_(skateboarder)",
+      "https://www.brailleskateboarding.com/blogs/news/meet-the-olympians-pedro-barros-brazil",
+      "https://commons.wikimedia.org/wiki/File:Pedro_Barros_2_(crop).jpg"
+    ]
+  },
+  {
+    "name": "Sandro Dias",
+    "matches": ["Sandro Dias", "Mineirinho"],
+    "born": "1975-04-18",
+    "died": null,
+    "hometown": "Santo André, São Paulo, Brazil",
+    "country": "Brazil",
+    "stance": null,
+    "discipline": "park",
+    "titles": [
+      "6 world vert titles (2003, 2004, 2005, 2006, 2007, 2011)",
+      "X Games vert gold 2006 and 2007; Vert Best Trick gold 2004",
+      "9 X Games medals (3 gold, 4 silver, 2 bronze)",
+      "World records, 25 Sept 2025: highest drop-in and fastest speed on a standard skateboard (103 km/h)"
+    ],
+    "summary": "Brazilian vert legend known as Mineirinho, six-time world vert champion and one of the first to land a 900.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/-i-SandroDias-_i-.jpg/500px--i-SandroDias-_i-.jpg",
+    "photoCredit": "Photo: Gabriele from Bologna, Italy, CC BY 2.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:-i-SandroDias-_i-.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Sandro_Dias",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sandro_Dias",
+      "https://commons.wikimedia.org/wiki/File:-i-SandroDias-_i-.jpg"
+    ]
+  },
+  {
+    "name": "Bucky Lasek",
+    "matches": ["Bucky Lasek", "Bucky", "Charles Lasek"],
+    "born": "1972-12-03",
+    "died": null,
+    "hometown": "Baltimore, Maryland, U.S.",
+    "country": "United States",
+    "stance": "regular",
+    "discipline": "park",
+    "titles": [
+      "10 X Games gold medals in vert (1999-2013)",
+      "20 X Games medals in all (10 gold, 8 silver, 2 bronze)",
+      "Gravity Games vert winner 2004",
+      "Vans Triple Crown winner 2004",
+      "Multiple Dew Tour vert wins, 2005-2009"
+    ],
+    "summary": "Baltimore vert icon and Tony Hawk contemporary with ten X Games gold medals, later a Global Rallycross driver.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bucky_Lasek_Red_Bull_Global_Rallycross_2016_%28cropped%29.jpg/500px-Bucky_Lasek_Red_Bull_Global_Rallycross_2016_%28cropped%29.jpg",
+    "photoCredit": "Photo: Lance Cpl. Austin Livingston (U.S. Marine Corps), public domain, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Bucky_Lasek_Red_Bull_Global_Rallycross_2016_(cropped).jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Bucky_Lasek",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bucky_Lasek",
+      "https://www.redbull.com/us-en/tony-hawk-pro-skater-3-4-roster",
+      "https://commons.wikimedia.org/wiki/File:Bucky_Lasek_Red_Bull_Global_Rallycross_2016_(cropped).jpg"
+    ]
+  },
+  {
+    "name": "Arto Saari",
+    "matches": ["Arto Saari", "Arto"],
+    "born": "1981-11-09",
+    "died": null,
+    "hometown": "Seinäjoki, Finland",
+    "country": "Finland",
+    "stance": "regular",
+    "discipline": "street",
+    "titles": [
+      "Thrasher Skater of the Year 2001",
+      "World Championship silver, Münster 1998 (aged 16)"
+    ],
+    "summary": "Finnish Flip Skateboards pro behind the 'Sorry' and 'Menikmati' parts, Thrasher's 2001 Skater of the Year and now a photographer.",
+    "photo": null,
+    "photoCredit": null,
+    "photoPage": null,
+    "wiki": "https://en.wikipedia.org/wiki/Arto_Saari",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Arto_Saari",
+      "https://theboardr.com/profile/215/Arto_Saari"
+    ]
+  },
+  {
+    "name": "Aurélien Giraud",
+    "matches": ["Aurélien Giraud", "Aurelien Giraud", "Giraud"],
+    "born": "1998-02-03",
+    "died": null,
+    "hometown": "Lyon, France",
+    "country": "France",
+    "stance": "goofy",
+    "discipline": "street",
+    "titles": [
+      "World Champion, street, Sharjah 2023",
+      "SLS Championship Tour Paris 2024 winner",
+      "Dew Tour Long Beach 2019 winner",
+      "Olympic 6th, men's street, Tokyo 2020"
+    ],
+    "summary": "Lyon street skater who won the 2023 world title and took the SLS Paris 2024 win on home ground.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Aurelien_GIRAUD_%28cropped%29.jpg/500px-Aurelien_GIRAUD_%28cropped%29.jpg",
+    "photoCredit": "Photo: Magna Kreation, CC BY-SA 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Aurelien_GIRAUD_(cropped).jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Aur%C3%A9lien_Giraud",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aur%C3%A9lien_Giraud",
+      "https://www.monsterenergy.com/en-us/skateboard/aurelien-giraud-took-first-place-in-mens-skateboard-street-at-sls-paris-2024/",
+      "https://commons.wikimedia.org/wiki/File:Aurelien_GIRAUD_(cropped).jpg"
+    ]
+  },
+  {
+    "name": "Ginwoo Onodera",
+    "matches": ["Ginwoo Onodera", "Gin'u Onodera", "Ginwoo", "小野寺吟雲"],
+    "born": "2010-02-15",
+    "died": null,
+    "hometown": "Yokohama, Kanagawa, Japan",
+    "country": "Japan",
+    "stance": "regular",
+    "discipline": "street",
+    "titles": [
+      "SLS Super Crown World Champion 2025",
+      "X Games street gold: Chiba 2023, Chiba 2026, Sacramento 2026",
+      "World Championship street bronze, Sharjah 2023",
+      "Olympian, men's street, Paris 2024"
+    ],
+    "summary": "Yokohama prodigy who won X Games street gold at 13 and the SLS Super Crown at 15.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_00037.jpg/500px-Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_00037.jpg",
+    "photoCredit": "Photo: RuinDig/Yuki Uchida, CC BY 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_00037.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Ginwoo_Onodera",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ginwoo_Onodera",
+      "https://commons.wikimedia.org/wiki/File:Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_00037.jpg"
+    ]
+  },
+  {
+    "name": "Momiji Nishiya",
+    "matches": ["Momiji Nishiya", "西矢椛"],
+    "born": "2007-08-30",
+    "died": null,
+    "hometown": "Osaka, Japan",
+    "country": "Japan",
+    "stance": "regular",
+    "discipline": "street",
+    "titles": [
+      "Olympic gold, women's street, Tokyo 2020 (aged 13)",
+      "X Games street gold, California 2022; Street Best Trick gold, Chiba 2026",
+      "World Championship street silver, Rome (2020 edition) and Rome 2024",
+      "World Championship street bronze 2022 and 2023"
+    ],
+    "summary": "Osaka street skater who became the first women's Olympic skateboarding champion at 13 in Tokyo.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Momiji_Nishiya_2023.jpg/500px-Momiji_Nishiya_2023.jpg",
+    "photoCredit": "Photo: RuinDig/Yuki Uchida, CC BY 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:Momiji_Nishiya_2023.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Momiji_Nishiya",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Momiji_Nishiya",
+      "https://commons.wikimedia.org/wiki/File:Momiji_Nishiya_2023.jpg"
+    ]
+  },
+  {
+    "name": "Coco Yoshizawa",
+    "matches": ["Coco Yoshizawa", "吉沢恋"],
+    "born": "2009-09-22",
+    "died": null,
+    "hometown": "Sagamihara, Kanagawa, Japan",
+    "country": "Japan",
+    "stance": "regular",
+    "discipline": "street",
+    "titles": [
+      "Olympic gold, women's street, Paris 2024",
+      "World Championship street bronze 2025",
+      "X Games street silver 2026"
+    ],
+    "summary": "Kanagawa street skater who won the women's street gold at Paris 2024 aged 14.",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/TeamJapan-Paris2024-Nihonbashi-Event---2024-11-30_0888.jpg/500px-TeamJapan-Paris2024-Nihonbashi-Event---2024-11-30_0888.jpg",
+    "photoCredit": "Photo: RuinDig/Yuki Uchida, CC BY 4.0, via Wikimedia Commons",
+    "photoPage": "https://commons.wikimedia.org/wiki/File:TeamJapan-Paris2024-Nihonbashi-Event---2024-11-30_0888.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Coco_Yoshizawa",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Coco_Yoshizawa",
+      "https://commons.wikimedia.org/wiki/File:TeamJapan-Paris2024-Nihonbashi-Event---2024-11-30_0888.jpg"
+    ]
+  },
+  {
+    "name": "Heath Kirchart",
+    "matches": ["Heath Kirchart", "Kirchart"],
+    "born": "1977-09-05",
+    "died": null,
+    "hometown": "Orange County, California, U.S.",
+    "country": "United States",
+    "stance": "goofy",
+    "discipline": "street",
+    "titles": [
+      "TransWorld Skateboarding Awards: Best Street, 2009",
+      "Ender part in Alien Workshop's Mind Field (2009), TransWorld Best Video 2009"
+    ],
+    "summary": "Enigmatic Orange County street pro for Alien Workshop and Emerica whose Mind Field part won TransWorld's Best Street award before he retired in 2010.",
+    "photo": null,
+    "photoCredit": null,
+    "photoPage": null,
+    "wiki": null,
+    "sources": [
+      "https://skateparkoftampa.com/blogs/skaters/heath-kirchart",
+      "https://skateboarding.transworld.net/features/and-the-winners-are-2/",
+      "https://juicemagazine.com/home/heath-kirchart/",
+      "https://www.imdb.com/name/nm0456248/bio/",
+      "https://www.skateboardstickers.com/blogs/famous-skateboarder-profiles/about-heath-kirchart-pro-skateboarder-profile-biography-and-history"
+    ]
+  },
+  {
+    "name": "Jeremy Wray",
+    "matches": ["Jeremy Wray", "Wray"],
+    "born": "1976",
+    "died": null,
+    "hometown": "Carmel, California, U.S.",
+    "country": "United States",
+    "stance": "goofy",
+    "discipline": "street",
+    "titles": [
+      "Thrasher cover, November 1997 (the water tower ollie)",
+      "Skateboarding Hall of Fame inductee, Class of 2026 (1990s era)"
+    ],
+    "summary": "1990s Plan B and Element pro whose 1997 water-tower-to-water-tower ollie is one of skateboarding's most famous single tricks.",
+    "photo": null,
+    "photoCredit": null,
+    "photoPage": null,
+    "wiki": null,
+    "sources": [
+      "https://www.skatevideosite.com/skaters/jeremy-wray",
+      "https://skateboardinghalloffame.org/shof-2026/jeremy-wray/",
+      "https://www.surfertoday.com/skateboarding/the-infamous-water-tower-gap-ollie-by-jeremy-wray",
+      "https://www.jenkemmag.com/home/2020/01/19/revisiting-water-tower-ollie-jeremy-wray/"
+    ]
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "youtubeId": "fVF6g-u7oEQ",
+    "skater": "Justin \"Figgy\" Figueroa",
+    "spot": "Muirlands Middle School 14 stair rail (La Jolla)",
+    "city": "San Diego (La Jolla), California",
+    "country": "USA",
+    "lat": 32.83312,
+    "lng": -117.26886,
+    "precision": "spot",
+    "approx": false,
+    "locationUnknown": false,
+    "stats": {
+      "stairCount": 14,
+      "filmedFor": "Emerica 'Made Chapter 2' (2016) - inferred from timing; Thrasher describes that part as a 'handrail jihad' with ambulance rides, and Figgy had the curtains/ender plus a Thrasher cover that year"
+    },
+    "sources": [
+      "https://findskatespots.com/videos/youtube/fVF6g-u7oEQ",
+      "https://findskatespots.com/spots/san-diego-ca/1056-nautilus-street-muirlands-middle-school-14-stair-rail",
+      "https://www.thrashermagazine.com/articles/videos/figgy-made-chapter-2-b-sides/",
+      "https://skateparkoftampa.com/blogs/skaters/justin-figueroa-aka-figgy"
+    ],
+    "notes": "FindSkateSpots has a page for this exact My War episode and tags exactly one spot: Muirlands Middle School 14 Stair Rail (1056 Nautilus St). Coordinates are the FindSkateSpots pin. TRICK STILL UNKNOWN - no text source names the trick; do not guess. The 'filmedFor' link to Made Chapter 2 is an inference, not stated by Thrasher's blurb."
+  },
+  {
+    "youtubeId": "dDTlAieAbgo",
+    "skater": "Ryan Sheckler",
+    "trick": "Frontside flip up a euro gap (bungee tow-in)",
+    "spot": "'Euro gap' in Burbank (exact spot not pinned)",
+    "city": "Burbank, California",
+    "country": "USA",
+    "lat": 34.1812089,
+    "lng": -118.307201,
+    "precision": "city",
+    "approx": true,
+    "locationUnknown": false,
+    "stats": {
+      "trips": 3,
+      "brokenBungees": 2,
+      "priorHistory": "Pedro Delfino had previously ollied into the same gap (Deathwish Instagram: 'Pedro Delfino Ollie in Burbank'); Sheckler tried to ollie back down it right after the make and drew blood"
+    },
+    "sources": [
+      "https://www.skateboarding.com/news/behind-the-legend-exclusive-ryan-sheckler-interview",
+      "https://www.instagram.com/p/CPTepqXhmrK/",
+      "https://doseskateboarding.com/articles/ryan-shecklers-my-war",
+      "https://nominatim.openstreetmap.org/search?q=Burbank,+California&format=json"
+    ],
+    "notes": "City comes from the TransWorld/skateboarding.com Sheckler interview, which search-engine snippets quote as 'frontside flip up the Euro gap in Burbank' and mention Pedro Delfino ollieing into it. The page itself returned HTTP 403 to me, so this was seen only as a search snippet (two separate searches gave the same wording). Coordinates are the Nominatim centroid of Burbank, NOT the spot. FindSkateSpots lists a 'Burbank High School - Gap To Hubbas / Bank' (34.187283, -118.314445) but I found nothing tying it to this clip, so it is not used."
+  },
+  {
+    "youtubeId": "rZVAwWPfEC8",
+    "skater": "Rob Pace",
+    "spot": "Yonkers Triple Rail (three rails in one line) - identification inferred",
+    "city": "Yonkers, New York",
+    "country": "USA",
+    "lat": 40.9312099,
+    "lng": -73.8987469,
+    "precision": "city",
+    "approx": true,
+    "locationUnknown": false,
+    "stats": {
+      "filmedFor": "Santa Cruz Skateboards 'F#$% Em' (premiered on Thrasher, October 2023)",
+      "rawFootage": "Santa Cruz later released ~20 min of all attempts, chaptered 'Day 1' and 'Day 2' (youtube uyAym1XyAQA)"
+    },
+    "sources": [
+      "https://www.youtube.com/watch?v=uyAym1XyAQA",
+      "https://www.thrashermagazine.com/articles/videos/my-war-rob-pace/",
+      "https://nominatim.openstreetmap.org/search?q=Yonkers,+New+York&format=json"
+    ],
+    "notes": "Santa Cruz's own YouTube upload says 'Rob Pace takes on the Yonkers Triple Rail seen in F#$% Em playing on Thrasher' (filmed by Joe Perrin). F#$% Em came out the same month as this My War (Oct 2023) and the My War blurb is about 'three rails in one rip', so the match is strong but INFERRED - I found no source that explicitly says the My War spot is in Yonkers. The exact park was not identified (the blurb mentions an irate park employee). Coordinates are the Nominatim centroid of Yonkers."
+  },
+  {
+    "youtubeId": "nLY-kH9n_tY",
+    "skater": "Gabriel Summers",
+    "spot": "Rail at an abandoned apartment block with four diagonal rails; neighbour of the rail Clint Walker 50-50'd, previously tried by Pat Duffy and Danny Way (city not identified)",
+    "stats": {
+      "hours": 40,
+      "trips": 10,
+      "tripsPerGabbers": "'probably 12 or 15 times', trying 'for hours on end' each time (Slam interview) vs Thrasher's 'ten trips'",
+      "timeSpan": "about 6 months",
+      "stompedWithoutRollingAway": "'at least five or six times'",
+      "injuries": "Broken collarbone (first ever); whole body bruised from repeating the slam shown in the part 3-4 times",
+      "spotPrep": "Rail was capped and had a pillar in the way; Dane Burman helped make it skateable",
+      "filmedFor": "Zero 'Damn It All' (2019) - last part / ender"
+    },
+    "sources": [
+      "https://www.slamskateboarding.com/item/4805-dane-gabbers-damn-it-all-interviews",
+      "https://www.thrashermagazine.com/articles/videos/my-war-gabriel-summers-2/"
+    ],
+    "notes": "LOCATION STILL UNKNOWN. The Slam (issue 225) interview describes the spot but never names the city. The Pat Duffy / Danny Way / Clint Walker history suggests a US spot rather than Australia, but that is only a hint - I could not find where Clint Walker's 50-50 rail is. Do not place a pin."
+  },
+  {
+    "youtubeId": "pD1vL2J_u6Q",
+    "skater": "Tommy Sandoval",
+    "spot": "Valencia Park Elementary 20 stair",
+    "city": "San Diego, California",
+    "country": "USA",
+    "lat": 32.7018,
+    "lng": -117.0701,
+    "precision": "spot",
+    "approx": false,
+    "sources": [
+      "https://findskatespots.com/spots/san-diego-ca/valencia-park-elementary-20-stair",
+      "https://findskatespots.com/videos/youtube/ILN9Tc3GT7c"
+    ],
+    "notes": "FindSkateSpots tags Zero 'Cold War' (and Fallen 'Rise', which also features Sandoval) at Valencia Park Elementary 20 Stair on Skyline Dr, and it is the only San Diego 20-stair among the Cold War spots. No source explicitly says 'Tommy's frontside flip was at Valencia Park', so treat as high-probability rather than certain. Coordinates are the FindSkateSpots pin."
+  },
+  {
+    "youtubeId": "ukcmncNJKy8",
+    "skater": "Chris Joslin",
+    "spot": "Davis Gap (UC Davis, by Roessler Hall)",
+    "lat": 38.53699,
+    "lng": -121.75167,
+    "precision": "spot",
+    "approx": false,
+    "sources": [
+      "https://findskatespots.com/spots/davis-ca/-big-gap-davis",
+      "https://findskatespots.com/videos/youtube/cwy0Qv1xXXQ"
+    ],
+    "notes": "FindSkateSpots 'Big gap, Davis' pin, address given as Roessler Hall, Davis, CA 95616. Joslin's Plan B 'True' part 2 (the 360 flip ender) is tagged at this spot, as is a video titled 'Backside 180 Davis Gap'."
+  },
+  {
+    "youtubeId": "lmJ73LWSgq0",
+    "skater": "Don \"Nuge\" Nguyen",
+    "spot": "Baxter Street, steep block between N Alvarado St and Allesandro St (Echo Park)",
+    "lat": 34.0915152,
+    "lng": -118.2549956,
+    "precision": "street",
+    "approx": false,
+    "stats": {
+      "grade": "32% (stretch between Allesandro and Alvarado, per PBS SoCal / LAist)",
+      "note": "LAist: a kid yelled 'You're going to die!' before he dropped in; a 2012 LA ordinance made hill bombing illegal (fines up to $250)"
+    },
+    "sources": [
+      "https://www.pbssocal.org/shows/lost-la/how-baxter-became-one-of-l-a-s-steepest-streets",
+      "https://laist.com/news/entertainment/duuuuuuuuuuuuuuude",
+      "https://overpass-api.de/api/interpreter"
+    ],
+    "notes": "Coordinates are the OpenStreetMap node where Baxter Street meets N Alvarado Street (Overpass query); the other end of the 32% block, Baxter & Allesandro, is 34.0922875, -118.2568728. No source states which side of the crest Nuge bombed, so this is street-level precision only."
+  },
+  {
+    "youtubeId": "WdpA-Xhr98A",
+    "skater": "Arto Saari",
+    "city": "San Pedro (Los Angeles), California",
+    "lat": 33.7358518,
+    "lng": -118.2922934,
+    "precision": "city",
+    "approx": true,
+    "sources": [
+      "https://whatyouthsurf.com/photos/back-den/back-den-079-arto-saari-san-pedro-ca-2008/",
+      "https://www.thrashermagazine.com/articles/the-year-i-got-soty-arto-saari/",
+      "https://www.thrashermagazine.com/articles/bust-or-bail-trouble-at-the-double-photos/"
+    ],
+    "notes": "School still NOT identified - Thrasher deliberately calls it 'an undisclosed California kinker'. Neighbourhood upgrade only: Mark Oblow's photo caption reads 'arto saari, san pedro, ca for the filming of the alien workshop mind field video. sometimes lip slides stick and you land on your face. 2008', which matches Arto telling Thrasher he hit his head on 'the opener of Mindfield, the lipslide on the kinker'. That the Oblow photo is the same rail is an inference. Coordinates are the Nominatim point for San Pedro, not the school. Warning: a search summary claimed the rail is at 'the school where they filmed Back to the Future' - I checked the article and that caption belongs to a different photo (a hurricane), so ignore it."
+  },
+  {
+    "youtubeId": "SSpr7Evz1zc",
+    "skater": "Alex Midler",
+    "city": "San Pedro (Los Angeles), California",
+    "lat": 33.7358518,
+    "lng": -118.2922934,
+    "precision": "city",
+    "approx": true,
+    "sources": [
+      "https://whatyouthsurf.com/photos/back-den/back-den-079-arto-saari-san-pedro-ca-2008/",
+      "https://www.thrashermagazine.com/articles/bust-or-bail-trouble-at-the-double-photos/"
+    ],
+    "notes": "Same rail as Arto Saari's episode; see that entry. San Pedro is inferred from the Oblow photo caption; the school remains undisclosed."
+  },
+  {
+    "youtubeId": "aiJLTpF2i9k",
+    "skater": "Ethan Loy",
+    "spot": "Brick Banks / brick quarterpipes at the Los Angeles Mall (225 N Los Angeles St)",
+    "lat": 34.05364,
+    "lng": -118.24173,
+    "precision": "spot",
+    "approx": false,
+    "stats": {
+      "sessions": 26
+    },
+    "sources": [
+      "https://findskatespots.com/spots/los-angeles-ca/north-los-angeles-street-brick-banks-los-angeles",
+      "https://findskatespots.com/videos/youtube/dQu6RJnqwXQ",
+      "https://www.thrashermagazine.com/articles/videos/ethan-loy-s-avalon-part/"
+    ],
+    "notes": "Confirms the earlier inference: Thrasher's 'Avalon' blurb says Ethan is 'stamping his seal once more on LA's iconic brick quarterpipes', and FindSkateSpots tags the Avalon part at 'Brick Banks' on N Los Angeles St (the only brick spot in its list). Coordinates are the FindSkateSpots pin. TRICK STILL UNKNOWN - no text source names it."
+  },
+  {
+    "youtubeId": "r7c4YNWO8DU",
+    "skater": "Jace De Tomasso",
+    "lat": 33.55618,
+    "lng": -117.67856,
+    "precision": "spot",
+    "approx": false,
+    "stats": {
+      "note": "Per Shredder/Thrasher, Sheckler and De Tomasso are the only two skaters to have landed anything at the gap"
+    },
+    "sources": [
+      "https://findskatespots.com/spots/laguna-niguel-ca/costco-gap",
+      "https://shredder.news/jace-de-tomasso-costco-gap-may-war/"
+    ],
+    "notes": "Coordinates are the FindSkateSpots 'Costco Gap' pin (address shown as 28060 Cabot Rd, Laguna Niguel), about 250 m from the store-centroid coordinates previously used. No attempt/session counts found."
+  },
+  {
+    "youtubeId": "SB9ldNNL2zU",
+    "skater": "Beagle (Ryan Ewing)",
+    "stats": {
+      "trickHint": "Skate Newswire: 'He channels Murdy's signature plop to pull off a creative combo that very few would think to try'"
+    },
+    "sources": [
+      "https://skatenewswire.com/my-war-beagle/"
+    ],
+    "notes": "Exact trick name and spot STILL UNKNOWN; location remains presumed LA. Only new fact is the 'plop' combo description."
+  },
+  {
+    "youtubeId": "WHASYE2e5Xo",
+    "skater": "Sammy Baca",
+    "stats": {
+      "trips": 27,
+      "timeSpan": "about 2 years",
+      "interviewees": "Baca, Beagle, Andrew Reynolds, Neckface, Atiba Jefferson",
+      "note": "Skate Newswire words it as 'roughly 27 tries over the course of two years'; Thrasher's own blurb says 'twenty-seven bus trips from Vegas', so 27 is trips, not attempts"
+    },
+    "sources": [
+      "https://skatenewswire.com/my-war-sammy-baca/",
+      "https://www.youtube.com/watch?v=WHASYE2e5Xo"
+    ],
+    "notes": "Spot still not identified; no source names the curved rail."
+  },
+  {
+    "youtubeId": "yk2VP_iDxOY",
+    "skater": "Pedro Delfino",
+    "stats": {
+      "cover": "Thrasher February 2018 (photo: Jon Spitzer)",
+      "filmer": "Kaylanne Diaz (per trickReport)"
+    },
+    "sources": [
+      "https://trickreport.com/covers/thrasher/2018/february"
+    ],
+    "notes": "trickReport confirms: backside boardslide, hubba, Ingleside, San Francisco. No street or intersection found in any public source, so the neighbourhood-level pin stays."
+  },
+  {
+    "youtubeId": "4rJI7ty-3YI",
+    "skater": "Chase Webb",
+    "stats": {
+      "timeSpan": "'after days of attempts' (trillmag)"
+    },
+    "sources": [
+      "https://www.trillmag.com/news/sport/watch-global-skateboarder-take-mutant-rail/"
+    ],
+    "notes": "LOCATION STILL UNKNOWN. The trillmag write-up links DC Shoes' 'Choppy D' (youtube Bjdx4TkjkLw, 24 Jan 2018), which may be the video the clip appeared in, but the article does not say so explicitly. Note the trillmag text I could read says only 'after days of attempts'; I did not see the 'hour of sunlight left' wording on the page itself (it appeared in a search summary)."
+  },
+  {
+    "youtubeId": "ZuJnqdKbsBc",
+    "skater": "Gabriel Summers",
+    "stats": {
+      "injuries": "Broken ribs (per Red Bull Spain article, seen as search snippet only)"
+    },
+    "sources": [
+      "https://www.redbull.com/es-es/my-war-gabriel-summers-contra-rail-fs-50-50"
+    ],
+    "notes": "Sydney + ~6 months + slamming into parked cars are all from the same Red Bull Spain article; the page would not load for me (bot-blocked), so everything from it is snippet-level. Exact spot not found."
+  },
+  {
+    "youtubeId": "jH7rLKQHBgg",
+    "skater": "Chris Joslin",
+    "stats": {
+      "timeSpan": "First (disputed) landing ~2018; footage of attempts shared in 2020; clean make in 2025"
+    },
+    "sources": [
+      "https://storiedskateboarding.com/blogs/videos/chris-joslin-vs-el-toro-skateboardings-greatest-redemption-story",
+      "https://boiltheocean.wordpress.com/2025/12/13/chris-joslins-nealry-decadelong-el-toro-360-flip-saga-is-this-generations-chase-to-land-the-900/"
+    ],
+    "notes": "No attempt or session counts found. The 2018/2020 dates are from search-result summaries of these articles; the Storied page itself only says '8 years ago'."
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "skater": "Jeremy Wray",
+    "trick": "Ollie (water tower to water tower)",
+    "spot": "Rowland Heights water towers",
+    "city": "Rowland Heights, California",
+    "country": "USA",
+    "lat": 33.96751,
+    "lng": -117.91611,
+    "precision": "spot",
+    "year": 1997,
+    "video": null,
+    "youtubeId": "1grq_HFt0Eo",
+    "youtubeTitle": "JENKEM - Revisiting the Water Tower Ollie w/ Jeremy Wray",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "About 16 ft flat-to-flat",
+      "dropHeight": "Towers roughly 40 ft above the ground",
+      "cover": "Thrasher, November 1997 (photo: Daniel Harold Sturt)"
+    },
+    "summary": "Wray ollied the 16-foot void between two water towers with a deadly fall below; the Sturt photo became one of Thrasher's most legendary covers.",
+    "sources": [
+      "https://www.surfertoday.com/skateboarding/the-infamous-water-tower-gap-ollie-by-jeremy-wray",
+      "https://findskatespots.com/spots/rowland-heights-ca/3021-fullerton-road-rowland-heights-water-tower-gap",
+      "http://skately.com/library/spots/jeremy-wray-water-towers"
+    ]
+  },
+  {
+    "skater": "Jamie Thomas",
+    "trick": "Ollie over the rail into the drop (\"Leap of Faith\") - board snapped on impact",
+    "spot": "Point Loma High School - Leap of Faith",
+    "city": "San Diego, California",
+    "country": "USA",
+    "lat": 32.740276,
+    "lng": -117.22609,
+    "precision": "spot",
+    "year": 1997,
+    "video": "Zero - Thrill of It All (1997)",
+    "youtubeId": "dqqPCqyAfl4",
+    "youtubeTitle": "Jamie Thomas and the 'Leap of Faith'. Thrill Of It All (Zero, dir. Jamie Thomas, 1997).",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 27,
+      "dropHeight": "17 ft",
+      "injuries": "Thomas landed without injury but his board snapped; several later challengers broke legs or ankles",
+      "firsts": "Never landed and ridden away by anyone",
+      "spotStatus": "Closed off in 2005 when the school built an elevator on the site"
+    },
+    "summary": "The most famous trick never landed: Thomas ollied a rail into a 17-foot drop, and snapped his board on impact. The gap was later immortalised in Tony Hawk's Pro Skater 2.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Point_Loma_High_School#Leap_of_Faith",
+      "https://www.jenkemmag.com/home/2023/01/17/revisiting-the-leap-of-faith-the-most-famous-trick-never-landed/",
+      "https://findskatespots.com/spots/san-diego-ca/2324-chatsworth-boulevard-point-loma-high-school-gap-over-rail-leap-of-faith"
+    ]
+  },
+  {
+    "skater": "Heath Kirchart",
+    "trick": "Lipslide down the rail (listed as frontside lipslide in ABD lists)",
+    "spot": "El Toro 20 rail",
+    "city": "Lake Forest, California",
+    "country": "USA",
+    "lat": 33.6378,
+    "lng": -117.68909,
+    "precision": "spot",
+    "year": 1998,
+    "video": "Birdhouse - The End (1998)",
+    "youtubeId": "QVmoQWt_t5E",
+    "youtubeTitle": "Heath Kirchart on Landing the El Toro Lipslide | EPICLY LATER'D",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 20,
+      "cover": "TransWorld SKATEboarding, February 1999",
+      "firsts": "First person to skate El Toro"
+    },
+    "summary": "Kirchart opened up the El Toro 20 for his part in The End, the trick that turned a high-school stairwell into skateboarding's ultimate proving ground.",
+    "sources": [
+      "https://www.active-traveller.com/mpora-archive/taming-el-toro",
+      "https://www.skateboarding.com/news/abdarchives-el-toro",
+      "https://www.youtube.com/watch?v=QVmoQWt_t5E"
+    ]
+  },
+  {
+    "skater": "Don \"Nuge\" Nguyen",
+    "trick": "Ollie",
+    "spot": "El Toro 20",
+    "city": "Lake Forest, California",
+    "country": "USA",
+    "lat": 33.6378,
+    "lng": -117.68909,
+    "precision": "spot",
+    "year": 2001,
+    "video": null,
+    "youtubeId": "Suy2nVlQjvs",
+    "youtubeTitle": "El Toro Don Nguyen Ollie Skateboarding Classic Clips #2",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 20,
+      "attempts": "Landed it twice - the first make was out of frame, so he returned a week later and did it again",
+      "cover": "Thrasher cover (issue not confirmed)",
+      "firsts": "First person to ollie the El Toro 20 (March 2001)"
+    },
+    "summary": "Nuge was the first to ollie all 20 stairs at El Toro, and had to do it a second time because the first make was out of frame.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Don_Nguyen",
+      "https://www.thrashermagazine.com/articles/trash/nuge-talks-el-toro/",
+      "https://truesk8boardmag.com/el-toro-20-stairs-the-stair-that-built-legends/"
+    ]
+  },
+  {
+    "skater": "Arto Saari",
+    "trick": "Frontside boardslide",
+    "spot": "El Toro 20 rail",
+    "city": "Lake Forest, California",
+    "country": "USA",
+    "lat": 33.6378,
+    "lng": -117.68909,
+    "precision": "spot",
+    "year": 2000,
+    "video": "eS - Menikmati (2000)",
+    "youtubeId": "23IdE5CJ0hw",
+    "youtubeTitle": "Classics: Arto Saari Menikmati",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 20
+    },
+    "summary": "Saari's front board down the El Toro rail was a centrepiece of his star-making Menikmati part.",
+    "sources": [
+      "https://www.skateboarding.com/news/abdarchives-el-toro",
+      "https://www.active-traveller.com/mpora-archive/taming-el-toro"
+    ]
+  },
+  {
+    "skater": "Kris Markovich",
+    "trick": "Kickflip",
+    "spot": "Carlsbad Gap (Carlsbad High School)",
+    "city": "Carlsbad, California",
+    "country": "USA",
+    "lat": 33.162614,
+    "lng": -117.328878,
+    "precision": "building/campus",
+    "year": 1994,
+    "video": "Dreams of Children (per Krak's Carlsbad trick list); session footage from ON Video",
+    "youtubeId": "P0qB1rZhkPQ",
+    "youtubeTitle": "Skateboarding History - Kickflip Down Carlsbad Gap",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "Gap beside an eleven-stair set with an uphill landing",
+      "cover": "TransWorld SKATEboarding, January 1994 (per the video description; date not independently confirmed)",
+      "firsts": "First to kickflip the Carlsbad Gap, in a session battling Rob Dyrdek",
+      "spotStatus": "Demolished February 23, 2012 - Markovich was the last to ollie it"
+    },
+    "summary": "Markovich put the Carlsbad Gap on the map as the first to flip into it, starting a 20-year run as one of skating's benchmark gaps.",
+    "sources": [
+      "https://skatekrak.com/mag/carlsbad",
+      "https://thelancerlink.com/top-stories/2012/02/24/the-carlsbad-gap-a-historical-look-at-one-of-skatings-most-challenging-jumps/",
+      "https://en.wikipedia.org/wiki/Carlsbad_High_School_(California)",
+      "https://www.youtube.com/watch?v=P0qB1rZhkPQ"
+    ]
+  },
+  {
+    "skater": "Jeremy Wray",
+    "trick": "Frontside flip, switch frontside 360, switch frontside flip and more",
+    "spot": "Carlsbad Gap (Carlsbad High School)",
+    "city": "Carlsbad, California",
+    "country": "USA",
+    "lat": 33.162614,
+    "lng": -117.328878,
+    "precision": "building/campus",
+    "year": 1995,
+    "video": "Plan B - Second Hand Smoke (1995)",
+    "youtubeId": "H_R2Y836C0Y",
+    "youtubeTitle": "Classics: Jeremy Wray \"Second Hand Smoke\"",
+    "startSeconds": null,
+    "stats": {
+      "spotStatus": "Demolished February 23, 2012"
+    },
+    "summary": "Before Wray's Second Hand Smoke part nobody had taken more than a basic trick into Carlsbad; he ran through frontside flips, switch 180s and switch frontside 360s.",
+    "sources": [
+      "https://skatekrak.com/mag/carlsbad",
+      "https://thelancerlink.com/top-stories/2012/02/24/the-carlsbad-gap-a-historical-look-at-one-of-skatings-most-challenging-jumps/",
+      "https://www.youtube.com/watch?v=H_R2Y836C0Y"
+    ]
+  },
+  {
+    "skater": "Brandon Turner",
+    "trick": "Switch hardflip",
+    "spot": "Carlsbad Gap (Carlsbad High School)",
+    "city": "Carlsbad, California",
+    "country": "USA",
+    "lat": 33.162614,
+    "lng": -117.328878,
+    "precision": "building/campus",
+    "year": 2001,
+    "video": "Shorty's - Guilty (2001)",
+    "youtubeId": "YvLSESKqQvs",
+    "youtubeTitle": "Full Session Brandon Turner Switch Hardflip Carlsbad High Gap 1999",
+    "startSeconds": null,
+    "stats": {
+      "spotStatus": "Demolished February 23, 2012"
+    },
+    "summary": "Turner's switch hardflip, rolled away on the uphill landing without touching the grass, is a fixture of every best-of-Carlsbad list.",
+    "sources": [
+      "https://www.limitlessculturex.com/post/top-10-tricks-down-the-carlsbad-gap",
+      "https://en.wikipedia.org/wiki/Brandon_Turner",
+      "https://www.youtube.com/watch?v=YvLSESKqQvs"
+    ]
+  },
+  {
+    "skater": "Geoff Rowley",
+    "trick": "50-50 grind",
+    "spot": "Staples Center hubba",
+    "city": "Downtown Los Angeles, California",
+    "country": "USA",
+    "lat": 34.04442,
+    "lng": -118.26909,
+    "precision": "spot",
+    "year": 1999,
+    "video": "Flip - Sorry (2002)",
+    "youtubeId": "CBJ-GM7t4Fw",
+    "youtubeTitle": "Geoff Rowley grinds the Staples Center Hubba! | Classic Tales | VANS",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 18,
+      "firsts": "First trick ever done on the Staples Center hubba (shot in 1999)"
+    },
+    "summary": "Rowley found and ground the giant arena hubba first, a make that reset the scale of what a ledge trick could be.",
+    "sources": [
+      "https://skatenewswire.com/geoff-rowley-classic-tales/",
+      "https://findskatespots.com/spots/los-angeles-ca/chick-hearn-court-staples-center-hubba18-stair",
+      "https://www.youtube.com/watch?v=CBJ-GM7t4Fw"
+    ]
+  },
+  {
+    "skater": "Jamie Thomas",
+    "trick": "Backside lipslide",
+    "spot": "Hollywood High 16",
+    "city": "Hollywood, Los Angeles, California",
+    "country": "USA",
+    "lat": 34.0994532,
+    "lng": -118.340077,
+    "precision": "building/campus",
+    "year": 1999,
+    "video": "Zero - Misled Youth (1999)",
+    "youtubeId": "CGCqHn4Rpbc",
+    "youtubeTitle": "Misled Youth - Jamie Thomas",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 16,
+      "attempts": "Battled for more than two and a half hours, landing it at dusk"
+    },
+    "summary": "The after-black hammer in Thomas's Misled Youth part, which helped make the Hollywood High 16 rail the measuring stick for handrail skating.",
+    "sources": [
+      "https://www.aol.com/news/oral-history-hollywood-high-16-205121239.html",
+      "https://medium.com/@AgingSkateRevue/aging-skate-revue-zeros-misled-youth-8951921b3f88",
+      "https://findskatespots.com/videos/youtube/CGCqHn4Rpbc"
+    ]
+  },
+  {
+    "skater": "Andrew Reynolds",
+    "trick": "Varial heelflip",
+    "spot": "Hollywood High 16",
+    "city": "Hollywood, Los Angeles, California",
+    "country": "USA",
+    "lat": 34.0994532,
+    "lng": -118.340077,
+    "precision": "building/campus",
+    "year": 2010,
+    "video": "Emerica - Stay Gold (2010)",
+    "youtubeId": "vlHg1vR4SbI",
+    "youtubeTitle": "Andrew Reynolds varial heeflip down 16 set",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 16
+    },
+    "summary": "The Boss floated a varial heel down all 16 Hollywood High stairs, one of the defining stair tricks of the Stay Gold era.",
+    "sources": [
+      "https://www.aol.com/news/oral-history-hollywood-high-16-205121239.html"
+    ]
+  },
+  {
+    "skater": "Andrew Reynolds",
+    "trick": "Frontside flip",
+    "spot": "Santa Monica triple set",
+    "city": "Santa Monica, California",
+    "country": "USA",
+    "lat": 34.00999,
+    "lng": -118.49577,
+    "precision": "spot",
+    "year": 1998,
+    "video": "Birdhouse - The End (1998)",
+    "youtubeId": "44zOdQt8uSo",
+    "youtubeTitle": "Classics: Andrew Reynolds, The End",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "Triple set (3 flat 3 flat 3)"
+    },
+    "summary": "Reynolds' frontside flip down the beachfront triple set in The End established his signature trick and the spot's reputation.",
+    "sources": [
+      "http://skatenerder.blogspot.com/2015/01/santa-monica-triple-set-abd-list.html",
+      "https://findskatespots.com/spots/santa-monica-ca/ocean-front-walk-3-flat-3-flat-3"
+    ]
+  },
+  {
+    "skater": "Eric Koston",
+    "trick": "Switch heelflip",
+    "spot": "Santa Monica triple set",
+    "city": "Santa Monica, California",
+    "country": "USA",
+    "lat": 34.00999,
+    "lng": -118.49577,
+    "precision": "spot",
+    "year": 2003,
+    "video": "Girl - Yeah Right! (2003)",
+    "youtubeId": "BM57C3Hk97s",
+    "youtubeTitle": "Eric Koston - Yeah Right! (Classic) (HD)",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "Triple set (3 flat 3 flat 3)"
+    },
+    "summary": "Koston's switch heel down the Santa Monica triple set in Yeah Right! is one of the most replayed clips from the spot's ABD list.",
+    "sources": [
+      "http://skatenerder.blogspot.com/2015/01/santa-monica-triple-set-abd-list.html",
+      "https://findskatespots.com/spots/santa-monica-ca/ocean-front-walk-3-flat-3-flat-3"
+    ]
+  },
+  {
+    "skater": "Ryan Sheckler",
+    "trick": "Kickflip",
+    "spot": "Costco Gap",
+    "city": "Laguna Niguel, California",
+    "country": "USA",
+    "lat": 33.55618,
+    "lng": -117.67856,
+    "precision": "spot",
+    "year": 2008,
+    "video": "Plan B - Superfuture (2008)",
+    "youtubeId": "TQvbYg8cx-I",
+    "youtubeTitle": "Total Recall: Sheckler's Gigantic Kickflip",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "14 ft long",
+      "dropHeight": "5.5 ft",
+      "attempts": "Ollie took 6 tries, the kickflip took 4",
+      "firsts": "First trick at the Costco gap; only Sheckler and Jace De Tomasso have landed anything there"
+    },
+    "summary": "Sheckler's kickflip over the 14-foot Costco gap was the hammer of his era and sat untouched for years until Jace De Tomasso's My War.",
+    "sources": [
+      "https://www.skateboarding.com/news/ryan-sheckler-reflects-on-his-14ft-costoco-gap-kickflip",
+      "https://www.thrashermagazine.com/articles/videos/total-recall-2-for-1-sale-at-costco/",
+      "https://findskatespots.com/spots/laguna-niguel-ca/costco-gap"
+    ]
+  },
+  {
+    "skater": "Danny Way",
+    "style": "park",
+    "trick": "Mega Ramp world records: 75 ft gap jump and 23.5 ft backside air",
+    "spot": "Point X Camp Mega Ramp",
+    "city": "Aguanga, California",
+    "country": "USA",
+    "lat": 33.4420577,
+    "lng": -116.8621856,
+    "precision": "city",
+    "year": 2003,
+    "video": "DC Shoes - The DC Video (2003)",
+    "youtubeId": "gMuyFrayDjE",
+    "youtubeTitle": "Danny Way Mega Ramp - DC Video Extras (2003) HD",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "75 ft (world-record distance)",
+      "dropHeight": "23.5 ft air (world-record height, set June 12, 2003)",
+      "firsts": "First modern Mega Ramp; two world records in a single run",
+      "spotStatus": "Point X camp no longer operating; pinned at the town of Aguanga"
+    },
+    "summary": "Way unveiled the Mega Ramp in The DC Video, setting distance and height world records in one run and inventing a new discipline.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Point_X",
+      "https://en.wikipedia.org/wiki/Danny_Way",
+      "https://blabacshop.com/products/danny-way-world-record-23-5-backside-air-aguanga-2003"
+    ]
+  },
+  {
+    "skater": "Bob Burnquist",
+    "style": "park",
+    "trick": "Dreamland backyard Mega Ramp, loop with roof gap and hip part",
+    "spot": "Dreamland (Burnquist's private backyard park)",
+    "city": "Vista, California",
+    "country": "USA",
+    "lat": 33.2021425,
+    "lng": -117.2424805,
+    "precision": "city",
+    "year": 2013,
+    "video": "Oakley - Bob Burnquist's \"Dreamland\" (2013)",
+    "youtubeId": "-m7GCstGLWI",
+    "youtubeTitle": "Bob Burnquist's Dreamland A Backyard Progression Presented by Oakley",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "Backyard Mega Ramp with a 90-degree hip added in 2013; loop with an open gap in the roof built for King of Skate 2002",
+      "spotStatus": "Private property - pinned at city level only"
+    },
+    "summary": "Burnquist's entire Dreamland part was filmed in his own backyard compound, home to the only privately owned Mega Ramp and the gapped loop.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Burnquist"
+    ]
+  },
+  {
+    "skater": "Tom Schaar",
+    "style": "park",
+    "trick": "1080",
+    "spot": "Woodward West Mega Ramp",
+    "city": "Tehachapi, California",
+    "country": "USA",
+    "lat": 35.0812766,
+    "lng": -118.6351684,
+    "precision": "building/campus",
+    "year": 2012,
+    "video": "Red Bull clip (March 2012)",
+    "youtubeId": "tbjzZHuGTng",
+    "youtubeTitle": "Tom Schaar stomps first-ever skateboarding 1080",
+    "startSeconds": null,
+    "stats": {
+      "attempts": "Landed on his fifth attempt",
+      "dropHeight": "70-ft-tall roll-in with a roll-over built across the 50-ft gap",
+      "firsts": "First 1080 on a skateboard (March 26, 2012), aged 12",
+      "awards": "Guinness World Record: first 1080 on a skateboard"
+    },
+    "summary": "Twelve-year-old Schaar spun three full rotations on the Woodward West Mega Ramp quarterpipe, the first 1080 in skateboarding history.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1080_(skateboarding)",
+      "https://www.guinnessworldrecords.com/world-records/102713-first-1080-on-a-skateboard",
+      "https://www.guinnessworldrecords.com/news/2012/5/tom-schaar-the-boy-who-landed-skateboardings-first-1080-spin-41587"
+    ]
+  },
+  {
+    "skater": "Natas Kaupas",
+    "trick": "Fire hydrant spin (the \"Natas spin\")",
+    "spot": "Ocean Front Walk, between Ashland Ave and Marine St",
+    "city": "Santa Monica, California",
+    "country": "USA",
+    "lat": 34.0010979,
+    "lng": -118.478885,
+    "precision": "street",
+    "year": 1989,
+    "video": "Santa Cruz - Streets on Fire (1989)",
+    "youtubeId": "bvJPbHGXRyU",
+    "youtubeTitle": "Classics: Natas Kaupas \"Streets of Fire\" part",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "The trick that gave the Natas spin its name"
+    },
+    "summary": "Natas ollied onto a fire hydrant and spun multiple rotations on top of it, an unthinkable move in 1989 that still carries his name.",
+    "sources": [
+      "https://www.paradeworld.com/news/the-natas-spin-and-skateboarding-s-legendary-skate-spots/",
+      "https://en.wikipedia.org/wiki/Natas_Kaupas"
+    ]
+  },
+  {
+    "skater": "Menace team",
+    "trick": "Lockwood schoolyard section (benches, tables and banks)",
+    "spot": "Lockwood Avenue Elementary School",
+    "city": "Los Angeles, California",
+    "country": "USA",
+    "lat": 34.089165,
+    "lng": -118.28741,
+    "precision": "spot",
+    "year": 1995,
+    "video": "World Industries - 20 Shot Sequence (1995)",
+    "youtubeId": "hcmy3LIw13E",
+    "youtubeTitle": "20 Shot Sequence full video - World Industries",
+    "startSeconds": null,
+    "stats": {},
+    "summary": "The Menace crew's 20 Shot Sequence footage turned the Lockwood blacktop, with its long bank and picnic tables, into the mecca of mid-90s LA schoolyard skating.",
+    "sources": [
+      "https://www.skateboarding.com/news/the-legend-of-lockwood-elementarys-schoolyard-from-1994-to-1996",
+      "http://skately.com/library/spots/lockwood-elementary-school",
+      "https://findskatespots.com/spots/los-angeles-ca/975-virgil-avenue-lockwood-avenue-elementary-school-banks-ledges"
+    ]
+  },
+  {
+    "skater": "Mark Gonzales",
+    "trick": "Ollie (the original \"Gonz Gap\")",
+    "spot": "Embarcadero (EMB) - Gonz Gap, Justin Herman Plaza",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.7949,
+    "lng": -122.3948,
+    "precision": "building/campus",
+    "year": 1986,
+    "video": null,
+    "youtubeId": "hXrdZ5kWRqs",
+    "youtubeTitle": "This Old Ledge: Embarcadero (Thrasher's history of the plaza; the 1986 ollie itself was a magazine photo)",
+    "startSeconds": null,
+    "stats": {
+      "cover": "Published in Thrasher, September 1986 (photo by MoFo)",
+      "firsts": "Regarded as the first major gap cleared in street skating; the gap has carried his name ever since",
+      "spotStatus": "Plaza partially demolished / redeveloped"
+    },
+    "summary": "Gonz ollied from the wave wall down to the raised platform at Embarcadero in summer 1986, naming the Gonz Gap and launching EMB as street skating's capital.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Gonzales",
+      "https://hufworldwide.com/blogs/news/espn-article-history-lesson-the-gonz-gap",
+      "https://en.wikipedia.org/wiki/List_of_San_Francisco_skate_spots"
+    ]
+  },
+  {
+    "skater": "Mark Gonzales",
+    "trick": "Kickflip",
+    "spot": "Embarcadero (EMB) - Gonz Gap, Justin Herman Plaza",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.7949,
+    "lng": -122.3948,
+    "precision": "building/campus",
+    "year": 1993,
+    "video": "Thrasher Classics clip",
+    "youtubeId": "3Fqqf1XyCU0",
+    "youtubeTitle": "Classics - EMB Gonz Kickflip",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "First to kickflip his own namesake gap",
+      "spotStatus": "Plaza partially demolished / redeveloped"
+    },
+    "summary": "Seven years after naming it, Gonz came back and kickflipped the Gonz Gap; Jake Phelps narrates the session in Thrasher's Classics clip.",
+    "sources": [
+      "https://www.thrashermagazine.com/articles/videos/classics-emb-gonz-kickflip/",
+      "https://skateboarding.fandom.com/wiki/Mark_Gonzales",
+      "https://www.youtube.com/watch?v=3Fqqf1XyCU0"
+    ]
+  },
+  {
+    "skater": "Mark Gonzales",
+    "trick": "Ollie",
+    "spot": "Wallenberg four block",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.78011,
+    "lng": -122.44668,
+    "precision": "spot",
+    "year": 1991,
+    "video": "Blind - Video Days (1991)",
+    "youtubeId": "gizM-PuVnY0",
+    "youtubeTitle": "Classics: Mark Gonzales in Video Days",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "16 ft 6 in long",
+      "dropHeight": "4 ft 4.8 in",
+      "firsts": "Wallenberg's first appearance in a skate video"
+    },
+    "summary": "Wallenberg entered skate history when Gonz ollied the four block in his Video Days part.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wallenberg_Set",
+      "https://findskatespots.com/spots/san-francisco-ca/vega-street-wallenberg-4"
+    ]
+  },
+  {
+    "skater": "Andrew Reynolds",
+    "trick": "Frontside flip",
+    "spot": "Wallenberg four block",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.78011,
+    "lng": -122.44668,
+    "precision": "spot",
+    "year": 2004,
+    "video": "Thrasher - High Noon at the Big Four (Wallenberg contest, 2004)",
+    "youtubeId": "NszfMi4xkyI",
+    "youtubeTitle": "DIGITAL THROWBACK WALLENBERG CONTEST 2004",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "16 ft 6 in long",
+      "dropHeight": "4 ft 4.8 in",
+      "awards": "Took first at Thrasher's big-tricks contest",
+      "firsts": "First frontside flip down Wallenberg"
+    },
+    "summary": "Reynolds won Thrasher's cash-for-tricks showdown at the Big Four with the first frontside flip ever done down Wallenberg.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wallenberg_Set",
+      "https://www.thrashermagazine.com/articles/videos/wallenberg-2004/",
+      "https://www.youtube.com/watch?v=NszfMi4xkyI"
+    ]
+  },
+  {
+    "skater": "Lindsey Robertson",
+    "trick": "Heelflip",
+    "spot": "Wallenberg four block",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.78011,
+    "lng": -122.44668,
+    "precision": "spot",
+    "year": 2004,
+    "video": "Thrasher - High Noon at the Big Four (Wallenberg contest, 2004)",
+    "youtubeId": null,
+    "youtubeTitle": null,
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "16 ft 6 in long",
+      "dropHeight": "4 ft 4.8 in"
+    },
+    "summary": "Robertson's huge heelflip at the 2004 Thrasher contest became his calling card. No confirmed YouTube upload of the clip was found (the 2004 contest video NszfMi4xkyI may include it but this was not verified).",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wallenberg_Set",
+      "https://skateparkoftampa.com/blogs/photos/lindsey-robertson-heel-flips-wallenberg-mpeg"
+    ]
+  },
+  {
+    "skater": "Chris Cole",
+    "trick": "360 flip",
+    "spot": "Wallenberg four block",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.78011,
+    "lng": -122.44668,
+    "precision": "spot",
+    "year": 2005,
+    "video": "Zero - New Blood (2005)",
+    "youtubeId": "WfA_0thXyMg",
+    "youtubeTitle": "New Blood - Chris Cole",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "16 ft 6 in long",
+      "dropHeight": "4 ft 4.8 in",
+      "firsts": "First 360 flip down Wallenberg"
+    },
+    "summary": "Cole's tre flip down the Big Four in New Blood is one of the most celebrated stair tricks ever; he later added a backside 360 and switch frontside flip at 2009's Back to the Berg.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wallenberg_Set",
+      "https://en.wikipedia.org/wiki/Chris_Cole_(skateboarder)"
+    ]
+  },
+  {
+    "skater": "Andrew Reynolds",
+    "trick": "Backside kickflip",
+    "spot": "Wallenberg four block",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.78011,
+    "lng": -122.44668,
+    "precision": "spot",
+    "year": 2007,
+    "video": "Emerica - Stay Gold (2010)",
+    "youtubeId": "meepxVVGvYk",
+    "youtubeTitle": "Classic Covers: Andrew Reynolds",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "16 ft 6 in long",
+      "dropHeight": "4 ft 4.8 in",
+      "cover": "Thrasher, May 2007"
+    },
+    "summary": "Reynolds' backside flip down Wallenberg ran as the May 2007 Thrasher cover and resurfaced in his Stay Gold part three years later.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wallenberg_Set",
+      "https://www.youtube.com/watch?v=meepxVVGvYk"
+    ]
+  },
+  {
+    "skater": "Danny Gonzalez",
+    "trick": "Kickflip to melon grab",
+    "spot": "Wallenberg four block",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.78011,
+    "lng": -122.44668,
+    "precision": "spot",
+    "year": 1999,
+    "video": "TransWorld SKATEboarding - The Reason (1999)",
+    "youtubeId": "kIsqGVKJ89s",
+    "youtubeTitle": "Danny Gonzalez.  Transworld The Reason",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "16 ft 6 in long",
+      "dropHeight": "4 ft 4.8 in"
+    },
+    "summary": "Gonzalez's caught-and-grabbed kickflip melon in The Reason was years ahead of what anyone else was doing at Wallenberg.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wallenberg_Set",
+      "http://www.jenkemmag.com/home/2011/07/20/what-happened-to-danny-gonzalez/"
+    ]
+  },
+  {
+    "skater": "Brian Anderson",
+    "trick": "Frontside bluntslide",
+    "spot": "Hubba Hideout",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.795632,
+    "lng": -122.397826,
+    "precision": "spot",
+    "year": 1996,
+    "video": "Toy Machine - Welcome to Hell (1996)",
+    "youtubeId": "LhR68czgan8",
+    "youtubeTitle": "Classics: Brian Anderson \"Welcome to Hell\"",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "Two oversized sets of 6 stairs",
+      "spotStatus": "Demolished January 2011"
+    },
+    "summary": "BA's front blunt on the ledge that gave every 'hubba' its name (April 1996) introduced him to the world in Welcome to Hell.",
+    "sources": [
+      "https://www.thrashermagazine.com/articles/videos/classics-brian-anderson-welcome-to-hell/",
+      "https://en.wikipedia.org/wiki/Hubba_Hideout",
+      "https://skatekrak.com/mag/hubba-hideout"
+    ]
+  },
+  {
+    "skater": "Eric Koston",
+    "trick": "Backside noseblunt slide",
+    "spot": "Hubba Hideout",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.795632,
+    "lng": -122.397826,
+    "precision": "spot",
+    "year": 1998,
+    "video": null,
+    "youtubeId": "fFNDl9bVDOE",
+    "youtubeTitle": "What Exactly Happened The Day Koston Back Nose Blunted Hubba Hideout? - Mike Blabac",
+    "startSeconds": null,
+    "stats": {
+      "cover": "TransWorld SKATEboarding Photo Annual, 1998 (photo: Mike Blabac)",
+      "spotStatus": "Demolished January 2011"
+    },
+    "summary": "Shot by Mike Blabac on a Girl road trip, Koston's back noseblunt at Hubba Hideout ran as the cover of the 1998 TransWorld Photo Annual.",
+    "sources": [
+      "https://www.paradeworld.com/products/eric-koston-san-francisco-1998-60-6558192533583/",
+      "https://en.wikipedia.org/wiki/Hubba_Hideout",
+      "https://www.youtube.com/watch?v=fFNDl9bVDOE"
+    ]
+  },
+  {
+    "skater": "Tony Hawk",
+    "series": "contest",
+    "style": "park",
+    "trick": "900",
+    "spot": "X Games V vert ramp, Piers 30-32",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.7865629,
+    "lng": -122.3859733,
+    "precision": "building/campus",
+    "year": 1999,
+    "video": "ESPN X Games V Best Trick broadcast (June 27, 1999)",
+    "youtubeId": "4YYTNkAdDD8",
+    "youtubeTitle": "Tony Hawk Lands FIRST-EVER 900 | World of X Games",
+    "startSeconds": null,
+    "stats": {
+      "attempts": "Landed after ten failed attempts, past regulation time",
+      "firsts": "First 900 ever landed",
+      "spotStatus": "Temporary contest ramp; pinned on the pier"
+    },
+    "summary": "After ten slams and with the clock long expired, Hawk spun two and a half rotations and rode away, the most famous single moment in skateboarding.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/900_(skateboarding)",
+      "https://www.youtube.com/watch?v=4YYTNkAdDD8"
+    ]
+  },
+  {
+    "skater": "Lavar McBride",
+    "trick": "Pier 7 block and manual-pad lines (full part)",
+    "spot": "Pier 7",
+    "city": "San Francisco, California",
+    "country": "USA",
+    "lat": 37.798763,
+    "lng": -122.396774,
+    "precision": "spot",
+    "year": 1996,
+    "video": "World Industries / Blind / 101 - Trilogy (1996)",
+    "youtubeId": "FuFKKnh6gQQ",
+    "youtubeTitle": "Classics: Lavar McBride \"Trilogy\"",
+    "startSeconds": null,
+    "stats": {},
+    "summary": "Teenage Lavar McBride was the undisputed king of Pier 7, and his Trilogy part defined the pier's technical block-and-manual era.",
+    "sources": [
+      "https://www.thrashermagazine.com/articles/videos/classics-lavar-mcbride-trilogy/",
+      "https://www.jenkemmag.com/home/2021/10/06/resurrection-san-franciscos-pier-7/",
+      "https://findskatespots.com/spots/san-francisco-ca/pier-7-manny-pads"
+    ]
+  },
+  {
+    "skater": "John Cardiel",
+    "trick": "Grind over the top of the bank",
+    "spot": "China Banks",
+    "city": "Chinatown, San Francisco, California",
+    "country": "USA",
+    "lat": 37.7951221,
+    "lng": -122.404532,
+    "precision": "building/campus",
+    "year": 2022,
+    "video": "Thrasher - The Story of China Banks (2022 documentary; Cardiel's trick dates from the 1990s, exact year not found)",
+    "youtubeId": "2LBv3XFwHG4",
+    "youtubeTitle": "The Story of China Banks",
+    "startSeconds": null,
+    "stats": {
+      "spotStatus": "Pedestrian bridge the banks belong to is slated for removal (SFGate)"
+    },
+    "summary": "Thrasher's history of the brick banks, skated since 1979, singles out Cardiel grinding over the top of the bank alongside Joe Valdez's bridge gap and T-Funk's ollie over a whole bench.",
+    "sources": [
+      "https://www.kqed.org/arts/13916267/learn-the-story-of-san-franciscos-toughest-skate-spot-in-new-thrasher-video",
+      "https://www.thrashermagazine.com/articles/videos/the-story-of-china-banks/",
+      "https://www.sfgate.com/sf-culture/article/sf-most-controversial-bridge-irreplaceable-21248501.php"
+    ]
+  }
+]

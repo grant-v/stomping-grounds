@@ -1,0 +1,11 @@
+# Your personal Google Maps API key lives here — never commit it.
+# config.example.js is the template; copy it to config.js and paste your own key in.
+config.js
+
+# Working files from the portrait search
+openverse-found.json
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,447 @@
+[
+    {
+        "name": "Pontus Alv",
+        "matches": [
+                        "Pontus Alv"
+                    ],
+        "born": null,
+        "died": null,
+        "hometown": null,
+        "country": "Sweden",
+        "stance": null,
+        "discipline": "street",
+        "titles": [
+                       "Founded Polar Skate Co in Malmo, 2011",
+                       "Founded Last Resort AB footwear",
+                       "Filmmaker behind Polar\u0027s videos, incl. In Search of the Miraculous (2010)"
+                   ],
+        "summary": "Swedish pro skater, filmmaker and artist who founded Polar Skate Co in Malmo in 2011 and turned DIY spot-building and hand-drawn graphics into an aesthetic the whole industry copied.",
+        "photo": null,
+        "photoCredit": null,
+        "photoPage": null,
+        "wiki": null,
+        "sources": [
+                        "https://sv.wikipedia.org/wiki/Polar_Skate_Co.",
+                        "https://thevinessupply.co/blogs/thevinessupplyco/brand-spotlight-polar-skate-co",
+                        "https://en.wikipedia.org/wiki/Copenhagen_Pro"
+                    ]
+    },
+    {
+        "name": "Mark Appleyard",
+        "matches": [
+                        "Mark Appleyard"
+                    ],
+        "born": "1982-11-11",
+        "died": null,
+        "hometown": "Oakville, Ontario, Canada",
+        "country": "Canada",
+        "stance": null,
+        "discipline": "street",
+        "titles": [
+                       "Thrasher Skater of the Year 2003",
+                       "Parts in Flip\u0027s Sorry (2002) and Really Sorry (2003)",
+                       "Part in Alien Workshop\u0027s Photosynthesis (2000)",
+                       "Part in Transworld\u0027s Modus Operandi (2000)",
+                       "Part in Globe\u0027s United by Fate (2007)"
+                   ],
+        "summary": "Canadian street skater whose effortless, fast-footed video parts in Photosynthesis and Flip\u0027s Sorry made him Thrasher\u0027s Skater of the Year in 2003.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Markyappleyardy.jpg/330px-Markyappleyardy.jpg",
+        "photoCredit": "Photo: Me, Public domain, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Markyappleyardy.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Mark_Appleyard",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Mark_Appleyard",
+                        "https://commons.wikimedia.org/wiki/File:Markyappleyardy.jpg"
+                    ]
+    },
+    {
+        "name": "Jake Brown",
+        "matches": [
+                        "Jake Brown"
+                    ],
+        "born": "1974-09-06",
+        "died": null,
+        "hometown": "Sydney, Australia",
+        "country": "Australia",
+        "stance": null,
+        "discipline": "park",
+        "titles": [
+                       "X Games Big Air gold 2009 and 2010",
+                       "X Games Big Air silver 2006 and 2007",
+                       "Survived a 45-foot fall in the X Games 13 Big Air final, 2007",
+                       "First to spin a 720 on the MegaRamp without grabbing the board"
+                   ],
+        "summary": "Australian MegaRamp specialist remembered for the 45-foot slam at X Games 13 in 2007 - and for coming back to win Big Air gold in 2009 and 2010.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/JakeBrownByPhilKonstantin.jpg/500px-JakeBrownByPhilKonstantin.jpg",
+        "photoCredit": "Photo: Philkon Phil Konstantin, Public domain, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:JakeBrownByPhilKonstantin.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Jake_Brown_(skateboarder)",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Jake_Brown_(skateboarder)",
+                        "https://commons.wikimedia.org/wiki/File:JakeBrownByPhilKonstantin.jpg"
+                    ]
+    },
+    {
+        "name": "Sakura Yosozumi",
+        "matches": [
+                        "Sakura Yosozumi"
+                    ],
+        "born": "2002-03-15",
+        "died": null,
+        "hometown": "Iwade, Wakayama, Japan",
+        "country": "Japan",
+        "stance": "regular",
+        "discipline": "park",
+        "titles": [
+                       "Olympic park gold, Tokyo 2020",
+                       "World Park champion 2018 (Nanjing)",
+                       "Asian Games park gold, Jakarta 2018",
+                       "X Games park gold, Chiba 2022"
+                   ],
+        "summary": "Japanese park rider who won the first ever Olympic women\u0027s park gold at Tokyo 2020, having already taken the first Asian Games park title in 2018.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/XGames-Chiba-2022_2022-04-24_0348_%28cropped%29.jpg/500px-XGames-Chiba-2022_2022-04-24_0348_%28cropped%29.jpg",
+        "photoCredit": "Photo: RuinDig/Yuki Uchida, CC BY 4.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:XGames-Chiba-2022_2022-04-24_0348_(cropped).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Sakura_Yosozumi",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Sakura_Yosozumi",
+                        "https://commons.wikimedia.org/wiki/File:XGames-Chiba-2022_2022-04-24_0348_(cropped).jpg"
+                    ]
+    },
+    {
+        "name": "Kokona Hiraki",
+        "matches": [
+                        "Kokona (Cocona) Hiraki",
+                        "Kokona Hiraki"
+                    ],
+        "born": "2008-08-26",
+        "died": null,
+        "hometown": "Tomakomai, Hokkaido, Japan",
+        "country": "Japan",
+        "stance": null,
+        "discipline": "park",
+        "titles": [
+                       "Olympic park silver, Tokyo 2020, aged 12",
+                       "Olympic park silver, Paris 2024",
+                       "Youngest X Games medalist ever (park silver, Minneapolis 2019)",
+                       "Vans Park Series Paris winner 2019"
+                   ],
+        "summary": "Hokkaido park skater who took silver at Tokyo 2020 aged 12 as Japan\u0027s youngest ever Olympian, then backed it up with a second park silver in Paris.",
+        "photo": "https://live.staticflickr.com/65535/53907089780_84285b4491_b.jpg",
+        "photoCredit": "Photo: Andy Miah, CC BY-NC 2.0, via Flickr",
+        "photoPage": "https://www.flickr.com/photos/25272992@N00/53907089780",
+        "wiki": "https://en.wikipedia.org/wiki/Cocona_Hiraki",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Cocona_Hiraki",
+                        "https://www.xgames.com/athletes/cocona-hiraki"
+                    ]
+    },
+    {
+        "name": "Elliot Sloan",
+        "matches": [
+                        "Elliot Sloan"
+                    ],
+        "born": "1988-07-29",
+        "died": null,
+        "hometown": "New York City, New York, USA",
+        "country": "USA",
+        "stance": null,
+        "discipline": "park",
+        "titles": [
+                       "16 X Games medals, 7 gold",
+                       "X Games Big Air gold, Los Angeles 2013",
+                       "X Games Big Air gold, Minneapolis 2019",
+                       "X Games vert best trick gold, Japan 2023",
+                       "Nitro World Games skateboard best trick gold 2016 and 2017"
+                   ],
+        "summary": "New York-born MegaRamp and vert skater with 16 X Games medals, including Big Air golds in 2013 and 2019.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Elliot_Sloan_%287869266166%29.jpg/500px-Elliot_Sloan_%287869266166%29.jpg",
+        "photoCredit": "Photo: Alex Carvalho, CC BY-SA 2.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Elliot_Sloan_(7869266166).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Elliot_Sloan",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Elliot_Sloan",
+                        "https://commons.wikimedia.org/wiki/File:Elliot_Sloan_(7869266166).jpg"
+                    ]
+    },
+    {
+        "name": "Andy Macdonald",
+        "matches": [
+                        "Andy Macdonald"
+                    ],
+        "born": "1973-07-31",
+        "died": null,
+        "hometown": "Melrose, Massachusetts, USA",
+        "country": "USA / Great Britain",
+        "stance": null,
+        "discipline": "park",
+        "titles": [
+                       "8 X Games golds, incl. six straight vert doubles titles with Tony Hawk (1997-2002)",
+                       "8x World Cup Skateboarding champion",
+                       "Record for most X Games medals in vert skateboarding (as of 2013)",
+                       "Oldest Olympic skateboarder ever - Paris 2024 for Great Britain, aged 51"
+                   ],
+        "summary": "Massachusetts vert veteran, Tony Hawk\u0027s long-time doubles partner, who qualified for Paris 2024 for Great Britain at 51 to become the oldest Olympic skateboarder.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/AndyMacDonaldByPhilKonstantin.JPG/500px-AndyMacDonaldByPhilKonstantin.JPG",
+        "photoCredit": "Photo: Phil Konstantin, Public domain, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:AndyMacDonaldByPhilKonstantin.JPG",
+        "wiki": "https://en.wikipedia.org/wiki/Andy_Macdonald_(skateboarder)",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Andy_Macdonald_(skateboarder)",
+                        "https://www.bbc.co.uk/sport/articles/cxrrr7g3317o",
+                        "https://commons.wikimedia.org/wiki/File:AndyMacDonaldByPhilKonstantin.JPG"
+                    ]
+    },
+    {
+        "name": "Pierre-Luc Gagnon",
+        "matches": [
+                        "Pierre-Luc Gagnon"
+                    ],
+        "born": "1980-05-02",
+        "died": null,
+        "hometown": "Boucherville, Quebec, Canada",
+        "country": "Canada",
+        "stance": null,
+        "discipline": "park",
+        "titles": [
+                       "19 X Games medals, 9 gold (vert, vert doubles, big air, vert best trick)",
+                       "2x Maloof Money Cup vert winner",
+                       "Dew Tour and Gravity Games winner",
+                       "AST China Invitational vert winner, Beijing 2008"
+                   ],
+        "summary": "Quebec vert skater known as PLG, one of the most decorated ramp riders in X Games history with nine golds among nineteen medals.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pierre-LucGagnonByPhilKonstantin.jpg/500px-Pierre-LucGagnonByPhilKonstantin.jpg",
+        "photoCredit": "Photo: Philkon Phil Konstantin, Public domain, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Pierre-LucGagnonByPhilKonstantin.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Pierre-Luc_Gagnon",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Pierre-Luc_Gagnon",
+                        "https://commons.wikimedia.org/wiki/File:Pierre-LucGagnonByPhilKonstantin.jpg"
+                    ]
+    },
+    {
+        "name": "Lizzie Armanto",
+        "matches": [
+                        "Lizzie Armanto"
+                    ],
+        "born": "1993-01-26",
+        "died": null,
+        "hometown": "Santa Monica, California, USA",
+        "country": "USA / Finland",
+        "stance": "regular",
+        "discipline": "park",
+        "titles": [
+                       "X Games gold in the first women\u0027s park event, Barcelona 2013",
+                       "World Cup of Skateboarding points champion 2010, 2011 and 2012",
+                       "First woman to complete Tony Hawk\u0027s Loop, 2018",
+                       "Nitro World Games gold 2018",
+                       "Represented Finland in park at Tokyo 2020"
+                   ],
+        "summary": "American-Finnish bowl and park rider on the Birdhouse team, winner of the first women\u0027s X Games park contest and the first woman to ride Tony Hawk\u0027s Loop.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Skateboarder_Lizzie_Armanto_upright_-_Denmark_2015_%28cropped%29.jpg/500px-Skateboarder_Lizzie_Armanto_upright_-_Denmark_2015_%28cropped%29.jpg",
+        "photoCredit": "Photo: Stig Nygaard, CC BY 2.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Skateboarder_Lizzie_Armanto_upright_-_Denmark_2015_(cropped).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Lizzie_Armanto",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Lizzie_Armanto",
+                        "https://commons.wikimedia.org/wiki/File:Skateboarder_Lizzie_Armanto_upright_-_Denmark_2015_(cropped).jpg"
+                    ]
+    },
+    {
+        "name": "Bastien Salabanzi",
+        "matches": [
+                        "Bastien Salabanzi"
+                    ],
+        "born": "1985-11-18",
+        "died": null,
+        "hometown": "Toulon, France",
+        "country": "France",
+        "stance": "regular",
+        "discipline": "street",
+        "titles": [
+                       "Tampa Pro winner 2004",
+                       "X Games street bronze 2004",
+                       "Copenhagen Pro winner 2007",
+                       "Globe World Skateboarding Championships (Dortmund) winner 2001, 2002 and 2003"
+                   ],
+        "summary": "French street prodigy who won the Dortmund World Cup at 15 and took Tampa Pro in 2004, famous for enormous flip tricks down stairs.",
+        "photo": null,
+        "photoCredit": null,
+        "photoPage": null,
+        "wiki": "https://en.wikipedia.org/wiki/Bastien_Salabanzi",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Bastien_Salabanzi",
+                        "https://en.wikipedia.org/wiki/Skatepark_of_Tampa",
+                        "https://en.wikipedia.org/wiki/Copenhagen_Pro"
+                    ]
+    },
+    {
+        "name": "Chloe Covell",
+        "matches": [
+                        "Chloe Covell"
+                    ],
+        "born": "2010-02-08",
+        "died": null,
+        "hometown": "Tweed Heads, New South Wales, Australia",
+        "country": "Australia",
+        "stance": null,
+        "discipline": "street",
+        "titles": [
+                       "Youngest X Games gold medallist, street, 2023, aged 13",
+                       "Six X Games golds (2023 California, 2024 Chiba, 2025 Osaka, 2025 Salt Lake City street and best trick, 2026 Chiba)",
+                       "World Championship street silver, Sharjah 2022",
+                       "Competed in women\u0027s street at Paris 2024"
+                   ],
+        "summary": "Australian street skater who became the youngest X Games gold medallist at 13 in 2023 and has piled up X Games titles ever since.",
+        "photo": null,
+        "photoCredit": null,
+        "photoPage": null,
+        "wiki": "https://en.wikipedia.org/wiki/Chloe_Covell",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Chloe_Covell",
+                        "https://www.theguardian.com/sport/2023/jul/24/x-games-2023-australia-skateboard-skating-records-chloe-covell-arisa-trew"
+                    ]
+    },
+    {
+        "name": "Mariah Duran",
+        "matches": [
+                        "Mariah Duran"
+                    ],
+        "born": "1996-12-14",
+        "died": null,
+        "hometown": "Albuquerque, New Mexico, USA",
+        "country": "USA",
+        "stance": "goofy",
+        "discipline": "street",
+        "titles": [
+                       "X Games street gold, Minneapolis 2018",
+                       "X Games street gold, Sydney 2018",
+                       "X Games street silver, Austin 2016",
+                       "World Championship street bronze, Los Angeles 2017",
+                       "Olympian in street at Tokyo 2020 and Paris 2024"
+                   ],
+        "summary": "Goofy-footed street skater from Albuquerque, a double X Games gold medallist in 2018 and a two-time US Olympian.",
+        "photo": null,
+        "photoCredit": null,
+        "photoPage": null,
+        "wiki": "https://en.wikipedia.org/wiki/Mariah_Duran",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Mariah_Duran",
+                        "https://www.xgames.com/athletes/mariah-duran"
+                    ]
+    },
+    {
+        "name": "Luan Oliveira",
+        "matches": [
+                        "Luan Oliveira"
+                    ],
+        "born": "1990",
+        "died": null,
+        "hometown": "Porto Alegre, Rio Grande do Sul, Brazil",
+        "country": "Brazil",
+        "stance": "regular",
+        "discipline": "street",
+        "titles": [
+                       "Tampa Pro winner 2013 and 2015",
+                       "SLS tour stop wins in Los Angeles and Newark, 2015",
+                       "World Championship street bronze 2013 and 2015",
+                       "X Games street silver 2011, 2014 and 2019",
+                       "Battle at the Berrics winner 2018"
+                   ],
+        "summary": "Brazilian street skater with famously clean flip tricks, a two-time Tampa Pro champion and one of the most influential skaters of his generation in Brazil.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Luan_Oliveira_Tshirt_3_Brazilian_Soccer_Team_%2863022369%29.jpeg/500px-Luan_Oliveira_Tshirt_3_Brazilian_Soccer_Team_%2863022369%29.jpeg",
+        "photoCredit": "Photo: Pablo Vaz, CC BY 3.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Luan_Oliveira_Tshirt_3_Brazilian_Soccer_Team_(63022369).jpeg",
+        "wiki": "https://en.wikipedia.org/wiki/Luan_Oliveira",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Luan_Oliveira",
+                        "https://pt.wikipedia.org/wiki/Luan_de_Oliveira",
+                        "https://en.wikipedia.org/wiki/Skatepark_of_Tampa",
+                        "https://commons.wikimedia.org/wiki/File:Luan_Oliveira_Tshirt_3_Brazilian_Soccer_Team_(63022369).jpeg"
+                    ]
+    },
+    {
+        "name": "Dashawn Jordan",
+        "matches": [
+                        "Dashawn Jordan"
+                    ],
+        "born": null,
+        "died": null,
+        "hometown": "Chandler, Arizona, USA",
+        "country": "USA",
+        "stance": null,
+        "discipline": "street",
+        "titles": [
+                       "X Games street gold 2021",
+                       "X Games street silver, Shanghai 2019",
+                       "X Games street best trick silver 2021",
+                       "X Games street best trick bronze 2022"
+                   ],
+        "summary": "Arizona street skater known for hyper-technical laser flip variations, an X Games street gold medallist in 2021.",
+        "photo": null,
+        "photoCredit": null,
+        "photoPage": null,
+        "wiki": null,
+        "sources": [
+                        "https://www.xgames.com/athletes/dashawn-jordan",
+                        "https://en.wikipedia.org/wiki/Street_League_Skateboarding"
+                    ]
+    },
+    {
+        "name": "Sora Shirai",
+        "matches": [
+                        "Sora Shirai"
+                    ],
+        "born": "2001-11-03",
+        "died": null,
+        "hometown": "Sagamihara, Kanagawa, Japan",
+        "country": "Japan",
+        "stance": "goofy",
+        "discipline": "street",
+        "titles": [
+                       "World street champion, Tokyo 2023",
+                       "X Games street gold, Chiba 2024",
+                       "World Championship street bronze 2021 (Rome) and 2025 (Sao Paulo)",
+                       "Olympian in street at Tokyo 2020 and Paris 2024",
+                       "Part in Blind\u0027s Time Change, 2019"
+                   ],
+        "summary": "Goofy-footed Kanagawa street skater who won the 2023 street world championship at home in Tokyo and took X Games gold in Chiba the following year.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_09971.jpg/500px-Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_09971.jpg",
+        "photoCredit": "Photo: RuinDig/Yuki Uchida, CC BY 4.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_09971.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Sora_Shirai",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Sora_Shirai",
+                        "https://commons.wikimedia.org/wiki/File:Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_09971.jpg"
+                    ]
+    },
+    {
+        "name": "Miyu Ito",
+        "matches": [
+                        "Miyu Ito"
+                    ],
+        "born": "2007-05-15",
+        "died": null,
+        "hometown": "Kaminoyama, Yamagata, Japan",
+        "country": "Japan",
+        "stance": "regular",
+        "discipline": "street",
+        "titles": [
+                       "Three X Games golds (Ventura 2024 street; Sacramento 2026 street and best trick)",
+                       "First rookie to win X Games women\u0027s street gold, 2024",
+                       "World Championship street bronze, Rome 2024",
+                       "Asian Games street bronze, Hangzhou 2022",
+                       "Japanese national street champion 2022"
+                   ],
+        "summary": "Yamagata street skater and former snowboarder who won X Games street gold on debut in 2024 and has since added two more golds.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Miyu_Ito_%28cropped%29.jpg/500px-Miyu_Ito_%28cropped%29.jpg",
+        "photoCredit": "Photo: Skreeen, CC0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Miyu_Ito_(cropped).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Miyu_Ito",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Miyu_Ito",
+                        "https://www.xgames.com/athletes/miyu-ito",
+                        "https://commons.wikimedia.org/wiki/File:Miyu_Ito_(cropped).jpg"
+                    ]
+    }
+]

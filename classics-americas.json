@@ -1,0 +1,848 @@
+[
+  {
+    "skater": "Josh Kalis",
+    "trick": "360 flip over a trash can (slab-to-can bump)",
+    "spot": "LOVE Park (JFK Plaza)",
+    "city": "Philadelphia, Pennsylvania",
+    "country": "USA",
+    "lat": 39.9541495,
+    "lng": -75.1657445,
+    "precision": "spot",
+    "year": 1999,
+    "video": "Alien Workshop \"Photosynthesis\" (2000)",
+    "youtubeId": "uxCfOk7rY0E",
+    "youtubeTitle": "Classics: Josh Kalis \"Photosynthesis\"",
+    "startSeconds": null,
+    "stats": {
+      "photo": "Shot by Mike Blabac; one of the most recognisable photos in skateboarding",
+      "filmed": "1999, used as his Photosynthesis ender",
+      "refilmed": "Kalis re-did a near-identical 360 flip across the street 20 years later (2019), aged 43",
+      "spotStatus": "LOVE Park's granite skate-era layout was demolished in 2016 and rebuilt; pin is the historical plaza location"
+    },
+    "summary": "The defining image of the LOVE Park era: Kalis' 360 flip over a garbage can, shot by Mike Blabac and used to close his Photosynthesis part.",
+    "sources": [
+      "https://www.jenkemmag.com/home/2019/07/02/watch-josh-kalis-refilm-iconic-360-flip-love-20-years-later/",
+      "https://skatenewswire.com/josh-kalis-360-flip/",
+      "https://www.youtube.com/watch?v=uxCfOk7rY0E",
+      "https://nominatim.openstreetmap.org/search?q=LOVE+Park,+Philadelphia&format=json"
+    ]
+  },
+  {
+    "skater": "Stevie Williams",
+    "trick": "LOVE Park lines (full part)",
+    "spot": "LOVE Park (JFK Plaza)",
+    "city": "Philadelphia, Pennsylvania",
+    "country": "USA",
+    "lat": 39.9541495,
+    "lng": -75.1657445,
+    "precision": "spot",
+    "year": 1999,
+    "video": "TransWorld SKATEboarding \"The Reason\" (1999)",
+    "youtubeId": "iqQTNIOicOM",
+    "youtubeTitle": "Video Vortex: Stevie Williams, The Reason | TransWorld SKATEboarding",
+    "startSeconds": null,
+    "stats": {
+      "directedBy": "Ty Evans and Jon Holland",
+      "spotStatus": "Original LOVE Park layout demolished 2016; historical location"
+    },
+    "summary": "Stevie Williams' ledge lines at his home plaza in TransWorld's The Reason made him, and LOVE Park, world famous.",
+    "sources": [
+      "https://www.youtube.com/watch?v=iqQTNIOicOM",
+      "https://philadelphiaencyclopedia.org/essays/skate-parks-and-skateboarders/",
+      "https://www.buzzfeednews.com/article/maxwellneelycohen/how-philadelphia-destroyed-the-greatest-skate-spot-ever-made"
+    ]
+  },
+  {
+    "skater": "Chris Cole",
+    "trick": "Switch frontside flip, backside flip and backside 360 down the fountain gap",
+    "spot": "LOVE Park fountain gap (\"Love Gap\")",
+    "city": "Philadelphia, Pennsylvania",
+    "country": "USA",
+    "lat": 39.9541495,
+    "lng": -75.1657445,
+    "precision": "spot",
+    "year": 2002,
+    "video": "TransWorld SKATEboarding \"In Bloom\" (2002); also Fallen \"Ride the Sky\"",
+    "youtubeId": "BFc0UBHooQg",
+    "youtubeTitle": "Chris Cole - In Bloom - TransWorld SKATEboarding",
+    "startSeconds": null,
+    "stats": {
+      "attempts": "Backside flip landed within five tries after a friend bet him $100 (per Cole interview)",
+      "spotStatus": "Fountain gap demolished with the 2016 LOVE Park rebuild; historical location"
+    },
+    "summary": "Cole's breakout In Bloom part put a run of tricks down the massive LOVE fountain gap, announcing the Philly-area local to the world.",
+    "sources": [
+      "https://www.rollingstone.com/culture/culture-sports/chris-cole-on-1-million-skateboarding-bounties-and-brawling-in-russia-64087/",
+      "http://skatemorespots.com/a/item/the-chris-cole-interview",
+      "https://www.youtube.com/watch?v=BFc0UBHooQg"
+    ]
+  },
+  {
+    "skater": "Tom Asta",
+    "trick": "Switch frontside heelflip down the Love Gap",
+    "spot": "LOVE Park fountain gap (\"Love Gap\")",
+    "city": "Philadelphia, Pennsylvania",
+    "country": "USA",
+    "lat": 39.9541495,
+    "lng": -75.1657445,
+    "precision": "spot",
+    "year": 2010,
+    "video": "Mystery \"Color Theory\" (2010)",
+    "youtubeId": "1FPwiErr3PQ",
+    "youtubeTitle": "[HD] Tom Asta - Color Theory Pro Part",
+    "startSeconds": null,
+    "stats": {
+      "spotStatus": "Demolished 2016; historical location"
+    },
+    "summary": "Asta's pro-debut part for Mystery included a switch front heel down the Love Gap, one of the hardest tricks ever done on it.",
+    "sources": [
+      "https://sidewalkmag.com/skateboard-news/tom-asta-color-theory-video-part-mystery-skateboards.html",
+      "https://www.youtube.com/watch?v=pOf_9WbOqcM",
+      "https://www.youtube.com/watch?v=1FPwiErr3PQ"
+    ]
+  },
+  {
+    "skater": "Brian Wenning",
+    "trick": "Switch backside 180 down the Love Gap",
+    "spot": "LOVE Park fountain gap (\"Love Gap\")",
+    "city": "Philadelphia, Pennsylvania",
+    "country": "USA",
+    "lat": 39.9541495,
+    "lng": -75.1657445,
+    "precision": "spot",
+    "year": null,
+    "video": null,
+    "youtubeId": "NksyfysBnAU",
+    "youtubeTitle": "Love Gap, Philadelphia - #krakhistoryclip",
+    "startSeconds": null,
+    "stats": {
+      "cover": "TransWorld SKATEboarding cover (per Krak's Love Gap history; issue date not confirmed)",
+      "note": "Wenning has said it was unplanned - he showed up, set up a new board and did it. Linked video is Krak's Love Gap history compilation, not a Wenning part.",
+      "spotStatus": "Demolished 2016; historical location"
+    },
+    "summary": "Wenning's switch back 180 down the fountain gap ran as a TransWorld cover and is one of the best-known tricks done on the Love Gap.",
+    "sources": [
+      "https://skatekrak.com/mag/love-gap",
+      "https://www.skateboarding.com/news/brian-wenning-pro-spotlight-1",
+      "https://www.youtube.com/watch?v=NksyfysBnAU"
+    ]
+  },
+  {
+    "skater": "Ricky Oyola",
+    "trick": "High-speed street lines through Center City (full part)",
+    "spot": "Center City Philadelphia streets (pinned at City Hall)",
+    "city": "Philadelphia, Pennsylvania",
+    "country": "USA",
+    "lat": 39.9523995,
+    "lng": -75.1629893,
+    "precision": "city",
+    "year": 1996,
+    "video": "Eastern Exposure 3: \"Underachievers\" (Dan Wolfe, 1996)",
+    "youtubeId": "yQQHZcL7FzU",
+    "youtubeTitle": "ricky oyola",
+    "startSeconds": null,
+    "stats": {
+      "upload": "Uploaded by filmer Dan Wolfe's own channel",
+      "note": "Part is filmed across Philadelphia's city blocks rather than one spot; pin is representative"
+    },
+    "summary": "Oyola's Eastern Exposure 3 part - fast, raw lines through Philadelphia's streets - changed how street skating was done and filmed on the East Coast.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ricky_Oyola",
+      "https://www.skateboarding.com/news/eastern-exposure-3-explained-by-ricky-oyola",
+      "https://www.youtube.com/watch?v=yQQHZcL7FzU"
+    ]
+  },
+  {
+    "skater": "Tyshawn Jones",
+    "trick": "Kickflip over the subway tracks, platform to platform",
+    "spot": "145th Street subway station",
+    "city": "New York City, New York",
+    "country": "USA",
+    "lat": 40.8204635,
+    "lng": -73.9362163,
+    "precision": "city",
+    "year": 2022,
+    "video": "Thrasher December 2022 cover trick (footage reported to be in Supreme \"Play Dead\", 2022)",
+    "youtubeId": "7clV9fs5X9s",
+    "youtubeTitle": "Tyshawn Jones unseen  angles of subway gap kickflip",
+    "startSeconds": 0,
+    "stats": {
+      "cover": "Thrasher, December 2022 (photo: Atiba Jefferson; a rare wordless cover)",
+      "awards": "Thrasher Skater of the Year 2022 (his second SOTY)",
+      "followUps": "He later backside flipped and 360 flipped the same gap",
+      "locationNote": "Sources only say '145th Street station' in Harlem; Manhattan has several 145th St stations. Pin is the Lenox Ave (3 train) station and is NOT confirmed - treat as approximate."
+    },
+    "summary": "A kickflip across live subway tracks from one platform to the other - an 'event trick' that made the Thrasher cover and sealed Tyshawn's second SOTY.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tyshawn_Jones",
+      "https://quartersnacks.com/2022/10/my-baby-takes-the-morning-train-a-timeline-of-skateboarding-in-the-subway/",
+      "https://boiltheocean.wordpress.com/2022/10/09/as-above-so-below-tyshawn-jones-and-the-power-of-the-event-trick/",
+      "https://www.skateboarding.com/news/tyshawn-jones-returns-to-145th-st-subway-gap-and-360-flips-it",
+      "https://www.youtube.com/watch?v=7clV9fs5X9s"
+    ]
+  },
+  {
+    "skater": "Tyshawn Jones",
+    "trick": "\"Courthouse Kid\" session - a run of tricks off the pedestal into the bank",
+    "spot": "Courthouse Drop, New York State Supreme Court (60 Centre St, Foley Square)",
+    "city": "New York City, New York",
+    "country": "USA",
+    "lat": 40.7142787,
+    "lng": -74.0014939,
+    "precision": "building/campus",
+    "year": 2014,
+    "video": "Supreme \"cherry\" (William Strobeck, 2014)",
+    "youtubeId": "FiDtrKhMw2c",
+    "youtubeTitle": "This Old Ledge: New York Courthouse",
+    "startSeconds": null,
+    "stats": {
+      "age": "14 at the time",
+      "nickname": "Dubbed 'the Courthouse Kid' by director Bill Strobeck",
+      "note": "Linked video is Thrasher's history of the Courthouse spot, not the cherry section itself"
+    },
+    "summary": "A 14-year-old Tyshawn fired off trick after trick off the courthouse pedestal into the steep bank in Supreme's cherry - the session that made him famous.",
+    "sources": [
+      "https://www.goat.com/editorial/tyshawn-jones-na-kel-smith-interview-greatest-magazine",
+      "https://hypebeast.com/2026/4/pop-documented-tyshawn-jones-10-best-ollies-ever",
+      "https://www.youtube.com/watch?v=FiDtrKhMw2c",
+      "https://nominatim.openstreetmap.org/search?q=New+York+County+Courthouse,+60+Centre+Street&format=json"
+    ]
+  },
+  {
+    "skater": "Anthony Pappalardo",
+    "trick": "Backside tailslide",
+    "spot": "Black Hubba (\"Blubba\"), Centre Street",
+    "city": "New York City, New York",
+    "country": "USA",
+    "lat": 40.714535,
+    "lng": -74.002815,
+    "precision": "spot",
+    "year": 2002,
+    "video": "Lakai ad, 2002",
+    "youtubeId": "JEAjDMpKY_s",
+    "youtubeTitle": "Black Hubba, NYC - #krakhistoryclip",
+    "startSeconds": null,
+    "stats": {
+      "note": "Linked video is Krak's Black Hubba history compilation covering the spot's trick list"
+    },
+    "summary": "The black marble hubba next to the Courthouse Drop is NYC's proving-ground ledge; Pappalardo's back tail from a 2002 Lakai ad is one of its landmark tricks.",
+    "sources": [
+      "https://skatekrak.com/mag/blubba",
+      "https://www.jenkemmag.com/home/2018/07/09/the-evolution-of-the-nyc-black-hubba/",
+      "https://findskatespots.com/spots/manhattan-ny/centre-street-black-hubba"
+    ]
+  },
+  {
+    "skater": "Mark Suciu",
+    "trick": "Series of tricks on the Black Hubba in the NYC section of \"Verso\"",
+    "spot": "Black Hubba (\"Blubba\"), Centre Street",
+    "city": "New York City, New York",
+    "country": "USA",
+    "lat": 40.714535,
+    "lng": -74.002815,
+    "precision": "spot",
+    "year": 2019,
+    "video": "Mark Suciu's \"Verso\" part (Thrasher, 2019)",
+    "youtubeId": "SlcxbZbHTj8",
+    "youtubeTitle": "Mark Suciu's \"Verso\" Part",
+    "startSeconds": 542,
+    "stats": {
+      "timestamps": "FindSkateSpots logs Black Hubba appearances at 5:54, 9:02, 9:11 and 9:22",
+      "note": "The part's closing section is structured as a 'chiasmus' (mirrored trick sequence)"
+    },
+    "summary": "Suciu's obsessive, literary Verso part returned again and again to the Blubba, stacking never-been-done tricks on NYC's most scrutinised hubba.",
+    "sources": [
+      "https://findskatespots.com/videos/youtube/SlcxbZbHTj8",
+      "https://skatekrak.com/mag/blubba",
+      "https://warmupzone.wordpress.com/2019/11/02/mark-suciu-verso-and-the-chiasmus-vs-the-blubba/",
+      "https://www.jenkemmag.com/home/2019/10/03/serious-review-mark-sucius-serious-verso/"
+    ]
+  },
+  {
+    "skater": "Jamie Thomas",
+    "trick": "Both Banks rails in one line: grind down the 9-stair rail, then 50-50 the big 13-stair rail",
+    "spot": "Brooklyn Banks",
+    "city": "New York City, New York",
+    "country": "USA",
+    "lat": 40.71045,
+    "lng": -74.00197,
+    "precision": "spot",
+    "year": 1996,
+    "video": "Toy Machine \"Welcome to Hell\" (1996)",
+    "youtubeId": "pV9mZYyv8As",
+    "youtubeTitle": "Classics: Jamie Thomas, Welcome to Hell",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "9-stair rail then 13-stair rail",
+      "firsts": "First to skate both Banks rails in one line (per the Session: Skate Sim historical-challenges guide; secondary source)",
+      "spotStatus": "Banks were fenced off for bridge work from 2010; partially reopened in 2023"
+    },
+    "summary": "In his breakout Welcome to Hell part, Thomas linked the Banks' 9-stair rail and the big 13-stair rail in a single line - still the most famous line ever done there.",
+    "sources": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=1867459194",
+      "https://www.thrashermagazine.com/articles/brooklyn-banks-a-retrospective/",
+      "https://findskatespots.com/spots/new-york-ny/brooklyn-banks",
+      "https://www.jenkemmag.com/home/2023/05/05/what-we-know-about-the-official-brooklyn-banks-comeback/"
+    ]
+  },
+  {
+    "skater": "Christian Hosoi",
+    "trick": "Ollie over the Banks wall (high side)",
+    "spot": "Brooklyn Banks",
+    "city": "New York City, New York",
+    "country": "USA",
+    "lat": 40.71045,
+    "lng": -74.00197,
+    "precision": "spot",
+    "year": 1986,
+    "video": null,
+    "youtubeId": "CcunKqIih6E",
+    "youtubeTitle": "This Old Ledge: Brooklyn Banks",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "First person to ollie over the Brooklyn Banks wall (Fall 1986, aged 18)",
+      "note": "Documented in photos by Stana Weisburd rather than a video part; linked video is Thrasher's history of the Banks"
+    },
+    "summary": "In front of a crowd of stunned locals, an 18-year-old Hosoi straight-ollied the Banks wall - a moment credited with killing the street-plant era and ushering in ollie-based street skating.",
+    "sources": [
+      "https://www.jenkemmag.com/home/2022/11/04/the-day-hosoi-ollied-the-brooklyn-banks-in-photos/",
+      "https://www.redbull.com/us-en/history-of-new-york-city-skateboarding",
+      "https://www.youtube.com/watch?v=CcunKqIih6E"
+    ]
+  },
+  {
+    "skater": "Harold Hunter",
+    "trick": "Downtown NYC lines (full part)",
+    "spot": "Chase Manhattan Plaza, Wall Street area (one of the part's spots)",
+    "city": "New York City, New York",
+    "country": "USA",
+    "lat": 40.707333,
+    "lng": -74.00933,
+    "precision": "spot",
+    "year": 1997,
+    "video": "Zoo York \"Mixtape\" (1997)",
+    "youtubeId": "_UNonK9ztcs",
+    "youtubeTitle": "Classics: Harold Hunter \"Zoo York Mixtape\"",
+    "startSeconds": null,
+    "stats": {
+      "note": "FindSkateSpots identifies Chase (Wall Street) and the State Building ledges on Centre Street in this part; pin is Chase"
+    },
+    "summary": "The late Harold Hunter - star of 'Kids' and the heart of 90s New York skating - at full speed through downtown Manhattan in Zoo York's Mixtape.",
+    "sources": [
+      "https://findskatespots.com/videos/youtube/_UNonK9ztcs",
+      "https://findskatespots.com/spots/new-york-ny/wall-street-chase",
+      "https://www.youtube.com/watch?v=_UNonK9ztcs"
+    ]
+  },
+  {
+    "skater": "Jake Johnson",
+    "trick": "Switch wallride high above a stair set (part ender)",
+    "spot": "9 West 57th Street - 8 stair / wallride",
+    "city": "New York City, New York",
+    "country": "USA",
+    "lat": 40.764248,
+    "lng": -73.975204,
+    "precision": "spot",
+    "year": 2009,
+    "video": "Alien Workshop \"Mind Field\" (2009)",
+    "youtubeId": "3gx4PKwSfNY",
+    "youtubeTitle": "Jake Johnson - Mind Field",
+    "startSeconds": 233,
+    "stats": {
+      "photo": "Shot by Jonathan Mehring"
+    },
+    "summary": "Johnson closed his groundbreaking Mind Field part with a switch wallride high above the stairs at 9 West 57th Street.",
+    "sources": [
+      "https://findskatespots.com/videos/youtube/3gx4PKwSfNY",
+      "https://findskatespots.com/spots/new-york-ny/west-57th-street-8-stair--wallride",
+      "https://blog.slamcity.com/lightbox-jake-johnson-by-jonathan-mehring/",
+      "https://skatenewswire.com/light-box-jonathan-mehring-jake-johnson/"
+    ]
+  },
+  {
+    "skater": "PJ Ladd",
+    "trick": "Ledge lines (full part)",
+    "spot": "Navy Yard Ledges, Charlestown",
+    "city": "Boston, Massachusetts",
+    "country": "USA",
+    "lat": 42.37414,
+    "lng": -71.0532,
+    "precision": "spot",
+    "year": 2002,
+    "video": "Coliseum \"PJ Ladd's Wonderful, Horrible, Life\" (2002)",
+    "youtubeId": "6XzLF39Q55I",
+    "youtubeTitle": "Classics: PJ Ladd's \"Wonderful, Horrible, Life\" part",
+    "startSeconds": 132,
+    "stats": {
+      "timestamps": "FindSkateSpots logs the Navy Yard ledges at 2:12, 2:34 and 4:31"
+    },
+    "summary": "A Boston shop video that stopped skateboarding in its tracks: PJ Ladd's impossibly technical ledge lines redefined what was possible on flat and ledges.",
+    "sources": [
+      "https://findskatespots.com/videos/youtube/6XzLF39Q55I",
+      "https://findskatespots.com/spots/boston-ma/8th-street-navy-yard-ledges",
+      "https://www.youtube.com/watch?v=6XzLF39Q55I"
+    ]
+  },
+  {
+    "skater": "Bobby Worrest",
+    "trick": "\"Hometown Turf Killer\" - an entire part (55 tricks) filmed at one plaza",
+    "spot": "Pulaski Park (Freedom Plaza)",
+    "city": "Washington, DC",
+    "country": "USA",
+    "lat": 38.89582,
+    "lng": -77.030685,
+    "precision": "spot",
+    "year": null,
+    "video": "Krooked \"Hometown Turf Killer\"",
+    "youtubeId": "8N9mjjDY4_0",
+    "youtubeTitle": "Bobby Worrest: Hometown Turf Killer",
+    "startSeconds": 0,
+    "stats": {
+      "trickCount": "55 tricks in nearly four minutes, all at Freedom Plaza",
+      "spotHistory": "Pulaski is also the home of Pepe Martinez, Chris Hall, Andy Stone, Sean Sheffey and Eastern Exposure 2"
+    },
+    "summary": "DC's marble plaza half a mile from the White House, and the local who owns it: Worrest filmed a whole Krooked part without leaving Pulaski.",
+    "sources": [
+      "https://www.vice.com/en/article/bobby-worrest-on-the-trials-and-tribulations-of-growing-up-at-a-skate-plaza/",
+      "https://warmupzone.wordpress.com/tag/bobby-worrest/",
+      "https://findskatespots.com/spots/washington-dc/1325-pennsylvania-avenue-northwest-freedom-plaza"
+    ]
+  },
+  {
+    "skater": "Aaron \"Jaws\" Homoki",
+    "trick": "Ollie down the riverwalk gap / 20 stair (\"Jaws Gap\")",
+    "spot": "Louisville Riverwalk \"Jaws Gap\" 20 stair",
+    "city": "Louisville, Kentucky",
+    "country": "USA",
+    "lat": 38.2604,
+    "lng": -85.748375,
+    "precision": "spot",
+    "year": 2011,
+    "video": "Birdhouse web clip \"Aaron 'JAWS' Homoki - OLLIE\" (2011)",
+    "youtubeId": "TKaxQNVfwzI",
+    "youtubeTitle": "Aaron \"JAWS\" Homoki - OLLIE",
+    "startSeconds": 0,
+    "stats": {
+      "stairCount": "20 (per FindSkateSpots spot name)",
+      "cover": "Thrasher, July 2011 (per Birdhouse's video description)"
+    },
+    "summary": "A colossal ollie on the Louisville waterfront that made the cover of Thrasher and named the spot after him.",
+    "sources": [
+      "https://findskatespots.com/spots/louisville-ky/louisville-riverwalk-jaws-gap20-stair",
+      "https://www.youtube.com/watch?v=TKaxQNVfwzI",
+      "https://www.surfertoday.com/skateboarding/aaron-homoki-phoenix-apartment-ollie"
+    ]
+  },
+  {
+    "skater": "Aaron \"Jaws\" Homoki",
+    "trick": "Ollie over a 21-stair apartment-building stairway",
+    "spot": "Phoenix apartment building 21 stair (exact address not published)",
+    "city": "Phoenix, Arizona",
+    "country": "USA",
+    "lat": 33.4484367,
+    "lng": -112.074141,
+    "precision": "city",
+    "year": 2015,
+    "video": "The Berrics \"PUSH\" - Aaron Homoki full part (2015)",
+    "youtubeId": "2cx7Is2eodU",
+    "youtubeTitle": "Aaron Homoki | PUSH: Full Part",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 21,
+      "dropHeight": "12 ft 8 in (about 3.86 m)",
+      "note": "Jaws put his personal limit at about 15 feet"
+    },
+    "summary": "In his hometown, Jaws ollied up, over and down a 21-stair apartment stairway measuring 12'8\" for his Berrics PUSH part - one of the biggest street ollies ever.",
+    "sources": [
+      "https://www.surfertoday.com/skateboarding/aaron-homoki-phoenix-apartment-ollie",
+      "https://www.youtube.com/watch?v=2cx7Is2eodU"
+    ]
+  },
+  {
+    "skater": "Bob Burnquist",
+    "style": "park",
+    "trick": "Mega-ramp drop to 50-50 on a rail over the canyon rim, into a BASE jump",
+    "spot": "Hell Hole Bend, Grand Canyon region",
+    "city": "Coconino County, Arizona",
+    "country": "USA",
+    "lat": 35.9608241,
+    "lng": -111.657094,
+    "precision": "city",
+    "year": 2006,
+    "video": "Discovery Channel \"Stunt Junkies\" (2006)",
+    "youtubeId": "wXkQhyIjRK0",
+    "youtubeTitle": "BOB BURNQUIST GRAND CANYON SKATEBOARD BASEJUMP",
+    "startSeconds": null,
+    "stats": {
+      "date": "March 24, 2006",
+      "rampHeight": "40-foot mega ramp onto a 40-foot rail",
+      "dropHeight": "1,600 ft BASE jump to the canyon floor",
+      "attempts": "First attempt missed the rail and he fell out of control; landed it on the second attempt",
+      "firsts": "First person to grind a rail off a mega ramp into a BASE jump at the Grand Canyon",
+      "locationNote": "Pin is the named geographic feature 'Hellhole Bend' from OpenStreetMap; the temporary ramp site itself is not precisely documented"
+    },
+    "summary": "Burnquist rolled down a 40-foot ramp, 50-50'd a rail hanging over the edge and parachuted 1,600 feet into the canyon - after nearly dying on the first try.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Burnquist",
+      "https://en.wikipedia.org/wiki/Stunt_Junkies",
+      "https://www.neatorama.com/2006/11/09/skateboarding-off-the-grand-canyon/",
+      "https://www.youtube.com/watch?v=wXkQhyIjRK0"
+    ]
+  },
+  {
+    "skater": "Danny Way",
+    "style": "park",
+    "trick": "Bomb drop off the giant Fender Stratocaster sign into a ramp",
+    "spot": "Hard Rock Hotel & Casino guitar sign (now Virgin Hotels Las Vegas)",
+    "city": "Las Vegas, Nevada",
+    "country": "USA",
+    "lat": 36.1095571,
+    "lng": -115.1535606,
+    "precision": "building/campus",
+    "year": 2006,
+    "video": "Hard Rock bomb drop (April 6, 2006)",
+    "youtubeId": "zQtoa5mkZIk",
+    "youtubeTitle": "Danny Way | Bomb Drop | Hard Rock Las Vegas",
+    "startSeconds": null,
+    "stats": {
+      "date": "April 6, 2006",
+      "dropHeight": "28 ft (8.5 m) free-fall into the ramp - a bomb-drop world record at the time",
+      "signHeight": "About 80 ft (24.3 m) from the top of the guitar to the ground",
+      "spotStatus": "The Hard Rock Hotel has since been rebranded as Virgin Hotels Las Vegas (4455 Paradise Rd); pin is the hotel property"
+    },
+    "summary": "Nine months after jumping the Great Wall, Danny Way stepped off the top of the Hard Rock's giant guitar and free-fell 28 feet into a ramp for a world record.",
+    "sources": [
+      "https://www.surfertoday.com/skateboarding/danny-way-the-record-breaking-skateboarding-experimentalist",
+      "https://en.wikipedia.org/wiki/Danny_Way",
+      "https://juicemagazine.com/home/april-2006-news/",
+      "https://www.youtube.com/watch?v=zQtoa5mkZIk"
+    ]
+  },
+  {
+    "skater": "Mitchie Brusco",
+    "series": "contest",
+    "style": "park",
+    "trick": "First-ever 1260 (Big Air)",
+    "spot": "U.S. Bank Stadium - X Games Minneapolis 2019 Big Air ramp",
+    "city": "Minneapolis, Minnesota",
+    "country": "USA",
+    "lat": 44.9751097,
+    "lng": -93.2593387,
+    "precision": "building/campus",
+    "year": 2019,
+    "video": "X Games Minneapolis 2019 - Skateboard Big Air",
+    "youtubeId": "ypccK00QOqg",
+    "youtubeTitle": "MITCHIE BRUSCO: First-ever Big Air 1260 | World of X Games",
+    "startSeconds": null,
+    "stats": {
+      "date": "August 3, 2019",
+      "firsts": "First 1260 on a skateboard (Guinness World Records)",
+      "awards": "Scored 89.66 for silver - Elliot Sloan won with 91.66",
+      "spotStatus": "Temporary contest ramp inside the stadium"
+    },
+    "summary": "Three and a half rotations over the mega-ramp gap: Brusco landed skateboarding's first 1260 - a full spin more than Hawk's 900 - and still only took silver.",
+    "sources": [
+      "https://www.guinnessworldrecords.com/world-records/585757-first-1260-on-a-skateboard",
+      "https://hypebeast.com/2019/8/mitchie-brusco-skateboarder-world-first-1260-at-x-games-news",
+      "https://en.wikipedia.org/wiki/Mitchie_Brusco",
+      "https://www.youtube.com/watch?v=ypccK00QOqg"
+    ]
+  },
+  {
+    "skater": "Brandon Westgate",
+    "trick": "Ollie up the Woodlands road gap",
+    "spot": "The Woodlands Gap",
+    "city": "The Woodlands, Texas",
+    "country": "USA",
+    "lat": 30.1734194,
+    "lng": -95.504686,
+    "precision": "city",
+    "year": 2010,
+    "video": "Emerica \"Stay Gold\" (2010)",
+    "youtubeId": "e_fKdC9l15g",
+    "youtubeTitle": "Emerica \"Stay Gold\" (2010)",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "Described as a neck-high road gap, ollied uphill at full speed",
+      "note": "Linked video is the full-length Stay Gold; Westgate's part timestamp not confirmed"
+    },
+    "summary": "Westgate's pop in one clip: flying UP a neck-high road gap at rocket speed in his Stay Gold part, regularly listed among the best road-gap tricks ever.",
+    "sources": [
+      "https://sidewalkmag.com/features/best-ever-road-gap-tricks.html/6",
+      "https://www.thrashermagazine.com/articles/videos/classics-brandon-westgate-stay-gold/",
+      "https://www.youtube.com/watch?v=e_fKdC9l15g"
+    ]
+  },
+  {
+    "skater": "Danny Way",
+    "style": "park",
+    "trick": "Bowl-to-snake-run gap (1991), then a 360 over the same gap (2003)",
+    "spot": "Kona Skatepark",
+    "city": "Jacksonville, Florida",
+    "country": "USA",
+    "lat": 30.323,
+    "lng": -81.565,
+    "precision": "spot",
+    "year": 2003,
+    "video": null,
+    "youtubeId": "PCDZnH8NRYo",
+    "youtubeTitle": "Kona - America's Oldest Skatepark on SPOTS - Part 1 of 2",
+    "startSeconds": null,
+    "stats": {
+      "spotHistory": "Opened June 4, 1977; oldest surviving commercial skatepark in the world; hosted the U.S. Open of Skateboarding in 1977 and 1978",
+      "note": "Linked video is RIDE Channel's feature on the park, not Way's gap footage"
+    },
+    "summary": "Kona is the oldest surviving commercial skatepark on earth; Danny Way jumped the huge gap between its bowl and snake run in 1991 and came back to 360 it in 2003.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kona_Skatepark",
+      "https://www.youtube.com/watch?v=PCDZnH8NRYo"
+    ]
+  },
+  {
+    "skater": "Burnside locals (Thrasher \"Burnside 4 Life\")",
+    "style": "park",
+    "trick": "The original DIY: 30 years of transition skating under the bridge",
+    "spot": "Burnside Skatepark",
+    "city": "Portland, Oregon",
+    "country": "USA",
+    "lat": 45.5229793,
+    "lng": -122.6634377,
+    "precision": "spot",
+    "year": 1990,
+    "video": "Thrasher \"Burnside 4 Life: 30 Years Under The Bridge\" (2020)",
+    "youtubeId": "rfXROiJUwzE",
+    "youtubeTitle": "Burnside 4 Life: 30 Years Under The Bridge Video",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "First large-scale DIY skatepark - begun illegally in summer 1990 by pouring concrete against a wall under the Burnside Bridge",
+      "popCulture": "Featured as a level in Tony Hawk's Pro Skater",
+      "note": "Spot landmark rather than a single famous trick"
+    },
+    "summary": "Built without permission under the Burnside Bridge in 1990 and later sanctioned by the city, Burnside launched the worldwide DIY skatepark movement.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Burnside_Skatepark",
+      "https://www.redbull.com/us-en/burnside-skatepark",
+      "https://www.youtube.com/watch?v=rfXROiJUwzE"
+    ]
+  },
+  {
+    "skater": "Various (Thrasher \"Welcome to Hastings\")",
+    "style": "park",
+    "trick": "Bowl session",
+    "spot": "Hastings Skatepark (Hastings Bowl)",
+    "city": "Vancouver, British Columbia",
+    "country": "Canada",
+    "lat": 49.2832833,
+    "lng": -123.0432496,
+    "precision": "spot",
+    "year": null,
+    "video": "Thrasher \"Welcome To Hastings\"",
+    "youtubeId": "JRYuz43XRGk",
+    "youtubeTitle": "Welcome To Hastings",
+    "startSeconds": null,
+    "stats": {
+      "spotInfo": "Three connected bowls from 5 to 11 feet deep; has hosted the Vans Park Series",
+      "note": "Spot landmark rather than a single famous trick"
+    },
+    "summary": "Vancouver's legendary concrete bowl complex at the PNE grounds - the heart of Canadian transition skating.",
+    "sources": [
+      "https://vancouver.ca/parks-recreation-culture/hastings-skateboard-park.aspx",
+      "https://www.youtube.com/watch?v=JRYuz43XRGk",
+      "https://www.openstreetmap.org/ (Overpass: sport=skateboard, name='Hastings Skateboard Park')"
+    ]
+  },
+  {
+    "skater": "Barry Walsh",
+    "style": "park",
+    "trick": "Full-pipe carving in the Big O",
+    "spot": "The Big O (Olympic Stadium pedestrian tunnel, beside Stade Saputo)",
+    "city": "Montreal, Quebec",
+    "country": "Canada",
+    "lat": 45.5623913,
+    "lng": -73.5511451,
+    "precision": "building/campus",
+    "year": null,
+    "video": "RIDE Channel \"SKATE Montreal with Barry Walsh\"",
+    "youtubeId": "VBcAksyUJNo",
+    "youtubeTitle": "SKATE Montreal with Barry Walsh",
+    "startSeconds": null,
+    "stats": {
+      "spotInfo": "50-foot-long concrete pipe built as a pedestrian tunnel for the 1976 Olympics; skated since the late 1970s",
+      "moved": "The 175-ton structure was relocated in 2011 to make way for the Saputo Stadium expansion after a campaign led by Barry Walsh and Marc Tison; reopened 2013",
+      "locationNote": "Pin is an OpenStreetMap skate feature beside Stade Saputo; treat as campus-level"
+    },
+    "summary": "A leftover Olympic tunnel that became Canada's most famous skate spot - so loved that the city's soccer club paid to move all 175 tons of it rather than demolish it.",
+    "sources": [
+      "https://www.espn.com/action/skateboarding/story/_/id/7298058/montreal-big-o-skate-spot-moved-preserved-skaters",
+      "https://www.vice.com/en/article/montreals-big-o-is-proof-that-skaters-can-turn-trash-into-gold/",
+      "https://www.cbc.ca/news/canada/montreal/the-big-o-skateboard-pipe-reopens-1.1325289",
+      "https://www.youtube.com/watch?v=VBcAksyUJNo"
+    ]
+  },
+  {
+    "skater": "Tony Hawk",
+    "style": "park",
+    "trick": "First successful full loop",
+    "spot": "Plaza Monumental de Tijuana (\"Bullring by the Sea\")",
+    "city": "Tijuana, Baja California",
+    "country": "Mexico",
+    "lat": 32.5335292,
+    "lng": -117.1215805,
+    "precision": "building/campus",
+    "year": 1998,
+    "video": "Birdhouse \"The End\" (1998)",
+    "youtubeId": "kPjzMDPJALE",
+    "youtubeTitle": "Birdhouse \"The End\" (1998)",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "First skater to complete a full loop",
+      "rampSize": "14 ft high (12 ft transitions + 2 ft vert), 48 ft wide, with a loop attached to the end; designed by Tim Payne",
+      "cost": "Bullring rented for $1,500 for two weeks; ramp cost about $40,000",
+      "popCulture": "Inspired the Bullring level in Tony Hawk's Pro Skater 2; footage appears in the THPS1 intro",
+      "spotStatus": "Temporary ramp; the bullring still stands",
+      "note": "Linked video is the full-length The End; timestamp of the bullring section not confirmed"
+    },
+    "summary": "For Birdhouse's The End, Hawk rented a Tijuana bullring, built a giant ramp with a loop on the end, and became the first person to skate a full loop.",
+    "sources": [
+      "https://www.sandiegored.com/en/news/looking-back-at-tony-hawks-skate-ramp-inside-tijuanas-plaza-monumental/",
+      "https://www.skateboarding.com/archives/bird-in-the-bullring-birdhouse-creates-skateboarding-surrealism-in-a-mexican-bullring",
+      "https://tonyhawkgames.fandom.com/wiki/Bullring",
+      "https://www.youtube.com/watch?v=kPjzMDPJALE"
+    ]
+  },
+  {
+    "skater": "Rayssa Leal",
+    "trick": "Heelflip down a stair set in a fairy costume",
+    "spot": "Stair set in Imperatriz (exact location not published)",
+    "city": "Imperatriz, Maranhão",
+    "country": "Brazil",
+    "lat": -5.5269279,
+    "lng": -47.478115,
+    "precision": "city",
+    "year": 2015,
+    "video": "Viral clip filmed by her mother (2015)",
+    "youtubeId": "J_i6Tt0HLdQ",
+    "youtubeTitle": "Heel Flip - Rayssa Leal",
+    "startSeconds": 0,
+    "stats": {
+      "age": "7 years old",
+      "viral": "Shared by Tony Hawk as a 'fairytale heelflip'; earned her the nickname 'Fadinha' (Skate Fairy)",
+      "later": "Olympic street silver medallist at Tokyo 2020, aged 13"
+    },
+    "summary": "A seven-year-old in a blue fairy dress heelflips a stair set in northern Brazil, Tony Hawk shares it - and six years later she is an Olympic medallist.",
+    "sources": [
+      "https://www.olympics.com/en/news/rayssa-leal-interview-nickname-fadinha-skate-fairy",
+      "https://www.huffpost.com/entry/fairytale-skateboarder-rayssa-leal-silver-medal-tokyo-olympics_n_60fef610e4b06e84e31fe4f6",
+      "https://en.wikipedia.org/wiki/Rayssa_Leal",
+      "https://www.youtube.com/watch?v=J_i6Tt0HLdQ"
+    ]
+  },
+  {
+    "skater": "Sandro Dias",
+    "style": "park",
+    "trick": "Drop-in down the side of a 22-storey building (Red Bull Building Drop)",
+    "spot": "Centro Administrativo Fernando Ferrari (CAFF)",
+    "city": "Porto Alegre, Rio Grande do Sul",
+    "country": "Brazil",
+    "lat": -30.0403255,
+    "lng": -51.2311931,
+    "precision": "building/campus",
+    "year": 2025,
+    "video": "Red Bull Building Drop (September 25, 2025)",
+    "youtubeId": "JqflfjrcKjo",
+    "youtubeTitle": "Biggest Skate Ramp EVER (world record)",
+    "startSeconds": null,
+    "stats": {
+      "dropHeight": "60.33 m (197 ft 10 in) drop on an 88.91 m temporary quarter pipe",
+      "speed": "103.8 km/h (62.1 mph); 3.9 G",
+      "awards": "Two Guinness World Records: tallest drop into a temporary quarter pipe and fastest speed on one",
+      "age": "50 years old",
+      "spotStatus": "Temporary ramp on a permanent government building"
+    },
+    "summary": "Six-time vert world champion 'Mineirinho' rode the curved facade of a 22-storey government building as the tallest skate ramp ever built, hitting over 100 km/h.",
+    "sources": [
+      "https://www.guinnessworldrecords.com/news/2025/10/skateboarder-sandro-dias-drops-off-22-storey-building-in-exhilarating-red-bull-stunt",
+      "https://www.redbull.com/int-en/sandro-dias-ultimate-skate-ramp",
+      "https://www.youtube.com/watch?v=JqflfjrcKjo"
+    ]
+  },
+  {
+    "skater": "Gui Khury",
+    "style": "park",
+    "trick": "First 1080 on a vert ramp",
+    "spot": "Family backyard vert ramp (private; exact location not published)",
+    "city": "Curitiba, Paraná",
+    "country": "Brazil",
+    "lat": -25.4295963,
+    "lng": -49.2712724,
+    "precision": "city",
+    "year": 2020,
+    "video": "World of X Games feature",
+    "youtubeId": "iVMyG6AO-XQ",
+    "youtubeTitle": "GUI KHURY: World's First Skateboarding 1080 on Vert!",
+    "startSeconds": null,
+    "stats": {
+      "date": "May 8, 2020",
+      "age": "11 years old",
+      "firsts": "First 1080 on a standard vertical ramp (Guinness World Records) - earlier 1080s were on mega ramps",
+      "context": "Practised during COVID-19 lockdown on a ramp built in his grandmother's garden"
+    },
+    "summary": "Locked down with a vert ramp in his grandmother's garden, an 11-year-old spun three full rotations - the first 1080 ever landed on a regular vert ramp.",
+    "sources": [
+      "https://www.guinnessworldrecords.com/world-records/617182-first-skateboard-1080-on-a-vertical-ramp",
+      "https://www.guinnessworldrecords.com/news/2020/6/11-year-old-brazilian-skateboarder-lands-the-first-ever-1080-on-a-vertical-ramp-621284",
+      "https://en.wikipedia.org/wiki/Gui_Khury",
+      "https://www.youtube.com/watch?v=iVMyG6AO-XQ"
+    ]
+  },
+  {
+    "skater": "Various São Paulo locals (Pocket Skate Mag documentary)",
+    "trick": "Ledge skating on the pink-granite benches",
+    "spot": "Vale do Anhangabaú",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "lat": -23.5455193,
+    "lng": -46.6367375,
+    "precision": "spot",
+    "year": null,
+    "video": "Pocket Skate Mag \"Vale do Anhangabaú - Past & Future\"",
+    "youtubeId": "q1k-jTtVNN4",
+    "youtubeTitle": "Brazil's Most Iconic Spot: Vale do Anhangabaú - Past & Future",
+    "startSeconds": null,
+    "stats": {
+      "spotHistory": "Skated since the 1990s; produced skaters including Bob Burnquist; ranked alongside Love Park, Pulaski and MACBA among the great plazas",
+      "spotStatus": "Original plaza destroyed June 2019; redeveloped area with a granite skate section delivered 2021",
+      "note": "Spot landmark rather than a single famous trick"
+    },
+    "summary": "Brazil's answer to Love Park: the downtown valley whose granite benches raised generations of São Paulo street skaters before its 2019 demolition and rebuild.",
+    "sources": [
+      "https://pocketskatemag.com/vale-do-anhangabau-past-future/",
+      "https://revistaesquinas.casperlibero.edu.br/esportes/roosevelt-e-anhangabau-os-segredos-dos-principais-picos-de-skate-street-em-sp/",
+      "https://kingpinmag.com/features/20-legendary-skate-plazas-time.html/14",
+      "https://www.youtube.com/watch?v=q1k-jTtVNN4"
+    ]
+  },
+  {
+    "skater": "Pedro Barros",
+    "style": "park",
+    "trick": "RTMF backyard bowl session",
+    "spot": "RTMF Bowl (private backyard bowl; exact location not published)",
+    "city": "Florianópolis, Santa Catarina",
+    "country": "Brazil",
+    "lat": -27.5973002,
+    "lng": -48.5496098,
+    "precision": "city",
+    "year": null,
+    "video": "RIDE Channel \"Pedro Barros - RTMF Bowl Session in Florianopolis, Brazil\"",
+    "youtubeId": "9nm0BXQ8G0Y",
+    "youtubeTitle": "Pedro Barros - RTMF Bowl Session in Florianopolis, Brazil",
+    "startSeconds": 0,
+    "stats": {
+      "note": "City-level pin only; the bowl is on private property"
+    },
+    "summary": "Pedro Barros ripping his home RTMF bowl in Florianópolis for RIDE Channel.",
+    "sources": [
+      "https://www.youtube.com/watch?v=9nm0BXQ8G0Y"
+    ]
+  }
+]

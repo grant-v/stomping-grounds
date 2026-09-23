@@ -1,0 +1,564 @@
+[
+  {
+    "skater": "Aaron \"Jaws\" Homoki",
+    "trick": "Ollie (melon grab) down the Lyon 25",
+    "spot": "Lyon 25 (Centre de Congrès stairs, Cité Internationale)",
+    "city": "Lyon", "country": "France",
+    "lat": 45.7847, "lng": 4.8544, "precision": "spot",
+    "year": 2015,
+    "video": "Thrasher: Jaws vs the Lyon 25",
+    "youtubeId": "4GFIXrybfKg",
+    "youtubeTitle": "Jaws vs the Lyon 25",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 25,
+      "gapSize": "6.7 m (22 ft) long",
+      "dropHeight": "4.5 m (15 ft)",
+      "attempts": "Landed after five days of attempts on his return trip in 2015",
+      "injuries": "Tore his MCL on his first attempt in 2014; hospitalised and off the board for about six months",
+      "firsts": "First (and so far only) person to ride away from the Lyon 25; Ali Boulala was present for the make"
+    },
+    "summary": "The biggest stair set ever landed on a skateboard. Jaws grew up on Flip's Sorry, where Ali Boulala famously failed to ollie it, and came back a year after blowing his knee to roll away.",
+    "sources": ["https://en.wikipedia.org/wiki/Lyon_25", "https://www.vice.com/en/article/jaws-vs-the-lyon-25/", "https://www.surfertoday.com/skateboarding/the-day-aaron-homoki-cleared-the-lyon-25-stair-set"]
+  },
+  {
+    "skater": "Ali Boulala",
+    "trick": "Ollie attempts down the Lyon 25 (not landed)",
+    "spot": "Lyon 25 (Centre de Congrès stairs, Cité Internationale)",
+    "city": "Lyon", "country": "France",
+    "lat": 45.7847, "lng": 4.8544, "precision": "spot",
+    "year": 2002,
+    "video": "Flip - Sorry (2002)",
+    "youtubeId": "8bo6Ckw2pqM",
+    "youtubeTitle": "Classics: Ali Boulala \"Sorry\"",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 25,
+      "gapSize": "6.7 m (22 ft) long",
+      "dropHeight": "4.5 m (15 ft)",
+      "attempts": "Multiple attempts, none ridden away; the slams close his Sorry part"
+    },
+    "summary": "The attempt, not a make, that made the stairs famous: Boulala ends his Sorry part crashing down the 25, creating one of skateboarding's holy grails for the next 13 years.",
+    "sources": ["https://en.wikipedia.org/wiki/Lyon_25", "https://www.vice.com/en/article/jaws-vs-the-lyon-25/"]
+  },
+  {
+    "skater": "Aurélien Giraud",
+    "trick": "Attempts down the Lyon 25 (not landed)",
+    "spot": "Lyon 25 (Centre de Congrès stairs, Cité Internationale)",
+    "city": "Lyon", "country": "France",
+    "lat": 45.7847, "lng": 4.8544, "precision": "spot",
+    "year": 2020,
+    "video": "Aurel Giraud - j'ai essayé les 25 marches",
+    "youtubeId": "JNIkjUbH74g",
+    "youtubeTitle": "j'ai essayé les 25 marches",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 25,
+      "attempts": "Several attempts; broke his board and did not ride away"
+    },
+    "summary": "Five years after Jaws, Lyon local (and later Olympian) Aurélien Giraud took his own shot at his hometown's monster set, released just before the 2020 lockdown.",
+    "sources": ["https://www.theriderpost.com/disciplines/urban/skate/aurelien-giraud-sattaque-aux-25-marches-de-lyon/", "https://www.lyonmag.com/article/106499/lyon-en-skate-il-tente-un-fameux-spot-de-la-cite-internationnale"]
+  },
+  {
+    "skater": "Danny Way",
+    "style": "park",
+    "trick": "Mega ramp jump over the Great Wall of China",
+    "spot": "Great Wall at Juyongguan (Ju Yong Guan gate)",
+    "city": "Changping District, Beijing", "country": "China",
+    "lat": 40.2882, "lng": 116.0686, "precision": "building/campus",
+    "year": 2005,
+    "video": "Thrasher: Danny Way vs The Great Wall 10 Years Later",
+    "youtubeId": "7KUkKTznxc4",
+    "youtubeTitle": "Danny Way vs The Great Wall 10 Years Later",
+    "startSeconds": null,
+    "stats": {
+      "gapSize": "18.6 m gap in the wall (reported as roughly 70 ft of air)",
+      "dropHeight": "Roll-in from a ramp about 65 ft high",
+      "attempts": "Cleared it on 9 July 2005, then jumped it three more times the same day, adding 360 spins",
+      "firsts": "First person to clear the Great Wall of China without motorised aid",
+      "spotStatus": "Temporary mega ramp, removed after the event"
+    },
+    "summary": "One of the most widely broadcast skateboarding stunts ever: Way's purpose-built mega ramp sent him across the Great Wall at Juyongguan.",
+    "sources": ["https://www.abc.net.au/news/2005-07-11/skateboarder-takes-great-leap-over-great-wall/2055764", "https://www.thrashermagazine.com/articles/danny-way-vs-the-great-wall-10-years-later/", "https://en.wikipedia.org/wiki/Juyong_Pass"]
+  },
+  {
+    "skater": "Mark Gonzales",
+    "trick": "\"Backworlds/Forwords\" museum skate performance",
+    "spot": "Städtisches Museum Abteiberg",
+    "city": "Mönchengladbach", "country": "Germany",
+    "lat": 51.1929011, "lng": 6.4333571, "precision": "spot",
+    "year": 1998,
+    "video": "Cheryl Dunn - Backworlds for Words",
+    "youtubeId": "79RbKYoQ9ZY",
+    "youtubeTitle": "Marc Gonzales at a Museum in Germany",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "Described as one of the first times the fine-art world recognised skateboarding as a medium",
+      "notes": "Performance with Johannes Wohnseifer on 13 December 1998; Cheryl Dunn's film was later used as the video for Coconut Records' 'West Coast'"
+    },
+    "summary": "The Gonz skating through the galleries of a German art museum - among the most celebrated and re-circulated pieces of skate footage ever shot.",
+    "sources": ["https://museum-abteiberg.de/program/event-retrospective/1998-12-marc-gonzales/?lang=en", "https://skatenewswire.com/mark-gonzales-milk-studios-performance/"]
+  },
+  {
+    "skater": "Chima Ferguson",
+    "trick": "Ollie down the Martin Place double set",
+    "spot": "Martin Place double set",
+    "city": "Sydney", "country": "Australia",
+    "lat": -33.8675066, "lng": 151.2077396, "precision": "street",
+    "year": 2021,
+    "video": "Vans - Nice to See You",
+    "youtubeId": "J-tCWu7TY3c",
+    "youtubeTitle": "Chima Ferguson's \"Nice to See You\" Vans Part",
+    "startSeconds": null,
+    "stats": {},
+    "summary": "Sydney's favourite son ollies the massive double set in the middle of the city's CBD - the standout hammer of his Nice to See You part.",
+    "sources": ["https://chromeballincident.blogspot.com/2024/07/chrome-ball-interview-174-chima.html", "https://www.facebook.com/streetleague/posts/-massive-double-set-ollie-by-chima-ferguson-trick-of-the-year-clip-via-vans-nice/10158376078806954/"]
+  },
+  {
+    "skater": "Chima Ferguson",
+    "trick": "Switch 360 flip down the 10 stair and over the poles",
+    "spot": "La Défense",
+    "city": "Paris (Puteaux)", "country": "France",
+    "lat": 48.8922478, "lng": 2.2369184, "precision": "building/campus",
+    "year": 2015,
+    "video": "Vans - Propeller",
+    "youtubeId": "S9uNtX5_Y2U",
+    "youtubeTitle": "Chima Ferguson's \"Propeller\" RAW FILES",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": 10,
+      "notes": "Last trick filmed for his Propeller part, and the part's ender"
+    },
+    "summary": "The curtain-closer of Chima's part in Vans' first full-length video: a switch tre over the poles at the bottom of a La Défense ten stair.",
+    "sources": ["https://chromeballincident.blogspot.com/2024/07/chrome-ball-interview-174-chima.html", "https://www.thrashermagazine.com/articles/videos/chima-fergusonspropeller-raw-files/"]
+  },
+  {
+    "skater": "Jamie Thomas",
+    "trick": "Mute shifty, half cab and kickflip down the MACBA big four",
+    "spot": "MACBA big four (Plaça dels Àngels)",
+    "city": "Barcelona", "country": "Spain",
+    "lat": 41.3827589, "lng": 2.1670692, "precision": "spot",
+    "year": 1999,
+    "video": "Zero - Misled Youth",
+    "youtubeId": "CGCqHn4Rpbc",
+    "youtubeTitle": "Misled Youth - Jamie Thomas",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "4 (long, high blocks)",
+      "notes": "A 1999 Zero 'Misled Youth' ad shot by Atiba Jefferson shows Thomas on the big four"
+    },
+    "summary": "The Chief's Misled Youth clips helped put MACBA's big four on the world map just as Barcelona was becoming skateboarding's capital.",
+    "sources": ["https://skatekrak.com/mag/macba-big-4"]
+  },
+  {
+    "skater": "Various (Darrell Stanton, Madars Apse, Ali Boulala and more)",
+    "trick": "MACBA big four roll of honor (switch hardflip, 360 shove-it, etc.)",
+    "spot": "MACBA big four (Plaça dels Àngels)",
+    "city": "Barcelona", "country": "Spain",
+    "lat": 41.3827589, "lng": 2.1670692, "precision": "spot",
+    "year": null,
+    "video": "Krak history clip - Macba Big 4",
+    "youtubeId": "yqhndy46Mvs",
+    "youtubeTitle": "Macba Big 4, Barcelona - #krakhistoryclip",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "Louisa Amenke credited as the first woman to ollie the big four",
+      "notes": "Roll of honor includes Darrell Stanton's switch hardflip, Madars Apse's 360 shove-it, Danny Way's backside 360 (The DC Video), Andrew Reynolds' nollie cab and kickflip shifty (This Is Skateboarding), Kerry Getz's double flip (Skate More)"
+    },
+    "summary": "A chronological supercut of nearly everything done down the most famous four blocks in Europe.",
+    "sources": ["https://skatekrak.com/mag/macba-big-4"]
+  },
+  {
+    "skater": "Aurélien Giraud",
+    "trick": "Hardflip over the MACBA big gap",
+    "spot": "MACBA gap (Plaça dels Àngels)",
+    "city": "Barcelona", "country": "Spain",
+    "lat": 41.3827589, "lng": 2.1670692, "precision": "spot",
+    "year": null,
+    "video": "Macba Life - Macbalifers 2",
+    "youtubeId": "OfRdB9451fE",
+    "youtubeTitle": "Macba Life - Aurélien Giraud´s hardflip at the big gap (raw)",
+    "startSeconds": null,
+    "stats": {
+      "notes": "Police arrived mid-session, then joined the crowd and let him keep trying"
+    },
+    "summary": "Giraud hardflips the gap from the top of the MACBA plaza into the bank, with the police watching - a raw clip that went everywhere.",
+    "sources": ["https://macbalife.com/macba-life-aurelien-girauds-hardflip-at-the-big-gap-raw/", "https://www.skateboarding.com/news/macba-life-aurelien-girauds-hardflip-at-the-big-gap", "https://skatekrak.com/mag/macba-gap"]
+  },
+  {
+    "skater": "Chris Joslin",
+    "trick": "Backside bigspin over the MACBA gap",
+    "spot": "MACBA gap (Plaça dels Àngels)",
+    "city": "Barcelona", "country": "Spain",
+    "lat": 41.3827589, "lng": 2.1670692, "precision": "spot",
+    "year": 2014,
+    "video": "Plan B - True",
+    "youtubeId": "oyad1E01Mc0",
+    "youtubeTitle": "PLAN B: TRUE.",
+    "startSeconds": null,
+    "stats": {},
+    "summary": "From the breakout part that introduced Joslin to the world: a backside bigspin over the MACBA gap.",
+    "sources": ["https://skatekrak.com/mag/macba-gap"]
+  },
+  {
+    "skater": "Geoff Rowley",
+    "trick": "Switch ollie down the MX 7-flat-6 double set",
+    "spot": "MX plaza (Malraux) double set",
+    "city": "Bordeaux", "country": "France",
+    "lat": 44.841225, "lng": -0.5800364, "precision": "city",
+    "year": 2002,
+    "video": "Flip - Sorry (2002)",
+    "youtubeId": "xYg4ertEUeo",
+    "youtubeTitle": "Classics: Geoff Rowley \"Sorry\" 2002",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "7 flat 6",
+      "cover": "Sequence ran in TransWorld SKATEboarding, April 2000 (not stated to be the cover)",
+      "attempts": "Also tried nollies the same day (seen in French Fred's behind-the-scenes footage)",
+      "spotStatus": "Plaza since redeveloped and largely grassed over; the 7-flat-6 still stands but has almost no rollaway"
+    },
+    "summary": "Early in his legendary Sorry part Rowley switch ollies one of the biggest double sets in France, at the Bordeaux plaza where the Flip team stayed with Tom Penny.",
+    "sources": ["https://www.deadhippie.ca/star-maps/tom-penny-folklore-kickflip-6-flat-7-mx-plaza-bordeaux-france-2001", "https://www.youtube.com/watch?v=B1mDM9r5Sds"]
+  },
+  {
+    "skater": "Tom Penny",
+    "trick": "Kickflip down the MX 7-flat-6 double set (photo only, no footage)",
+    "spot": "MX plaza (Malraux) double set",
+    "city": "Bordeaux", "country": "France",
+    "lat": 44.841225, "lng": -0.5800364, "precision": "city",
+    "year": 2001,
+    "video": null,
+    "youtubeId": null,
+    "youtubeTitle": null,
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "7 flat 6",
+      "injuries": "Reportedly done with a sprained ankle, on half-dry ground after rain",
+      "notes": "1 May 2001. Never filmed; only a disposable-camera photo by Nathas Kraus exists, published 24 years later. Penny's Sorry part does show him ollieing the first seven onto wood laid over the six.",
+      "spotStatus": "Plaza since redeveloped and largely grassed over"
+    },
+    "summary": "A piece of Penny folklore proven true: he kickflipped one of France's biggest double sets without telling the filmer, and the only evidence surfaced decades later.",
+    "sources": ["https://www.deadhippie.ca/star-maps/tom-penny-folklore-kickflip-6-flat-7-mx-plaza-bordeaux-france-2001", "https://www.skateboarding.com/news/the-story-behind-tom-pennys-never-seen-kickflip-from-2001"]
+  },
+  {
+    "skater": "Andrew Reynolds",
+    "trick": "Backside heelflip down the Bercy 5 block",
+    "spot": "Bercy blocks (Palais Omnisports de Paris-Bercy / Accor Arena)",
+    "city": "Paris", "country": "France",
+    "lat": 48.8387085, "lng": 2.3787666, "precision": "building/campus",
+    "year": 2010,
+    "video": "Emerica - Stay Gold",
+    "youtubeId": "OrEXUjwavTI",
+    "youtubeTitle": "Stay Gold: Andrew Reynolds (2010)",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "5 blocks",
+      "notes": "Reynolds first put the Bercy 5 on the map in 1999 with a kickflip photographed by Mathias Fennetaux",
+      "spotStatus": "Original spot demolished in 2014 (last session March 2014); arena reopened after renovation"
+    },
+    "summary": "The Boss's backside heel down the five - Krak calls it 'even more ridiculous' than his frontside flip down the four - is the defining trick at Paris' benchmark big gap.",
+    "sources": ["https://skatekrak.com/mag/bercy", "https://www.rollernews.com/2021/06/08/iconic-skate-spots-bercy/"]
+  },
+  {
+    "skater": "Andrew Reynolds",
+    "trick": "Frontside flip down the Bercy 4 block",
+    "spot": "Bercy blocks (Palais Omnisports de Paris-Bercy / Accor Arena)",
+    "city": "Paris", "country": "France",
+    "lat": 48.8387085, "lng": 2.3787666, "precision": "building/campus",
+    "year": null,
+    "video": null,
+    "youtubeId": "Fl8CD3jV5-A",
+    "youtubeTitle": "Andrew Reynolds Flip Front Bercy 4 blocks",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "4 blocks",
+      "spotStatus": "Original spot demolished in 2014"
+    },
+    "summary": "Reynolds' 'superhuman' signature frontside flip down the Bercy four block.",
+    "sources": ["https://skatekrak.com/mag/bercy"]
+  },
+  {
+    "skater": "Hermann Stene",
+    "trick": "Backside 360 ollie down the Bercy blocks",
+    "spot": "Bercy blocks (Palais Omnisports de Paris-Bercy / Accor Arena)",
+    "city": "Paris", "country": "France",
+    "lat": 48.8387085, "lng": 2.3787666, "precision": "building/campus",
+    "year": null,
+    "video": null,
+    "youtubeId": "hTHrAFJDwuo",
+    "youtubeTitle": "Backside Ollie 360 Bercy 4 and 5 (Hermann Stene & Andrew Reynolds)",
+    "startSeconds": null,
+    "stats": {
+      "spotStatus": "Original spot demolished in 2014",
+      "notes": "Which skater did the 4 and which the 5 is not confirmed by a written source; see the clip"
+    },
+    "summary": "Backside 360s down the Bercy 4 and 5 by Stene and Reynolds, side by side.",
+    "sources": ["https://www.youtube.com/watch?v=hTHrAFJDwuo", "http://skatemorespots.com/world-cities/paris/bercy"]
+  },
+  {
+    "skater": "Flo Marfaing",
+    "trick": "Backside noseslide and frontside tailslide back-to-back on the Dôme hubba (plus nollie heel noseslide)",
+    "spot": "Le Dôme (Palais de Tokyo)",
+    "city": "Paris", "country": "France",
+    "lat": 48.8639905, "lng": 2.2965215, "precision": "building/campus",
+    "year": null,
+    "video": "Flo Marfaing legendary dôme session",
+    "youtubeId": "S_dt3-1qGFM",
+    "youtubeTitle": "Flo Marfaing legendary dôme session",
+    "startSeconds": null,
+    "stats": {
+      "notes": "Spot has 3-flat-3 and 3-flat-4 sets, a huge hubba and marble ground; skated since the early 1990s. Full spot history: Krak clip F0Gno6ob-Y0"
+    },
+    "summary": "Paris' most famous spot and the man most associated with its enormous marble hubba.",
+    "sources": ["https://skatekrak.com/mag/le-dome", "https://www.youtube.com/watch?v=F0Gno6ob-Y0"]
+  },
+  {
+    "skater": "Yuto Horigome",
+    "series": "contest",
+    "trick": "Nollie 270 noseblunt slide - final-attempt 97.08 to win gold",
+    "spot": "Place de la Concorde (Paris 2024 urban park)",
+    "city": "Paris", "country": "France",
+    "lat": 48.8655715, "lng": 2.3212248, "precision": "spot",
+    "year": 2024,
+    "video": "Olympics - Men's Street Final, Paris 2024",
+    "youtubeId": "D8HdQX1jg9c",
+    "youtubeTitle": "WHAT. A. FINAL. | Men's Street Skateboarding Final | #Paris2024 Highlights",
+    "startSeconds": null,
+    "stats": {
+      "awards": "Olympic gold, 29 July 2024; total 281.14; the 97.08 was the highest score of the day",
+      "firsts": "First skateboarder to defend an Olympic title",
+      "attempts": "Landed on his fifth and final best-trick attempt",
+      "spotStatus": "Temporary Olympic venue, removed after the Games"
+    },
+    "summary": "Down to his last attempt and out of the medals, Horigome stuck a nollie 270 noseblunt for 97.08 to snatch back-to-back gold from Jagger Eaton and Nyjah Huston.",
+    "sources": ["https://www.olympics.com/en/news/paris-2024-horigome-wins-skateboarding-mens-street-final", "https://en.wikipedia.org/wiki/Skateboarding_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_street"]
+  },
+  {
+    "skater": "Yuto Horigome",
+    "series": "contest",
+    "trick": "Best-trick run to win skateboarding's first Olympic gold",
+    "spot": "Ariake Urban Sports Park",
+    "city": "Tokyo", "country": "Japan",
+    "lat": 35.6393358, "lng": 139.7855173, "precision": "spot",
+    "year": 2021,
+    "video": "Olympics - The Best of Horigome Yuto at Tokyo 2020",
+    "youtubeId": "-Bew47ZMOf0",
+    "youtubeTitle": "The Best of Horigome Yuto at Tokyo 2020! | Athletes Highlights",
+    "startSeconds": null,
+    "stats": {
+      "awards": "Olympic gold, 25 July 2021, score 37.18",
+      "firsts": "First ever Olympic skateboarding gold medallist (men's street)"
+    },
+    "summary": "Skateboarding's Olympic debut, won on home soil by Tokyo-born Horigome.",
+    "sources": ["https://www.olympics.com/en/news/japan-horigome-yuto-wins-gold-as-street-skateboarding-makes-olympic-debut", "https://en.wikipedia.org/wiki/Skateboarding_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_street"]
+  },
+  {
+    "skater": "Paul Rodriguez, Sean Malto and the We Are Blood crew",
+    "trick": "Session on the Burj Al Arab helipad",
+    "spot": "Burj Al Arab helipad",
+    "city": "Dubai", "country": "United Arab Emirates",
+    "lat": 25.1413271, "lng": 55.1853967, "precision": "spot",
+    "year": 2015,
+    "video": "We Are Blood (dir. Ty Evans)",
+    "youtubeId": "Rt6YZO31Ork",
+    "youtubeTitle": "Paul Rodriguez and others skate the Burj Al Arab helipad, Dubai. We Are Blood (dir. Ty Evans, 2015).",
+    "startSeconds": null,
+    "stats": {
+      "dropHeight": "Helipad reported as about 1,000 ft in the air",
+      "notes": "Official Dubai segment upload: Mountain Dew, 'We Are Blood | Dubai Clip in 4K' (4bv2KLUpRnU)"
+    },
+    "summary": "The signature scene of Ty Evans' blockbuster: P-Rod and friends skating the helipad atop Dubai's sail-shaped Burj Al Arab hotel.",
+    "sources": ["https://www.complex.com/pop-culture/2015/09/sean-malto-interview", "https://www.thenationalnews.com/arts-culture/new-skateboard-movie-we-are-blood-rolls-into-dubai-1.643529", "https://whatson.ae/2015/11/epic-skate-stunts-dubai-blood-video/"]
+  },
+  {
+    "skater": "Various (Long Live Southbank)",
+    "trick": "Southbank's Longest Line 1973-2017",
+    "spot": "Southbank Undercroft",
+    "city": "London", "country": "United Kingdom",
+    "lat": 51.5066598, "lng": -0.1165716, "precision": "spot",
+    "year": 2017,
+    "video": "Long Live Southbank - You Can Make History",
+    "youtubeId": "RuHn0cUqWC8",
+    "youtubeTitle": "You Can Make History: Southbank's Longest Line 1973-2017",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "Described as the longest continually used skate spot in the world (skated since 1973) and the birthplace of British skateboarding",
+      "notes": "Features the seven stair, the blocks and the banks; made for the campaign to restore closed sections of the Undercroft"
+    },
+    "summary": "Generations of London skaters stitched into one continuous line through the Undercroft, the film that fronted the successful campaign to save and reopen the space.",
+    "sources": ["http://www.freeskatemag.com/2017/06/20/you-can-make-history-southbanks-longest-line-1973-2017/", "https://www.southbankcentre.co.uk/magazine/skating-history-the-story-of-the-undercroft-skate-space/"]
+  },
+  {
+    "skater": "Rob Selley",
+    "trick": "Switch-stance lines on the bus station marble",
+    "spot": "Milton Keynes Central bus station (now The Buszy)",
+    "city": "Milton Keynes", "country": "United Kingdom",
+    "lat": 52.0345734, "lng": -0.7707587, "precision": "spot",
+    "year": 1998,
+    "video": "Blueprint - A Mixed Media (1996) / Anthems (1998); Sidewalk 'Skate Crates' Milton Keynes montage",
+    "youtubeId": "5xsDdy078pc",
+    "youtubeTitle": "Skate Crates - Rob Selley - Episode 1 - Milton Keynes Montage",
+    "startSeconds": null,
+    "stats": {
+      "firsts": "The Buszy (2005), co-designed by Selley under the old station roof, is described as the first purpose-built skate plaza in the world",
+      "spotStatus": "Bus station closed; skate plaza built on site in 2005"
+    },
+    "summary": "The marble bus station that made Milton Keynes the UK's street-skating capital, and the local whose switch skating there defined Blueprint's early videos.",
+    "sources": ["https://museumcrush.org/how-milton-keynes-became-the-uks-skateboarding-capital/", "https://en.wikipedia.org/wiki/The_Buszy", "https://sidewalkmag.com/skateboard-news/rob-selley-skate-crates-episode-1-milton-keynes-montage.html"]
+  },
+  {
+    "skater": "Korahn Gayle, Danny Wainwright and Bristol locals",
+    "trick": "Tricks down the Lloyds Big 3 (spot history)",
+    "spot": "Lloyds Amphitheatre",
+    "city": "Bristol", "country": "United Kingdom",
+    "lat": 51.4483952, "lng": -2.5997814, "precision": "spot",
+    "year": null,
+    "video": "Sidewalk - On the Spot: Lloyds, Bristol",
+    "youtubeId": "vA5Gqtlhy3w",
+    "youtubeTitle": "Lloyds, Bristol Part 1 - a history of one of the UK's most famous skate spots",
+    "startSeconds": null,
+    "stats": {
+      "stairCount": "Big 3",
+      "notes": "Danny Wainwright's early 411VM footage was among the first from the spot; Korahn Gayle has landed the widest variety of tricks down the three. Part 2: GgMapQSY84A"
+    },
+    "summary": "The white amphitheatre steps under the Lloyds Bank building - one of the UK's most famous spots, from Wainwright's 411 clips to Korahn Gayle's pop.",
+    "sources": ["https://sidewalkmag.com/skateboard-news/spot-history-lloyds-bristol-parts-1-2.html", "https://kingpinmag.com/features/on-the-spot/spot-lloyds-bristol-part-1.html"]
+  },
+  {
+    "skater": "Ishod Wair",
+    "series": "contest",
+    "trick": "Hardflip over the entire Nike x Polar best-trick obstacle (after a frontside noseblunt over the gap to top deck)",
+    "spot": "Israels Plads (CPH Open 2019)",
+    "city": "Copenhagen", "country": "Denmark",
+    "lat": 55.6829933, "lng": 12.5684832, "precision": "spot",
+    "year": 2019,
+    "video": "Nike SB - Copenhagen Open 2019",
+    "youtubeId": "gapJtb4pc5w",
+    "youtubeTitle": "Nike SB | Copenhagen Open 2019",
+    "startSeconds": null,
+    "stats": {
+      "awards": "Ishod Wair took first place at CPH Open 2019",
+      "notes": "Obstacle was a kicker into a giant sneaker with ledges on top. Not confirmed that this specific upload shows the hardflip."
+    },
+    "summary": "CPH Open's anything-goes street format at its peak: Ishod shuts down the Israels Plads session by hardflipping the whole obstacle.",
+    "sources": ["https://www.prweb.com/releases/Monster_Energy_s_Ishod_Wair_Takes_First_Place_at_Legendary_CPH_Open_2019_Contest_in_Copenhagen/prweb16373709.htm"]
+  },
+  {
+    "skater": "Pontus Alv",
+    "trick": "Steppe Side DIY lines",
+    "spot": "Steppe Side DIY",
+    "city": "Malmö", "country": "Sweden",
+    "lat": 55.6052931, "lng": 13.0001566, "precision": "city",
+    "year": 2005,
+    "video": "The Strongest of the Strange (dir. Pontus Alv)",
+    "youtubeId": "lo3Zji0Mrl4",
+    "youtubeTitle": "Steppe Side DIY skatespot in Malmö, Sweden. Strongest of the Strange (dir. Pontus Alv, 2005).",
+    "startSeconds": null,
+    "stats": {
+      "notes": "Built from 2004 over about three years after the city bulldozed the crew's first DIY, Savanna Side. Follow-up film In Search of the Miraculous: B5Y2-jKnTtI (Polar Skate Co.)",
+      "spotStatus": "DIY spot; exact location not verified, pinned at city level"
+    },
+    "summary": "The hand-poured concrete spot and the film that launched Europe's DIY movement and, eventually, Polar Skate Co.",
+    "sources": ["https://kingpinmag.com/features/pontus-alvs-diy-interview-from-issue-98.html", "https://skateandannoy.com/blog/2008/02/strongest-of-the-strange-pontus-alv-2005/"]
+  },
+  {
+    "skater": "Mark Appleyard",
+    "trick": "Switch 180 to frontside 50-50, nollie back out, on the MDA hubba",
+    "spot": "Mont des Arts (MDA) hubba",
+    "city": "Brussels", "country": "Belgium",
+    "lat": 50.8438626, "lng": 4.3567662, "precision": "building/campus",
+    "year": 2009,
+    "video": "Flip - Extremely Sorry",
+    "youtubeId": "rs5UgQvHNQ0",
+    "youtubeTitle": "Mark Appleyard | Extremely Sorry | Flip Skateboards",
+    "startSeconds": null,
+    "stats": {
+      "notes": "Spot history with Lucas Puig, JJ Rousseau (Fully Flared) and Axel Cruysberghs clips: Krak -XFHfp0SrZc"
+    },
+    "summary": "Brussels' marquee hubba, hit by everyone from Lucas Puig to Fully Flared's JJ Rousseau; Appleyard's switch 180 50-50 is among the most technical things done on it.",
+    "sources": ["https://skatekrak.com/mag/mda-hubba"]
+  },
+  {
+    "skater": "Various (Thrasher Plazacation)",
+    "trick": "Stalin Square plaza session",
+    "spot": "Stalin Plaza (Letná, under the Prague Metronome)",
+    "city": "Prague", "country": "Czech Republic",
+    "lat": 50.0947415, "lng": 14.4159352, "precision": "spot",
+    "year": null,
+    "video": "Thrasher - Plazacation: Stalin Square",
+    "youtubeId": "jH7-UvydnL8",
+    "youtubeTitle": "Plazacation: Stalin Square",
+    "startSeconds": null,
+    "stats": {
+      "notes": "Marble plaza on the plinth of the former Stalin monument"
+    },
+    "summary": "The marble plinth of a demolished Stalin monument overlooking Prague, one of Europe's classic plaza spots.",
+    "sources": ["https://www.youtube.com/watch?v=jH7-UvydnL8"]
+  },
+  {
+    "skater": "Various (Thrasher Plazacation)",
+    "trick": "Kulturforum plaza session",
+    "spot": "Kulturforum",
+    "city": "Berlin", "country": "Germany",
+    "lat": 52.5085133, "lng": 13.3647492, "precision": "building/campus",
+    "year": null,
+    "video": "Thrasher - Plazacation: Berlin",
+    "youtubeId": "IS4xZms4ZV8",
+    "youtubeTitle": "Plazacation: Berlin",
+    "startSeconds": null,
+    "stats": {
+      "notes": "Berlin's go-to spot since the 1990s, busiest on Mondays when the museums were closed; featured in the 2004 video Panorama Berlin"
+    },
+    "summary": "Smooth granite, curbs, gaps and banks outside Berlin's museum complex - the heart of the city's scene for three decades.",
+    "sources": ["https://skatenewswire.com/dream-travel-series-plazacation-spotlights-berlins-kulturforum/", "https://www.the-berliner.com/berlin/berlin-skateboarding-scene/"]
+  },
+  {
+    "skater": "Various (Freeskatemag Memory Screen)",
+    "trick": "Sants plaza archive",
+    "spot": "Sants (Plaça dels Països Catalans)",
+    "city": "Barcelona", "country": "Spain",
+    "lat": 41.380001, "lng": 2.1416298, "precision": "spot",
+    "year": null,
+    "video": "Free Skate Mag - Memory Screen: Sants",
+    "youtubeId": "8q59LxnuBXg",
+    "youtubeTitle": "Memory Screen: Sants",
+    "startSeconds": null,
+    "stats": {
+      "spotStatus": "OpenStreetMap currently tags the plaza as under construction"
+    },
+    "summary": "The ledge-and-manual-pad plaza outside Sants station, a fixture of every Barcelona-era video.",
+    "sources": ["https://www.youtube.com/watch?v=8q59LxnuBXg"]
+  },
+  {
+    "skater": "Various (Supreme team)",
+    "trick": "Milano Centrale session",
+    "spot": "Milano Centrale station (Piazza Duca d'Aosta)",
+    "city": "Milan", "country": "Italy",
+    "lat": 45.4858786, "lng": 9.2042617, "precision": "building/campus",
+    "year": null,
+    "video": "Thrasher x Supreme - Milano Centrale",
+    "youtubeId": "v6QKN73ViZk",
+    "youtubeTitle": "THRASHER x SUPREME \"Milano Centrale\" Video",
+    "startSeconds": null,
+    "stats": {},
+    "summary": "The marble forecourt of Milan's central station, given the Thrasher x Supreme treatment.",
+    "sources": ["https://www.youtube.com/watch?v=v6QKN73ViZk"]
+  },
+  {
+    "skater": "Various (Melbourne locals)",
+    "trick": "Last sessions at Lincoln Square",
+    "spot": "Lincoln Square",
+    "city": "Melbourne (Carlton)", "country": "Australia",
+    "lat": -37.8024385, "lng": 144.96288, "precision": "spot",
+    "year": 2016,
+    "video": "Last of Lincoln Square",
+    "youtubeId": "UgGTkdM21Tk",
+    "youtubeTitle": "Last of Lincoln Square",
+    "startSeconds": null,
+    "stats": {
+      "spotStatus": "Skating banned in 2009; the council spent $450,000 resurfacing the plaza in 2016 to end skating. Uni Square was later built as a replacement."
+    },
+    "summary": "Called 'basically the most iconic spot in Australia' - long low ledges, stairs and manual pads that drew pros from around the world until the city ripped it up.",
+    "sources": ["https://www.vice.com/en/article/lincoln-square-skaters-mourn-the-death-of-melbournes-most-famous-skate-spot/", "https://www.abc.net.au/triplej/programs/hack/melbourne-council-is-ripping-up-australias-best-skate-spot/7343556"]
+  }
+]

@@ -1,0 +1,626 @@
+[
+    {
+        "name": "Nyjah Huston",
+        "matches": [
+                        "Nyjah Huston",
+                        "Nyjah"
+                    ],
+        "born": "1994-11-30",
+        "died": null,
+        "hometown": "Davis, California, USA",
+        "country": "USA",
+        "stance": "goofy",
+        "discipline": "street",
+        "titles": [
+                       "Olympic bronze 2024 (street)",
+                       "6x SLS Super Crown champion (2010, 2012, 2014, 2017, 2019, 2024)",
+                       "15x X Games gold (record 27 X Games medals)",
+                       "Tampa Pro winner 2014, 2020",
+                       "Tampa Am winner 2005"
+                   ],
+        "summary": "The most decorated contest street skater ever, with six SLS world titles, a record 15 X Games golds and an Olympic bronze from Paris 2024.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nyjah_Huston%2C_KDC_2015_street_%28cropped%29.jpg/500px-Nyjah_Huston%2C_KDC_2015_street_%28cropped%29.jpg",
+        "photoCredit": "Photo: Eclecticza, CC BY-SA 4.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Nyjah_Huston,_KDC_2015_street_(cropped).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Nyjah_Huston",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Nyjah_Huston",
+                        "https://www.xgames.com/athletes/nyjah-huston/",
+                        "https://en.wikipedia.org/wiki/Skatepark_of_Tampa",
+                        "https://skateparkoftampa.com/blogs/skaters/nyjah-huston",
+                        "https://commons.wikimedia.org/wiki/File:Nyjah_Huston,_KDC_2015_street_(cropped).jpg"
+                    ]
+    },
+    {
+        "name": "Tony Hawk",
+        "matches": [
+                        "Tony Hawk",
+                        "Anthony Hawk",
+                        "Birdman"
+                    ],
+        "born": "1968-05-12",
+        "died": null,
+        "hometown": "San Diego, California, USA",
+        "country": "USA",
+        "stance": "goofy",
+        "discipline": "park",
+        "titles": [
+                       "10x X Games gold (16 X Games medals)",
+                       "12x consecutive NSA vert champion",
+                       "First documented 900 (X Games 1999)",
+                       "Skateboarding Hall of Fame 2009 (inaugural class)",
+                       "TransWorld 30 Most Influential Skaters, #2 (2011)"
+                   ],
+        "summary": "Vert pioneer, Birdhouse owner and the first skater to land a 900; the most famous skateboarder in the world.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Tony_Hawk_2026.jpg/500px-Tony_Hawk_2026.jpg",
+        "photoCredit": "Photo: Cmichel67, CC BY-SA 4.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Tony_Hawk_2026.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Tony_Hawk",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Tony_Hawk",
+                        "https://en.wikipedia.org/wiki/Skateboarding_Hall_of_Fame",
+                        "https://skateparkoftampa.com/blogs/skaters/tony-hawk",
+                        "https://commons.wikimedia.org/wiki/File:Tony_Hawk_2026.jpg"
+                    ]
+    },
+    {
+        "name": "Yuto Horigome",
+        "matches": [
+                        "Yuto Horigome",
+                        "Yuto",
+                        "堀米雄斗",
+                        "堀米 雄斗"
+                    ],
+        "born": "1999-01-07",
+        "died": null,
+        "hometown": "Kōtō, Tokyo, Japan",
+        "country": "Japan",
+        "stance": "goofy",
+        "discipline": "street",
+        "titles": [
+                       "2x Olympic gold 2020, 2024 (street)",
+                       "World champion 2021 (street)",
+                       "Tampa Pro winner 2023, 2024",
+                       "3x SLS stop winner 2018 (first Japanese SLS winner)",
+                       "Dew Tour street winner 2018"
+                   ],
+        "summary": "Tokyo street skater who won the first-ever Olympic skateboarding gold in 2020 and defended it in Paris 2024.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Yuto_Horigome_%28JAP%29_2022.jpg/500px-Yuto_Horigome_%28JAP%29_2022.jpg",
+        "photoCredit": "Photo: RuinDig/Yuki Uchida, CC BY 4.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Yuto_Horigome_(JAP)_2022.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Yuto_Horigome_(skateboarder)",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Yuto_Horigome_(skateboarder)",
+                        "https://en.wikipedia.org/wiki/Skatepark_of_Tampa",
+                        "https://skateparkoftampa.com/blogs/skaters/yuto-horigome",
+                        "https://commons.wikimedia.org/wiki/File:Yuto_Horigome_(JAP)_2022.jpg"
+                    ]
+    },
+    {
+        "name": "Chris Joslin",
+        "matches": [
+                        "Chris Joslin",
+                        "Joslin"
+                    ],
+        "born": "1996-03-10",
+        "died": null,
+        "hometown": "Hawaiian Gardens, California, USA",
+        "country": "USA",
+        "stance": "regular",
+        "discipline": "street",
+        "titles": [
+                       "Thrasher Skater of the Year 2025",
+                       "X Games Real Street gold 2016",
+                       "SLS Santa Monica winner 2025 (first SLS win)",
+                       "Tampa Pro Best Trick winner 2016",
+                       "2024 Olympian (street, Team USA)"
+                   ],
+        "summary": "Plan B\u0027s big-gap specialist, famous for his 2014 \u0027True\u0027 part, who became Thrasher\u0027s 2025 Skater of the Year.",
+        "photo": "https://live.staticflickr.com/684/20552093724_f608167294_b.jpg",
+        "photoCredit": "Photo: muhammad_elarbi, CC BY-NC-ND 2.0, via Flickr",
+        "photoPage": "https://www.flickr.com/photos/132357290@N05/20552093724",
+        "wiki": null,
+        "sources": [
+                        "https://www.skatevideosite.com/skaters/chris-joslin",
+                        "https://skateparkoftampa.com/blogs/skaters/chris-joslin",
+                        "https://www.xgames.com/athletes/chris-joslin/",
+                        "https://www.thrashermagazine.com/articles/skater-of-the-year-2025-chris-joslin/",
+                        "https://www.streetleague.com/post/2025-skater-of-the-year-chris-joslin-s-sls-season-highlights",
+                        "https://skatehub.tv/news/chris-joslin-a-long-road-from-hawaiian-gardens-to-becoming-trashers-skater-of-the-year/"
+                    ]
+    },
+    {
+        "name": "Andrew Reynolds",
+        "matches": [
+                        "Andrew Reynolds",
+                        "Reynolds",
+                        "The Boss"
+                    ],
+        "born": "1978-06-06",
+        "died": null,
+        "hometown": "Lakeland, Florida, USA",
+        "country": "USA",
+        "stance": "regular",
+        "discipline": "street",
+        "titles": [
+                       "Thrasher Skater of the Year 1998",
+                       "Tampa Pro winner 1997, 1998",
+                       "TransWorld Best Video Part 2011 (Stay Gold)",
+                       "TransWorld 30 Most Influential Skaters, #10 (2011)"
+                   ],
+        "summary": "\u0027The Boss\u0027: Baker Skateboards co-founder and the standard-bearer for frontside flips down big stairs.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Andrew_Reynolds_%2844481220%29.png/500px-Andrew_Reynolds_%2844481220%29.png",
+        "photoCredit": "Photo: Rob Meronek, CC BY 3.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Andrew_Reynolds_(44481220).png",
+        "wiki": "https://en.wikipedia.org/wiki/Andrew_Reynolds_(skateboarder)",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Andrew_Reynolds_(skateboarder)",
+                        "https://en.wikipedia.org/wiki/Skatepark_of_Tampa",
+                        "https://skateparkoftampa.com/blogs/skaters/andrew-reynolds",
+                        "https://commons.wikimedia.org/wiki/File:Andrew_Reynolds_(44481220).png"
+                    ]
+    },
+    {
+        "name": "Danny Way",
+        "matches": [
+                        "Danny Way",
+                        "Daniel Way"
+                    ],
+        "born": "1974-04-15",
+        "died": null,
+        "hometown": "Portland, Oregon, USA (raised in San Diego, California)",
+        "country": "USA",
+        "stance": "regular",
+        "discipline": "park",
+        "titles": [
+                       "2x Thrasher Skater of the Year (1991, 2004)",
+                       "X Games Big Air gold 2004, 2005, 2006",
+                       "Jumped the Great Wall of China on a skateboard (2005)",
+                       "Multiple world records for biggest air and longest jump",
+                       "Skateboarding Hall of Fame 2009"
+                   ],
+        "summary": "MegaRamp inventor and two-time Skater of the Year who jumped the Great Wall of China and dropped in from a helicopter.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Danny_Way.jpg/500px-Danny_Way.jpg",
+        "photoCredit": "Photo: Dilia Oviedo, CC BY 2.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Danny_Way.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Danny_Way",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Danny_Way",
+                        "https://en.wikipedia.org/wiki/X_Games_XII",
+                        "https://en.wikipedia.org/wiki/Skateboarding_Hall_of_Fame",
+                        "https://skateparkoftampa.com/blogs/skaters/danny-way",
+                        "https://commons.wikimedia.org/wiki/File:Danny_Way.jpg"
+                    ]
+    },
+    {
+        "name": "Jamie Thomas",
+        "matches": [
+                        "Jamie Thomas",
+                        "The Chief"
+                    ],
+        "born": "1974-10-11",
+        "died": null,
+        "hometown": "Dothan, Alabama, USA (born in Florida)",
+        "country": "USA",
+        "stance": "regular",
+        "discipline": "street",
+        "titles": [
+                       "TransWorld 30 Most Influential Skaters of All Time (2011)",
+                       "Ernst \u0026 Young regional Entrepreneur of the Year 2006"
+                   ],
+        "summary": "\u0027The Chief\u0027: Zero Skateboards founder, director of \u0027Welcome to Hell\u0027 and the man behind the Leap of Faith.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Jamie_Thomas_%28iXE2egIdNvo%29.png/500px-Jamie_Thomas_%28iXE2egIdNvo%29.png",
+        "photoCredit": "Photo: Tech Deck (YouTube), CC BY 3.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Jamie_Thomas_(iXE2egIdNvo).png",
+        "wiki": "https://en.wikipedia.org/wiki/Jamie_Thomas",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Jamie_Thomas",
+                        "https://hypebeast.com/2011/12/the-30-most-influential-skaters-of-all-time",
+                        "https://zeroskateboards.com/pages/jamie-thomas",
+                        "https://skateparkoftampa.com/blogs/skaters/jamie-thomas",
+                        "https://commons.wikimedia.org/wiki/File:Jamie_Thomas_(iXE2egIdNvo).png"
+                    ]
+    },
+    {
+        "name": "Mark Gonzales",
+        "matches": [
+                        "Mark Gonzales",
+                        "Mark Gonzalez",
+                        "Gonz",
+                        "The Gonz",
+                        "The Godfather"
+                    ],
+        "born": "1968-06-01",
+        "died": null,
+        "hometown": "South Gate, California, USA",
+        "country": "USA",
+        "stance": "goofy",
+        "discipline": "street",
+        "titles": [
+                       "TransWorld Most Influential Skateboarder of All Time, #1 (2011)",
+                       "Skateboarding Hall of Fame 2012",
+                       "NSA Sure-Grip Beach Style contest winner 1985",
+                       "First to ollie the Wallenberg Set; first known handrail boardslides"
+                   ],
+        "summary": "The godfather of modern street skating and an acclaimed artist, credited with the first handrail tricks.",
+        "photo": "https://live.staticflickr.com/3021/2987096009_5a3c77a28f_b.jpg",
+        "photoCredit": "Photo: KelsaaCPH, CC BY-NC-SA 2.0, via Flickr",
+        "photoPage": "https://www.flickr.com/photos/36521965191@N01/2987096009",
+        "wiki": "https://en.wikipedia.org/wiki/Mark_Gonzales",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Mark_Gonzales",
+                        "https://en.wikipedia.org/wiki/Skateboarding_Hall_of_Fame",
+                        "https://skateparkoftampa.com/blogs/skaters/mark-gonzales"
+                    ]
+    },
+    {
+        "name": "Bob Burnquist",
+        "matches": [
+                        "Bob Burnquist",
+                        "Burnquist",
+                        "Robert Burnquist"
+                    ],
+        "born": "1976-10-10",
+        "died": null,
+        "hometown": "Rio de Janeiro, Brazil",
+        "country": "Brazil",
+        "stance": "regular",
+        "discipline": "park",
+        "titles": [
+                       "Record 30 X Games medals (14 gold, 8 silver, 8 bronze)",
+                       "X Games Big Air gold 2007, 2011, 2012, 2013 (x2), 2015",
+                       "First fakie 900 (2010)",
+                       "Skateboarding Hall of Fame 2010"
+                   ],
+        "summary": "Brazilian vert and MegaRamp legend, switch-stance master and the most decorated X Games athlete of all time.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bob_Burnquist_%28cropped%29.jpg/500px-Bob_Burnquist_%28cropped%29.jpg",
+        "photoCredit": "Photo: Fernando Mafra, CC BY-SA 2.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Bob_Burnquist_(cropped).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Bob_Burnquist",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Bob_Burnquist",
+                        "https://en.wikipedia.org/wiki/X_Games_XIII",
+                        "https://en.wikipedia.org/wiki/Skateboarding_Hall_of_Fame",
+                        "https://skateparkoftampa.com/blogs/skaters/bob-burnquist",
+                        "https://commons.wikimedia.org/wiki/File:Bob_Burnquist_(cropped).jpg"
+                    ]
+    },
+    {
+        "name": "Rayssa Leal",
+        "matches": [
+                        "Rayssa Leal",
+                        "Rayssa",
+                        "Fadinha",
+                        "Jhulia Rayssa Mendes Leal"
+                    ],
+        "born": "2008-01-04",
+        "died": null,
+        "hometown": "Imperatriz, Maranhão, Brazil",
+        "country": "Brazil",
+        "stance": "goofy",
+        "discipline": "street",
+        "titles": [
+                       "Olympic silver 2020 (street)",
+                       "Olympic bronze 2024 (street)",
+                       "4x consecutive SLS Super Crown champion (2022–2025)",
+                       "X Games street gold 2022"
+                   ],
+        "summary": "\u0027Fadinha\u0027, Brazil\u0027s little fairy of skateboarding: an Olympic medallist at 13 and four-time SLS world champion.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Rayssa_Leal_cropped_rotated_%282025%29.jpg/500px-Rayssa_Leal_cropped_rotated_%282025%29.jpg",
+        "photoCredit": "Photo: Alex Rocha/PMPA, Attribution, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Rayssa_Leal_cropped_rotated_(2025).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Rayssa_Leal",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Rayssa_Leal",
+                        "https://www.monsterenergy.com/en-us/skateboard/rayssa-leal-makes-skateboarding-history-with-fourth-straight-sls-super-crown-win-in-sao-paulo/",
+                        "https://skateparkoftampa.com/blogs/skaters/rayssa-leal",
+                        "https://commons.wikimedia.org/wiki/File:Rayssa_Leal_cropped_rotated_(2025).jpg"
+                    ]
+    },
+    {
+        "name": "Ryan Sheckler",
+        "matches": [
+                        "Ryan Sheckler",
+                        "Sheckler"
+                    ],
+        "born": "1989-12-30",
+        "died": null,
+        "hometown": "San Clemente, California, USA",
+        "country": "USA",
+        "stance": "regular",
+        "discipline": "both",
+        "titles": [
+                       "3x X Games gold (park 2003; street 2008, 2010)",
+                       "2x Dew Tour overall park champion (2005, 2006)",
+                       "3x Dew Tour Streetstyle winner (2012–2014)",
+                       "Vans Triple Crown and WCS overall street champion 2003"
+                   ],
+        "summary": "Child prodigy turned Plan B pro and MTV star, X Games champion at 13 and a contest force for two decades.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Ryan_Sheckler_%28ujFZrsuiXOE%29.png/500px-Ryan_Sheckler_%28ujFZrsuiXOE%29.png",
+        "photoCredit": "Photo: STOKEDorg (YouTube), CC BY 3.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Ryan_Sheckler_(ujFZrsuiXOE).png",
+        "wiki": "https://en.wikipedia.org/wiki/Ryan_Sheckler",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Ryan_Sheckler",
+                        "https://skateparkoftampa.com/blogs/skaters/ryan-sheckler",
+                        "https://commons.wikimedia.org/wiki/File:Ryan_Sheckler_(ujFZrsuiXOE).png"
+                    ]
+    },
+    {
+        "name": "Chris Cole",
+        "matches": [
+                        "Chris Cole",
+                        "Cole",
+                        "Cobra"
+                    ],
+        "born": "1982-03-10",
+        "died": null,
+        "hometown": "Statesville, North Carolina, USA (raised near Philadelphia)",
+        "country": "USA",
+        "stance": "regular",
+        "discipline": "street",
+        "titles": [
+                       "2x Thrasher Skater of the Year (2005, 2009)",
+                       "X Games street gold 2006, 2007",
+                       "X Games Munich SLS gold 2013",
+                       "3x Maloof Money Cup winner",
+                       "Battle at the Berrics 2 winner (2009)"
+                   ],
+        "summary": "Philadelphia-raised technical powerhouse and two-time Skater of the Year with back-to-back X Games street golds.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Chris-Cole-skateboarder-DSC_0110.jpg/500px-Chris-Cole-skateboarder-DSC_0110.jpg",
+        "photoCredit": "Photo: Wouter Engler, CC BY-SA 4.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Chris-Cole-skateboarder-DSC_0110.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Chris_Cole_(skateboarder)",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Chris_Cole_(skateboarder)",
+                        "https://en.wikipedia.org/wiki/X_Games_XII",
+                        "https://en.wikipedia.org/wiki/X_Games_XIII",
+                        "https://en.wikipedia.org/wiki/Paul_Rodriguez_(skateboarder)",
+                        "https://skateparkoftampa.com/blogs/skaters/chris-cole",
+                        "https://commons.wikimedia.org/wiki/File:Chris-Cole-skateboarder-DSC_0110.jpg"
+                    ]
+    },
+    {
+        "name": "Aaron \"Jaws\" Homoki",
+        "matches": [
+                        "Aaron \"Jaws\" Homoki",
+                        "Aaron Homoki",
+                        "Jaws Homoki",
+                        "Aaron \u0027Jaws\u0027 Homoki",
+                        "Jaws"
+                    ],
+        "born": "1990-02-02",
+        "died": null,
+        "hometown": "Phoenix, Arizona, USA",
+        "country": "USA",
+        "stance": "regular",
+        "discipline": "both",
+        "titles": [
+                       "X Games park bronze 2014",
+                       "4x Thrasher King of the Road winner (2012–2015)",
+                       "Lyon 25 ollie – Thrasher cover, March 2016"
+                   ],
+        "summary": "Birdhouse\u0027s big-drop specialist, best known for finally landing the Lyon 25 stair in 2016.",
+        "photo": null,
+        "photoCredit": null,
+        "photoPage": null,
+        "wiki": "https://en.wikipedia.org/wiki/Aaron_Homoki",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Aaron_Homoki",
+                        "https://skateparkoftampa.com/blogs/skaters/aaron-homoki-aka-jaws"
+                    ]
+    },
+    {
+        "name": "Gui Khury",
+        "matches": [
+                        "Gui Khury",
+                        "Guilherme Khury"
+                    ],
+        "born": "2008-12-18",
+        "died": null,
+        "hometown": "Curitiba, Brazil",
+        "country": "Brazil",
+        "stance": "regular",
+        "discipline": "park",
+        "titles": [
+                       "First 1080 on a vert ramp (2020)",
+                       "Youngest X Games gold medallist at 12 (Vert Best Trick 2021)",
+                       "3 Guinness World Records",
+                       "Youngest X Games competitor at 10 (2019)"
+                   ],
+        "summary": "Brazilian vert prodigy who landed the first 1080 on a vert ramp at 11 and won X Games gold at 12.",
+        "photo": null,
+        "photoCredit": null,
+        "photoPage": null,
+        "wiki": "https://en.wikipedia.org/wiki/Gui_Khury",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Gui_Khury",
+                        "https://skateparkoftampa.com/blogs/skaters/gui-khury"
+                    ]
+    },
+    {
+        "name": "Tom Schaar",
+        "matches": [
+                        "Tom Schaar",
+                        "Schaar"
+                    ],
+        "born": "1999-09-14",
+        "died": null,
+        "hometown": "Malibu, California, USA",
+        "country": "USA",
+        "stance": "regular",
+        "discipline": "park",
+        "titles": [
+                       "Olympic silver 2024 (park)",
+                       "First 1080 ever landed (2012)",
+                       "Youngest X Games gold medallist at 12 (2012, later surpassed)",
+                       "5x Vans Pool Party champion",
+                       "X Games park gold 2024 (Chiba), 2025 (Osaka)"
+                   ],
+        "summary": "Landed the first 1080 at age 12 and grew into an Olympic silver medallist and X Games park champion.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Tom_Schaar_Image_2828_900.jpg/500px-Tom_Schaar_Image_2828_900.jpg",
+        "photoCredit": "Photo: Cro321, CC BY-SA 4.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Tom_Schaar_Image_2828_900.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Tom_Schaar",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Tom_Schaar",
+                        "https://skateparkoftampa.com/blogs/skaters/tom-schaar",
+                        "https://commons.wikimedia.org/wiki/File:Tom_Schaar_Image_2828_900.jpg"
+                    ]
+    },
+    {
+        "name": "Paul Rodriguez",
+        "matches": [
+                        "Paul Rodriguez",
+                        "Paul Rodriguez Jr.",
+                        "Paul Rodriguez, Jr.",
+                        "P-Rod",
+                        "P Rod",
+                        "PRod"
+                    ],
+        "born": "1984-12-31",
+        "died": null,
+        "hometown": "Los Angeles, California, USA",
+        "country": "USA",
+        "stance": "goofy",
+        "discipline": "street",
+        "titles": [
+                       "4x X Games street gold (2004, 2005, 2009, 2012)",
+                       "Tampa Pro winner 2010",
+                       "Battle at the Berrics 3 winner (2010)",
+                       "SLS stop wins 2013 Portland, 2016 Munich",
+                       "TransWorld Rookie of the Year 2002"
+                   ],
+        "summary": "\u0027P-Rod\u0027: Nike SB\u0027s first signature skater and Primitive founder, with four X Games street golds.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Paul_Rodriguez%2C_Jr.jpg/500px-Paul_Rodriguez%2C_Jr.jpg",
+        "photoCredit": "Photo: Ray Yzguerra, CC BY 2.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Paul_Rodriguez,_Jr.jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Paul_Rodriguez_(skateboarder)",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Paul_Rodriguez_(skateboarder)",
+                        "https://en.wikipedia.org/wiki/Skatepark_of_Tampa",
+                        "https://skateparkoftampa.com/blogs/skaters/paul-rodriguez",
+                        "https://commons.wikimedia.org/wiki/File:Paul_Rodriguez,_Jr.jpg"
+                    ]
+    },
+    {
+        "name": "Eric Koston",
+        "matches": [
+                        "Eric Koston",
+                        "Koston"
+                    ],
+        "born": "1975-04-29",
+        "died": null,
+        "hometown": "Bangkok, Thailand (raised in San Bernardino, California)",
+        "country": "USA",
+        "stance": "goofy",
+        "discipline": "street",
+        "titles": [
+                       "Tampa Pro winner 1996, 2002, 2007",
+                       "Skateboarding Hall of Fame 2010",
+                       "TransWorld 30 Most Influential Skaters of All Time (2011)"
+                   ],
+        "summary": "Girl/Nike SB icon and Berrics co-founder, widely regarded as one of the most complete street skaters ever.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kostonfandangle_%28cropped%29.jpg/500px-Kostonfandangle_%28cropped%29.jpg",
+        "photoCredit": "Photo: Humpmcgump (English Wikipedia), CC BY-SA 3.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Kostonfandangle_(cropped).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Eric_Koston",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Eric_Koston",
+                        "https://en.wikipedia.org/wiki/Skatepark_of_Tampa",
+                        "https://skateparkoftampa.com/blogs/skaters/eric-koston",
+                        "https://en.wikipedia.org/wiki/Skateboarding_Hall_of_Fame",
+                        "https://hypebeast.com/2011/12/the-30-most-influential-skaters-of-all-time",
+                        "https://commons.wikimedia.org/wiki/File:Kostonfandangle_(cropped).jpg"
+                    ]
+    },
+    {
+        "name": "Geoff Rowley",
+        "matches": [
+                        "Geoff Rowley",
+                        "Rowley",
+                        "Geoffrey Rowley"
+                    ],
+        "born": "1976-06-06",
+        "died": null,
+        "hometown": "Liverpool, England",
+        "country": "UK",
+        "stance": "regular",
+        "discipline": "street",
+        "titles": [
+                       "Thrasher Skater of the Year 2000",
+                       "Skateboarding Hall of Fame 2024",
+                       "TransWorld 30 Most Influential Skaters, #26 (2011)"
+                   ],
+        "summary": "Liverpool-born Flip co-owner whose fearless rail skating made him Thrasher\u0027s 2000 Skater of the Year.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Geoff_Rowley_%28cropped%29.jpg/500px-Geoff_Rowley_%28cropped%29.jpg",
+        "photoCredit": "Photo: Andrew Kimmell, CC BY 2.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Geoff_Rowley_(cropped).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Geoff_Rowley",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Geoff_Rowley",
+                        "https://en.wikipedia.org/wiki/Skateboarding_Hall_of_Fame",
+                        "https://skateparkoftampa.com/blogs/skaters/geoff-rowley",
+                        "https://commons.wikimedia.org/wiki/File:Geoff_Rowley_(cropped).jpg"
+                    ]
+    },
+    {
+        "name": "Arisa Trew",
+        "matches": [
+                        "Arisa Trew",
+                        "Trew"
+                    ],
+        "born": "2010-05-12",
+        "died": null,
+        "hometown": "Gold Coast, Queensland, Australia (born Cairns)",
+        "country": "Australia",
+        "stance": "regular",
+        "discipline": "park",
+        "titles": [
+                       "Olympic gold 2024 (park)",
+                       "7x X Games gold (most by any woman, as of 2025)",
+                       "Laureus Action Sportsperson of the Year 2024",
+                       "First woman to land a 720 and a 900 in competition"
+                   ],
+        "summary": "Australia\u0027s youngest-ever Olympic champion, who won park gold in Paris at 14 and owns the women\u0027s X Games gold record.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Arisa_Trew_Laureus_2024_%28cropped%29.jpg/500px-Arisa_Trew_Laureus_2024_%28cropped%29.jpg",
+        "photoCredit": "Photo: Barcex, CC BY-SA 4.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Arisa_Trew_Laureus_2024_(cropped).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Arisa_Trew",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Arisa_Trew",
+                        "https://theboardr.com/profile/45609/Arisa_Trew",
+                        "https://commons.wikimedia.org/wiki/File:Arisa_Trew_Laureus_2024_(cropped).jpg"
+                    ]
+    },
+    {
+        "name": "Sky Brown",
+        "matches": [
+                        "Sky Brown",
+                        "スカイ・ブラウン"
+                    ],
+        "born": "2008-07-07",
+        "died": null,
+        "hometown": "Miyazaki, Japan",
+        "country": "UK",
+        "stance": "goofy",
+        "discipline": "park",
+        "titles": [
+                       "2x Olympic bronze 2020, 2024 (park)",
+                       "2x World champion 2023, 2025 (park)",
+                       "2x X Games park gold 2021, 2022",
+                       "2x Dew Tour winner 2021, 2022",
+                       "Laureus Comeback of the Year 2022"
+                   ],
+        "summary": "British-Japanese park skater who became Great Britain\u0027s youngest Olympic medallist at 13 and a two-time world champion.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sky_Brown_at_the_2024_Summer_Olympics_%28cropped_3%C3%974%29.jpg/500px-Sky_Brown_at_the_2024_Summer_Olympics_%28cropped_3%C3%974%29.jpg",
+        "photoCredit": "Photo: Andymiah, CC BY-SA 4.0, via Wikimedia Commons",
+        "photoPage": "https://commons.wikimedia.org/wiki/File:Sky_Brown_at_the_2024_Summer_Olympics_(cropped_3%C3%974).jpg",
+        "wiki": "https://en.wikipedia.org/wiki/Sky_Brown",
+        "sources": [
+                        "https://en.wikipedia.org/wiki/Sky_Brown",
+                        "https://skateparkoftampa.com/blogs/skaters/sky-brown",
+                        "https://commons.wikimedia.org/wiki/File:Sky_Brown_at_the_2024_Summer_Olympics_(cropped_3%C3%974).jpg"
+                    ]
+    }
+]
