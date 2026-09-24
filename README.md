@@ -6,7 +6,7 @@ Pick **Street Skating**, **Park Skating** or **Skaters** on the way in. Click an
 opens with the trick, the spot, the stats and the video — and the map drops into a 3D fly-in over
 the actual spot, so you can see the stair count for yourself.
 
-**174 clips · 25 countries · 1986–2026 · 106 skaters**
+**174 clips · 17 countries · 1986–2026 · 106 skaters**
 
 Three collections share the map:
 
