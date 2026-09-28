@@ -5,6 +5,9 @@ config.js
 # Working files from the portrait search
 openverse-found.json
 
+# Claude Code's local settings and worktrees
+.claude/
+
 # OS junk
 Thumbs.db
 desktop.ini

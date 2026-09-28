@@ -41,7 +41,7 @@
       <span class="pick-count" data-count="skaters"></span>
     </button>
   </div>
-  <p class="home-foot">Pick one to start. Switch any time with the tabs up top.</p>
+  <p class="home-foot">Pick one to start. Switch any time with the tabs up top. <button type="button" class="home-alt" data-style="mine">Got a clip of your own? Put it on the map &rarr;</button></p>
 </section>
 
 <header class="topbar">
@@ -54,6 +54,7 @@
     <button type="button" data-style="street" aria-pressed="false">Street</button>
     <button type="button" data-style="park" aria-pressed="false">Park</button>
     <button type="button" data-style="skaters" aria-pressed="false">Skaters</button>
+    <button type="button" data-style="mine" aria-pressed="false">My Clips</button>
   </nav>
   <dl class="tally" id="tally" aria-label="Totals for this discipline"></dl>
   <button class="list-toggle" id="listToggle" type="button" aria-expanded="false" aria-controls="sidebar">Clips</button>
@@ -65,6 +66,55 @@
     <p class="skaters-intro">Pick a skater to see where their most famous clips went down.</p>
     <div class="cards" id="cards"></div>
     <p class="skaters-foot">Ages are worked out from published birth dates. Portraits come from Wikimedia Commons and Creative Commons photos via Openverse, credited on each skater&rsquo;s page. Where no freely licensed portrait exists, the card shows a still from that skater&rsquo;s own clip.</p>
+  </section>
+  <!-- your own clips: the form, the pin picker and what you've saved. Everything stays in this browser. -->
+  <section class="my-clips" id="mine" aria-label="Your clips" hidden>
+    <header class="mine-head">
+      <h2>Add your clip</h2>
+      <p>Pin a clip of your own to the map. Everything you add is saved in this browser only: nobody else can see it, and it won&rsquo;t appear in another browser or on another device.</p>
+    </header>
+    <div class="mine-done" id="mDone" role="status" hidden></div>
+    <form class="mine-form" id="mineForm" novalidate>
+      <div class="mine-fields">
+        <label><span>Your name</span><input id="mName" autocomplete="name" required></label>
+        <label><span>Trick</span><input id="mTrick" placeholder="e.g. Kickflip down the Hollywood 16" required></label>
+        <div class="mine-row">
+          <label><span>Date landed</span><input id="mDate" type="date" required></label>
+          <label><span>Discipline</span>
+            <select id="mStyle"><option value="street">Street</option><option value="park">Park</option></select>
+          </label>
+        </div>
+        <label><span>Spot name <i class="opt">optional</i></span><input id="mSpot" placeholder="e.g. Venice Beach 8 stair"></label>
+        <label class="mine-file"><span>Video</span><input id="mVideo" type="file" accept="video/*" required></label>
+        <div class="mine-preview" id="mPreview" hidden></div>
+      </div>
+      <!-- outside the fields column so that on a phone it comes after the map, once you've dropped the pin -->
+      <div class="mine-submit">
+        <p class="mine-err" id="mErr" role="alert"></p>
+        <button type="submit" class="mine-save" id="mSave">Save clip to map</button>
+      </div>
+      <div class="mine-where">
+        <div class="mine-where-head">
+          <span class="mine-lbl">Where did you land it?</span>
+          <button type="button" id="mLocate">Use my location</button>
+        </div>
+        <div class="mine-search">
+          <input id="mFind" type="search" placeholder="Search a skatepark, street or city" autocomplete="off" aria-label="Search for a place">
+          <button type="button" id="mFindGo">Find</button>
+        </div>
+        <ol class="mine-results" id="mResults" hidden></ol>
+        <div class="pick-map" id="pickMap" role="application" aria-label="Map for pinning where you landed the clip"></div>
+        <p class="mine-pin" id="mPin"></p>
+        <p class="mine-fine">If your phone saved the location in the video, the pin drops itself when you pick the file. Place search by OpenStreetMap.</p>
+      </div>
+    </form>
+    <section class="mine-list" aria-label="Your saved clips">
+      <div class="mine-list-head">
+        <h2>Your clips <span id="mCount"></span></h2>
+        <button type="button" id="mShowMap" hidden>See them on the map &rarr;</button>
+      </div>
+      <div class="cards" id="mCards"></div>
+    </section>
   </section>
   <aside class="sidebar" id="sidebar" aria-label="Clip index">
     <div class="controls">
@@ -79,6 +129,7 @@
             <option value="mywar">My War series</option>
             <option value="classic">Famous clips</option>
             <option value="contest">Contest tricks</option>
+            <option value="mine">Your clips</option>
           </select>
         </label>
         <label><span class="sr">Country</span>
@@ -113,6 +164,7 @@
       <span><i class="dot dot-classic"></i>Famous clip</span>
       <span><i class="dot dot-contest"></i>Contest</span>
       <span><i class="dot dot-approx"></i>Hollow = city-level</span>
+      <span class="lg-mine"><i class="dot dot-mine" aria-hidden="true">&#9733;</i>Your clip</span>
     </div>
     <button class="reset" id="reset" type="button">Zoom out</button>
   </div>
@@ -131,6 +183,7 @@
 <script src="classics.js"></script>
 <script src="skaters.js"></script>
 <script src="portraits.js"></script>
+<script src="myclips.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

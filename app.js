@@ -103,7 +103,7 @@
   $('cards').addEventListener('error', function (e) { if (e.target.tagName === 'IMG') e.target.remove(); }, true);
 
   // ---------- discipline (tab) + tally ----------
-  var style = null;                       // 'street' | 'park' | 'skater' — set by the landing page, a tab or a skater card
+  var style = null;                       // 'street' | 'park' | 'skater' | 'mine' — set by the landing page, a tab or a card
   var who = null;                         // the skater whose clips are shown when style === 'skater'
   var POOL = [];                          // the clips on the current tab
   var uniq = function (k, list) {
@@ -162,8 +162,8 @@
   map.addLayer(cluster);
 
   var markers = {};
-  DATA.forEach(function (d) {
-    if (!d.located) return;
+  // one marker per pinned clip; your own clips get theirs the same way when they load or are added
+  function makeMarker(d) {
     var m = L.marker([d.lat, d.lng], {
       icon: L.divIcon({ className: 'pin' + (d.approx ? ' approx' : '') + (d.series !== 'mywar' ? ' ' + d.series : ''), html: '<i></i>', iconSize: [28, 28] }),
       title: d.skater + ' — ' + (d.spot || d.city || ''),
@@ -172,8 +172,9 @@
     m.bindTooltip(esc(d.skater) + '<small>' + esc([d.trick, d.spot].filter(Boolean).join(' · ')) + '</small>',
       { className: 'tip', direction: 'top', offset: [0, -8] });
     m.on('click', function () { select(d.id, { fly: false }); });
-    markers[d.id] = m;
-  });
+    return m;
+  }
+  DATA.forEach(function (d) { if (d.located) markers[d.id] = makeMarker(d); });
 
   // ---------- filters + list ----------
   // country / year options only list what the current tab holds
@@ -217,7 +218,7 @@
     style = s; who = null;
     $('who').hidden = true;
     pressTab(s);
-    hideSkaters();
+    hidePanels();
     usePool(ofStyle(s));
     if (!opt.keepView) map.flyToBounds(tabBounds(), { duration: 0.8 });
     history.replaceState(null, '', location.pathname + '?tab=' + s + location.hash);
@@ -229,7 +230,7 @@
     opt = opt || {};
     style = 'skater'; who = s;
     pressTab('skaters');
-    hideSkaters(); hideHome();
+    hidePanels(); hideHome();
     $('who').innerHTML = photoHtml(s) +
       '<div><div class="who-name">' + esc(s.name) + '</div>' +
       '<div class="who-meta">' + esc([ageLine(s), s.hometown || s.country].filter(Boolean).join(' · ')) +
@@ -245,16 +246,20 @@
 
   function showSkaters() {
     hideHome();
+    // the panels sit under the dossier, so an open clip would cover the page you just asked for
+    if (!$('dossier').hidden) closeDossier();
+    $('mine').hidden = true;
     pressTab('skaters');
     $('skaters').hidden = false;
     $('skaters').scrollTop = 0;
     history.replaceState(null, '', location.pathname + '?tab=skaters');
   }
-  function hideSkaters() { $('skaters').hidden = true; }
+  // the Skaters grid and the My Clips page both cover the map; anything that shows the map hides them
+  function hidePanels() { $('skaters').hidden = true; $('mine').hidden = true; }
 
   function showHome() {
     if (!$('dossier').hidden) closeDossier();
-    hideSkaters();
+    hidePanels();
     $('home').hidden = false;
     document.body.classList.add('at-home');
   }
@@ -263,9 +268,10 @@
     document.body.classList.remove('at-home');
     map.invalidateSize();
   }
-  Array.prototype.forEach.call(document.querySelectorAll('.pick, #tabs button'), function (b) {
+  Array.prototype.forEach.call(document.querySelectorAll('.pick, .home-alt, #tabs button'), function (b) {
     b.addEventListener('click', function () {
       if (b.dataset.style === 'skaters') return showSkaters();
+      if (b.dataset.style === 'mine') return showMine();
       var first = !style;
       setStyle(b.dataset.style, { keepView: first });
       hideHome();
@@ -302,7 +308,7 @@
     cluster.clearLayers();
     cluster.addLayers(visible.filter(function (d) { return d.located; }).map(function (d) { return markers[d.id]; }));
 
-    var noun = who ? 'clips' : style + ' clips';
+    var noun = (who || style === 'mine') ? 'clips' : style + ' clips';
     $('count').textContent = visible.length === POOL.length
       ? POOL.length + ' ' + noun
       : visible.length + ' of ' + POOL.length + ' ' + noun;
@@ -361,7 +367,18 @@
   }
 
   function videoHtml(d) {
-    var search = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(
+    // your own clip plays straight from this browser's storage
+    if (d.mine) {
+      var rec = MINE[d.id];
+      if (liveURL) { URL.revokeObjectURL(liveURL); liveURL = null; }
+      if (!rec || !rec.video) return '<p class="novideo">The video for this clip is missing from this browser.</p>';
+      liveURL = URL.createObjectURL(rec.video);
+      return '<div class="video mine-video"><video controls playsinline preload="metadata" src="' + liveURL + '"' +
+        (d.thumb ? ' poster="' + esc(d.thumb) + '"' : '') + '></video></div>' +
+        '<p class="d-approx mine-bad" hidden>This browser can&rsquo;t play this video&rsquo;s format. It&rsquo;s still saved. ' +
+        'iPhone clips shot in HEVC usually play in Safari, or re-export the clip as H.264.</p>';
+    }
+    var search ='https://www.youtube.com/results?search_query=' + encodeURIComponent(
       (d.series === 'mywar' ? 'Thrasher My War ' : '') + [d.skater, d.trick, d.spot].filter(Boolean).join(' '));
     if (!d.youtubeId) {
       return '<p class="novideo">No verified video link for this one yet. <a href="' + search + '" target="_blank" rel="noopener">Search YouTube</a></p>';
@@ -378,6 +395,7 @@
     if (d.youtubeId) links.push('<a href="https://www.youtube.com/watch?v=' + esc(d.youtubeId) + '" target="_blank" rel="noopener">YouTube</a>');
     if (d.thrasherUrl) links.push('<a href="' + esc(d.thrasherUrl) + '" target="_blank" rel="noopener">Thrasher article</a>');
     if (d.located) links.push('<a href="https://www.google.com/maps?q=' + d.lat + ',' + d.lng + '" target="_blank" rel="noopener">Open in Maps</a>');
+    if (d.mine) links.push('<button type="button" class="del" data-del="' + esc(d.id) + '">Delete clip</button>');
 
     $('dossierBody').innerHTML =
       '<p class="d-year">' + esc(d.year || '') + (d.title ? ' · ' + esc(d.title) : '') + '</p>' +
@@ -396,11 +414,40 @@
         (prev ? '<button type="button" data-id="' + prev.id + '">← ' + esc(prev.skater) + '</button>' : '<span></span>') +
         (next ? '<button type="button" data-id="' + next.id + '">' + esc(next.skater) + ' →</button>' : '<span></span>') +
       '</div>';
+    var mv = $('dossierBody').querySelector('.mine-video video');
+    if (mv) mv.addEventListener('error', function () {
+      var note = $('dossierBody').querySelector('.mine-bad');
+      if (note) note.hidden = false;
+    });
   }
 
   $('dossierBody').addEventListener('click', function (e) {
     var nav = e.target.closest('.nav button[data-id]');
     if (nav) return select(nav.dataset.id, { fly: true });
+    // deleting one of your clips takes two taps, so a stray click can't lose a video
+    var del = e.target.closest('button[data-del]');
+    if (del) {
+      if (!del.classList.contains('armed')) {
+        del.classList.add('armed');
+        del.textContent = 'Tap again to delete';
+        setTimeout(function () {
+          if (del.isConnected) { del.classList.remove('armed'); del.textContent = 'Delete clip'; }
+        }, 4000);
+        return;
+      }
+      var gone = del.dataset.del;
+      del.disabled = true;
+      del.textContent = 'Deleting…';
+      STORE.remove(gone).then(function () {
+        closeDossier();
+        dropMine(gone);
+        mineChanged();
+      }).catch(function (err) {
+        del.disabled = false;
+        del.textContent = 'Couldn’t delete: ' + ((err && err.message) || err);
+      });
+      return;
+    }
     var v = e.target.closest('.video');
     if (v && v.dataset.yt) {
       v.innerHTML = '<iframe title="YouTube video player" allow="accelerometer; autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/' +
@@ -418,9 +465,12 @@
   function select(id, opt) {
     var d = byId[id]; if (!d) return;
     // a deep link (or prev/next) may point outside the current pool: switch to its tab first, without the fly-out
-    if (POOL.indexOf(d) < 0) setStyle(d.style, { keepView: true });
+    if (POOL.indexOf(d) < 0) {
+      if (d.mine) setMine({ keepView: true });
+      else setStyle(d.style, { keepView: true });
+    }
     if (!$('home').hidden) hideHome();
-    hideSkaters();
+    hidePanels();
     if (visible.indexOf(d) < 0) { clearFilters(); apply(); }
     if (current) mark(current, false);
     current = id;
@@ -629,6 +679,7 @@
     exit3D();
     $('dossier').hidden = true;
     $('dossierBody').innerHTML = '';
+    if (liveURL) { URL.revokeObjectURL(liveURL); liveURL = null; }
     if (current) mark(current, false);
     current = null;
     Array.prototype.forEach.call(document.querySelectorAll('#battles [aria-current]'), function (b) { b.removeAttribute('aria-current'); });
@@ -651,8 +702,323 @@
   };
   window.addEventListener('hashchange', function () { var id = location.hash.slice(1); if (id && id !== current) select(id, { fly: true }); });
 
+  // ---------- your clips (My Clips tab) ----------
+  // Your own clips live in this browser only (myclips.js keeps them in IndexedDB, video file and all).
+  // Once loaded they join DATA like any other clip, so they get a star pin, the dossier and the 3D fly-in.
+  var STORE = window.MYWAR_MINE;
+  var MINE = {};                     // id -> the stored record, which holds the video Blob
+  var liveURL = null;                // object URL of the video playing in the dossier
+  var pick = null, pickPin = null, pickLL = null;
+  var mineFile = null, previewURL = null, thumbP = null, videoLL = null, dateTouched = false;
+  var PIN_HINT = 'Click the map to drop your pin. Zoom right in and it switches to satellite, so you can put it on the exact spot.';
+
+  function today() {
+    var d = new Date();
+    d.setMinutes(d.getMinutes() - d.getTimezoneOffset());
+    return d.toISOString().slice(0, 10);
+  }
+  function fmtDate(iso) {
+    var p = String(iso || '').split('-').map(Number);
+    if (p.length < 3 || !p[0]) return iso || '';
+    return new Date(Date.UTC(p[0], p[1] - 1, p[2]))
+      .toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  }
+  function sizeText(n) { return n >= 1e9 ? (n / 1e9).toFixed(1) + ' GB' : Math.max(1, Math.round(n / 1e6)) + ' MB'; }
+  function listText(a) { return a.length < 2 ? a.join('') : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1]; }
+  var mineList = function () { return DATA.filter(function (d) { return d.mine; }); };
+
+  // a stored record, shaped like every other clip
+  function mineEntry(r) {
+    var disc = r.style === 'park' ? 'park' : 'street';
+    var d = {
+      id: r.id, mine: true, series: 'mine', style: disc,
+      skater: r.name, trick: r.trick, spot: r.spot || '', title: 'Your clip',
+      city: r.city || (r.lat.toFixed(4) + ', ' + r.lng.toFixed(4)), country: r.country || '',
+      lat: r.lat, lng: r.lng, located: true, approx: false,
+      year: Number(String(r.date).slice(0, 4)) || null, date: r.date, thumb: r.thumb,
+      stats: [['Landed', fmtDate(r.date)], ['Discipline', disc === 'park' ? 'Park' : 'Street']]
+    };
+    d.hay = [d.skater, d.trick, d.spot, d.city, d.country, d.year, 'your clip'].join(' ').toLowerCase();
+    return d;
+  }
+  function addMine(r) {
+    MINE[r.id] = r;
+    var d = mineEntry(r);
+    DATA.push(d);
+    byId[d.id] = d;
+    markers[d.id] = makeMarker(d);
+    return d;
+  }
+  function dropMine(id) {
+    var i = DATA.indexOf(byId[id]);
+    if (i > -1) DATA.splice(i, 1);
+    delete MINE[id]; delete byId[id]; delete markers[id];
+  }
+  function whoMine() {
+    var n = mineList().length;
+    $('who').innerHTML = '<span class="card-photo who-star" aria-hidden="true"><span class="ph">&#9733;</span></span>' +
+      '<div><div class="who-name">Your clips</div><div class="who-meta">' + n + (n === 1 ? ' clip' : ' clips') +
+      ' · saved in this browser</div></div>' +
+      '<button type="button" class="who-back" id="whoBack">Add a clip</button>';
+    $('who').hidden = false;
+    $('whoBack').onclick = showMine;
+  }
+  // after a clip is added or deleted: recount, and refresh whatever list is on screen
+  function mineChanged() {
+    document.body.classList.toggle('has-mine', mineList().length > 0);
+    homeCounts();
+    renderMineCards();
+    if (style === 'mine') { usePool(mineList()); whoMine(); }
+    else if (style === 'street' || style === 'park') usePool(ofStyle(style));
+  }
+
+  // your clips on the map, the way a skater card shows theirs
+  function setMine(opt) {
+    opt = opt || {};
+    style = 'mine'; who = null;
+    pressTab('mine');
+    hidePanels(); hideHome();
+    whoMine();
+    usePool(mineList());
+    if (!opt.keepView) map.flyToBounds(tabBounds(), { duration: 0.8 });
+    history.replaceState(null, '', location.pathname + '?tab=mine' + location.hash);
+  }
+  function openMine(id) {
+    setMine({ keepView: true });
+    select(id, { fly: true });
+  }
+
+  // the My Clips page: the form, the pin picker and the clips you've saved
+  function showMine() {
+    hideHome();
+    if (!$('dossier').hidden) closeDossier();
+    $('skaters').hidden = true;
+    pressTab('mine');
+    $('mine').hidden = false;
+    $('mine').scrollTop = 0;
+    $('mDone').hidden = true;
+    if (!$('mName').value) { try { $('mName').value = localStorage.getItem('sg-name') || ''; } catch (e) {} }
+    $('mDate').max = today();
+    if (!$('mDate').value) $('mDate').value = today();
+    if (!pickLL) pinNote(PIN_HINT);
+    initPick();
+    renderMineCards();
+    history.replaceState(null, '', location.pathname + '?tab=mine');
+  }
+
+  function renderMineCards() {
+    var list = mineList().sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+    $('mCount').textContent = list.length ? '(' + list.length + ')' : '';
+    $('mShowMap').hidden = !list.length;
+    $('mCards').innerHTML = !list.length
+      ? '<p class="mine-empty">No clips yet. Add your first one above and it will show up here and on the map.</p>'
+      : list.map(function (d) {
+        return '<button type="button" class="card" data-mine="' + esc(d.id) + '">' +
+          '<span class="card-photo"><span class="ph" aria-hidden="true">&#9733;</span>' +
+          (d.thumb ? '<img class="shot" alt="" src="' + esc(d.thumb) + '">' : '') + '</span>' +
+          '<span class="card-name">' + esc(d.trick) + '</span>' +
+          '<span class="card-meta">' + esc(d.skater + ' · ' + fmtDate(d.date)) + '</span>' +
+          '<span class="card-titles"><span>' + esc(d.spot || d.city) + '</span></span>' +
+          '<span class="card-clips">' + (d.style === 'park' ? 'Park' : 'Street') + ' · see it on the map</span></button>';
+      }).join('');
+  }
+
+  // ----- the pin picker -----
+  function initPick() {
+    if (pick) { setTimeout(function () { pick.invalidateSize(); }, 0); return; }
+    pick = L.map('pickMap', { worldCopyJump: true, minZoom: 2, zoomSnap: 0.5 });
+    L.tileLayer(ESRI + 'Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', { maxZoom: 15, attribution: 'Tiles &copy; Esri' }).addTo(pick);
+    L.tileLayer(ESRI + 'Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 15 }).addTo(pick);
+    // satellite from 15.5 so there's no blank band between the two layers when zooming in
+    L.tileLayer(ESRI + 'World_Imagery/MapServer/tile/{z}/{y}/{x}', { minZoom: 15.5, maxZoom: 19 }).addTo(pick);
+    pick.setMaxZoom(19);
+    pick.fitBounds(WORLD);
+    pick.on('click', function (e) { setPin(e.latlng, 'Pinned where you clicked. Drag the pin to fine-tune it.'); });
+  }
+  function coords(ll) { return '(' + ll.lat.toFixed(5) + ', ' + ll.lng.toFixed(5) + ')'; }
+  function pinNote(text, html) {
+    var p = $('mPin');
+    p.classList.toggle('set', !!pickLL);
+    if (html) p.innerHTML = html; else p.textContent = text;
+  }
+  function setPin(ll, note, zoom) {
+    pickLL = L.latLng(ll);
+    if (!pickPin) {
+      pickPin = L.marker(pickLL, { draggable: true, keyboard: false,
+        icon: L.divIcon({ className: 'pin mine on', html: '<i></i>', iconSize: [28, 28] }) }).addTo(pick);
+      pickPin.on('dragend', function () { pickLL = pickPin.getLatLng(); pinNote('Pin moved. ' + coords(pickLL)); });
+    } else pickPin.setLatLng(pickLL);
+    if (zoom) pick.setView(pickLL, zoom);
+    pinNote(note + ' ' + coords(pickLL));
+  }
+  function clearPin() {
+    if (pickPin) { pick.removeLayer(pickPin); pickPin = null; }
+    pickLL = null;
+    pinNote(PIN_HINT);
+  }
+
+  $('mLocate').onclick = function () {
+    if (!navigator.geolocation) return pinNote('This browser can’t share your location. Click the map instead.');
+    pinNote('Finding your location…');
+    navigator.geolocation.getCurrentPosition(function (p) {
+      setPin([p.coords.latitude, p.coords.longitude], 'Pinned at your current location.', 18);
+    }, function (err) {
+      pinNote(err && err.code === 1
+        ? 'Location permission was blocked. Click the map to drop your pin instead.'
+        : 'Couldn’t get your location. Click the map to drop your pin instead.');
+    }, { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 });
+  };
+  // offered when the video carries a location but you'd already dropped a pin
+  $('mPin').addEventListener('click', function (e) {
+    if (e.target.id === 'mUseVid' && videoLL) setPin(videoLL, 'Pinned from the location saved in your video.', 17);
+  });
+
+  // place search through OpenStreetMap's Nominatim (free; fine for one person searching now and then)
+  function findPlace() {
+    var q = $('mFind').value.trim(), ol = $('mResults');
+    if (!q) return;
+    ol.hidden = false;
+    ol.innerHTML = '<li class="note">Searching…</li>';
+    fetch('https://nominatim.openstreetmap.org/search?format=jsonv2&limit=6&accept-language=en&q=' + encodeURIComponent(q))
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (list) {
+        ol.innerHTML = !list.length
+          ? '<li class="note">Nothing found. Try a park, street or city name, or just click the map.</li>'
+          : list.map(function (p) {
+            return '<li><button type="button" data-lat="' + esc(p.lat) + '" data-lng="' + esc(p.lon) + '" data-bb="' +
+              esc((p.boundingbox || []).join(',')) + '">' + esc(p.display_name) + '</button></li>';
+          }).join('');
+      })
+      .catch(function () { ol.innerHTML = '<li class="note">Place search isn’t available right now. Click the map to drop your pin instead.</li>'; });
+  }
+  $('mFindGo').onclick = findPlace;
+  $('mFind').addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); findPlace(); } });
+  $('mResults').addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-lat]');
+    if (!b) return;
+    $('mResults').hidden = true;
+    var bb = b.dataset.bb.split(',').map(Number), name = b.textContent.split(',')[0];
+    var small = bb.length === 4 && bb.every(isFinite) && Math.abs(bb[1] - bb[0]) < 0.01;
+    if (bb.length === 4 && bb.every(isFinite)) pick.fitBounds([[bb[0], bb[2]], [bb[1], bb[3]]], { maxZoom: 18 });
+    // a skatepark or a street is precise enough to pin; a whole city is not, so let the click do it
+    if (small) setPin([+b.dataset.lat, +b.dataset.lng], 'Pinned at ' + name + '. Drag the pin onto the exact spot.');
+    else pinNote('Showing ' + name + '. Zoom in and click the exact spot.');
+  });
+
+  // reverse-geocode the pin once, when saving, so the clip reads "Venice, California" rather than raw numbers
+  function placeName(lat, lng) {
+    var none = { city: '', country: '' };
+    var ask = fetch('https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=14&accept-language=en&lat=' + lat + '&lon=' + lng)
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        var a = (j && j.address) || {}, cc = String(a.country_code || '').toLowerCase();
+        var town = a.city || a.town || a.village || a.hamlet || a.suburb || a.county || '';
+        return {
+          city: [town, a.state].filter(Boolean).join(', '),
+          country: cc === 'us' ? 'USA' : cc === 'gb' ? 'UK' : (a.country || '')
+        };
+      })
+      .catch(function () { return none; });
+    return Promise.race([ask, new Promise(function (res) { setTimeout(function () { res(none); }, 6000); })]);
+  }
+
+  // ----- the form -----
+  $('mDate').addEventListener('input', function () { dateTouched = true; });
+  $('mVideo').addEventListener('change', function () {
+    var f = this.files && this.files[0], box = $('mPreview');
+    if (previewURL) { URL.revokeObjectURL(previewURL); previewURL = null; }
+    mineFile = f || null; thumbP = null; videoLL = null;
+    if (!f) { box.hidden = true; box.innerHTML = ''; return; }
+    previewURL = URL.createObjectURL(f);
+    box.hidden = false;
+    box.innerHTML = '<video controls muted playsinline preload="metadata" src="' + previewURL + '"></video>' +
+      '<p>' + esc(f.name) + ' · ' + sizeText(f.size) + '</p>';
+    box.querySelector('video').addEventListener('error', function () {
+      // picking another file revokes this preview's URL, which makes this (now old) video fire an error late
+      if (mineFile !== f) return;
+      box.querySelector('p').textContent = f.name + ' · ' + sizeText(f.size) +
+        '. This browser can’t preview this format, but the clip will still save.';
+    });
+    thumbP = STORE.thumbnail(f);
+    // phones record where and when: use it to fill the date and drop the pin
+    STORE.readMeta(f).then(function (meta) {
+      if (mineFile !== f) return;                     // another file was picked in the meantime
+      if (meta.date && !dateTouched && meta.date <= today()) $('mDate').value = meta.date;
+      if (meta.lat == null) return;
+      videoLL = L.latLng(meta.lat, meta.lng);
+      if (!pickLL) setPin(videoLL, 'Pinned from the location saved in your video.', 17);
+      else pinNote(null, esc($('mPin').textContent) +
+        ' <button type="button" id="mUseVid">Use the location saved in your video instead</button>');
+    });
+  });
+
+  function resetForm() {
+    $('mTrick').value = ''; $('mSpot').value = ''; $('mVideo').value = '';
+    $('mDate').value = today(); dateTouched = false;
+    if (previewURL) { URL.revokeObjectURL(previewURL); previewURL = null; }
+    $('mPreview').hidden = true; $('mPreview').innerHTML = '';
+    mineFile = null; thumbP = null; videoLL = null;
+    clearPin();
+    $('mErr').textContent = '';
+  }
+
+  $('mineForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var name = $('mName').value.trim(), trick = $('mTrick').value.trim(), date = $('mDate').value, spot = $('mSpot').value.trim();
+    var miss = [];
+    if (!name) miss.push('your name');
+    if (!trick) miss.push('the trick');
+    if (!date) miss.push('the date');
+    if (!mineFile) miss.push('a video');
+    if (!pickLL) miss.push('a pin on the map');
+    if (miss.length) { $('mErr').textContent = 'Still needed: ' + listText(miss) + '.'; return; }
+
+    var btn = $('mSave'), ll = pickLL, file = mineFile, disc = $('mStyle').value;
+    $('mErr').textContent = '';
+    btn.disabled = true;
+    btn.textContent = 'Saving…';
+    try { localStorage.setItem('sg-name', name); } catch (err) {}
+    Promise.all([thumbP || Promise.resolve(null), placeName(ll.lat, ll.lng)]).then(function (got) {
+      var rec = {
+        id: 'mine-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+        name: name, trick: trick, date: date, spot: spot, style: disc,
+        lat: ll.lat, lng: ll.lng, city: got[1].city, country: got[1].country,
+        thumb: got[0], video: file, videoName: file.name, videoType: file.type, saved: new Date().toISOString()
+      };
+      return STORE.put(rec).then(function () { return rec; });
+    }).then(function (rec) {
+      STORE.persist();
+      var d = addMine(rec);
+      mineChanged();
+      resetForm();
+      $('mDone').innerHTML = '<span><b>Saved.</b> ' + esc(d.trick) + ' is on the map.</span>' +
+        '<button type="button" data-mine="' + esc(d.id) + '">See it on the map &rarr;</button>';
+      $('mDone').hidden = false;
+      $('mine').scrollTop = 0;
+    }).catch(function (err) {
+      var why = String((err && (err.name + ' ' + err.message)) || err);
+      $('mErr').textContent = /quota/i.test(why)
+        ? 'Your browser ran out of storage space for this video. Try a shorter clip or free up some disk space.'
+        : 'Couldn’t save the clip: ' + ((err && err.message) || err);
+    }).then(function () {
+      btn.disabled = false;
+      btn.textContent = 'Save clip to map';
+    });
+  });
+
+  $('mDone').addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-mine]');
+    if (b) openMine(b.dataset.mine);
+  });
+  $('mCards').addEventListener('click', function (e) {
+    var c = e.target.closest('.card[data-mine]');
+    if (c) openMine(c.dataset.mine);
+  });
+  $('mCards').addEventListener('error', function (e) { if (e.target.tagName === 'IMG') e.target.remove(); }, true);
+  $('mShowMap').onclick = function () { setMine(); };
+
   // a deep link skips the landing page: #clip-id opens that clip on its tab, ?tab=park|street opens a tab
-  var tab = /[?&]tab=(street|park|skaters)\b/.exec(location.search);
+  var tab = /[?&]tab=(street|park|skaters|mine)\b/.exec(location.search);
   var who0 = /[?&]skater=([a-z0-9-]+)/.exec(location.search);
   if (who0 && bySkater[who0[1]]) {
     hideHome();
@@ -664,6 +1030,8 @@
     select(location.hash.slice(1), { fly: true });
   } else if (tab && tab[1] === 'skaters') {
     showSkaters();
+  } else if (tab && tab[1] === 'mine') {
+    showMine();
   } else if (tab) {
     setStyle(tab[1], { keepView: true });
     hideHome();
@@ -671,4 +1039,14 @@
   } else {
     showHome();
   }
+
+  // your saved clips arrive after the page is up; a link straight to one of them opens once it has loaded
+  if (STORE) STORE.all().then(function (list) {
+    (list || []).forEach(function (r) { if (r && r.id && typeof r.lat === 'number') addMine(r); });
+    if (list && list.length) mineChanged();
+    var h = location.hash.slice(1);
+    if (h && MINE[h] && current !== h) openMine(h);
+  }).catch(function (err) {
+    console.warn('Stomping Grounds: your saved clips could not be loaded —', err);
+  });
 })();
