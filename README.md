@@ -18,6 +18,17 @@ Three collections share the map:
 
 A hollow pin means the exact spot was never published, so it sits at city level.
 
+## Your own clips
+
+The **My Clips** tab puts your own clips on the map. Add your name, the trick, the date and a video,
+then pin where you landed it: click the map, search for the spot, or use your current location. If
+your phone recorded where the video was filmed, the pin drops itself and the date fills in when you
+pick the file. Your clips get a ★ pin, their own page with the video, and the same 3D fly-in.
+
+Everything you add stays **in your browser only**, video included (it's kept in IndexedDB by
+`myclips.js`). Nothing is uploaded, nobody else can see your clips, and they don't carry over to
+another browser or device. Clearing the site's data in your browser deletes them.
+
 ## Running it
 
 No build step, no dependencies, no Node. It is plain HTML, CSS and vanilla JavaScript.
