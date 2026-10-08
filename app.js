@@ -410,6 +410,7 @@
         : '<p class="d-approx">No stats have been published for this one — the video is the record.</p>') +
       (d.summary ? '<h3 class="d-h">' + (d.series === 'mywar' ? 'The war' : 'The story') + '</h3><p class="d-summary">' + esc(d.summary) + '</p>' : '') +
       '<div class="links">' + links.join('') + '</div>' +
+      (d.series === 'mywar' ? '<p class="d-fan"><i>My War</i> is a Thrasher Magazine series and the video is theirs. Stomping Grounds is an independent fan project, not affiliated with or endorsed by Thrasher.</p>' : '') +
       '<div class="nav">' +
         (prev ? '<button type="button" data-id="' + prev.id + '">← ' + esc(prev.skater) + '</button>' : '<span></span>') +
         (next ? '<button type="button" data-id="' + next.id + '">' + esc(next.skater) + ' →</button>' : '<span></span>') +
