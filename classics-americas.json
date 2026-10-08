@@ -12,7 +12,7 @@
     "video": "Alien Workshop \"Photosynthesis\" (2000)",
     "youtubeId": "uxCfOk7rY0E",
     "youtubeTitle": "Classics: Josh Kalis \"Photosynthesis\"",
-    "startSeconds": null,
+    "startSeconds": 149,
     "stats": {
       "photo": "Shot by Mike Blabac; one of the most recognisable photos in skateboarding",
       "filmed": "1999, used as his Photosynthesis ender",
@@ -110,8 +110,8 @@
     "lat": 39.9541495,
     "lng": -75.1657445,
     "precision": "spot",
-    "year": null,
-    "video": null,
+    "year": 2003,
+    "video": "DC Shoes - The DC Video (2003)",
     "youtubeId": "NksyfysBnAU",
     "youtubeTitle": "Love Gap, Philadelphia - #krakhistoryclip",
     "startSeconds": null,
@@ -155,12 +155,12 @@
   {
     "skater": "Tyshawn Jones",
     "trick": "Kickflip over the subway tracks, platform to platform",
-    "spot": "145th Street subway station",
+    "spot": "145th Street subway station (IND, A/B/C/D lines), St Nicholas Ave",
     "city": "New York City, New York",
     "country": "USA",
-    "lat": 40.8204635,
-    "lng": -73.9362163,
-    "precision": "city",
+    "lat": 40.8242108,
+    "lng": -73.9446318,
+    "precision": "building/campus",
     "year": 2022,
     "video": "Thrasher December 2022 cover trick (footage reported to be in Supreme \"Play Dead\", 2022)",
     "youtubeId": "7clV9fs5X9s",
@@ -178,8 +178,7 @@
       "https://quartersnacks.com/2022/10/my-baby-takes-the-morning-train-a-timeline-of-skateboarding-in-the-subway/",
       "https://boiltheocean.wordpress.com/2022/10/09/as-above-so-below-tyshawn-jones-and-the-power-of-the-event-trick/",
       "https://www.skateboarding.com/news/tyshawn-jones-returns-to-145th-st-subway-gap-and-360-flips-it",
-      "https://www.youtube.com/watch?v=7clV9fs5X9s"
-    ]
+      "https://www.youtube.com/watch?v=7clV9fs5X9s", "https://quartersnacks.com/tag/best-of-2013-list"]
   },
   {
     "skater": "Tyshawn Jones",
@@ -194,7 +193,7 @@
     "video": "Supreme \"cherry\" (William Strobeck, 2014)",
     "youtubeId": "FiDtrKhMw2c",
     "youtubeTitle": "This Old Ledge: New York Courthouse",
-    "startSeconds": null,
+    "startSeconds": 473,
     "stats": {
       "age": "14 at the time",
       "nickname": "Dubbed 'the Courthouse Kid' by director Bill Strobeck",
@@ -298,7 +297,7 @@
     "video": null,
     "youtubeId": "CcunKqIih6E",
     "youtubeTitle": "This Old Ledge: Brooklyn Banks",
-    "startSeconds": null,
+    "startSeconds": 303,
     "stats": {
       "firsts": "First person to ollie over the Brooklyn Banks wall (Fall 1986, aged 18)",
       "note": "Documented in photos by Stana Weisburd rather than a video part; linked video is Thrasher's history of the Banks"
@@ -392,7 +391,7 @@
     "lat": 38.89582,
     "lng": -77.030685,
     "precision": "spot",
-    "year": null,
+    "year": 2014,
     "video": "Krooked \"Hometown Turf Killer\"",
     "youtubeId": "8N9mjjDY4_0",
     "youtubeTitle": "Bobby Worrest: Hometown Turf Killer",
@@ -446,7 +445,7 @@
     "video": "The Berrics \"PUSH\" - Aaron Homoki full part (2015)",
     "youtubeId": "2cx7Is2eodU",
     "youtubeTitle": "Aaron Homoki | PUSH: Full Part",
-    "startSeconds": null,
+    "startSeconds": 792,
     "stats": {
       "stairCount": 21,
       "dropHeight": "12 ft 8 in (about 3.86 m)",
@@ -467,7 +466,7 @@
     "country": "USA",
     "lat": 35.9608241,
     "lng": -111.657094,
-    "precision": "city",
+    "precision": "building/campus",
     "year": 2006,
     "video": "Discovery Channel \"Stunt Junkies\" (2006)",
     "youtubeId": "wXkQhyIjRK0",
@@ -486,8 +485,7 @@
       "https://en.wikipedia.org/wiki/Bob_Burnquist",
       "https://en.wikipedia.org/wiki/Stunt_Junkies",
       "https://www.neatorama.com/2006/11/09/skateboarding-off-the-grand-canyon/",
-      "https://www.youtube.com/watch?v=wXkQhyIjRK0"
-    ]
+      "https://www.youtube.com/watch?v=wXkQhyIjRK0", "https://topoquest.com/place/arizona/bend/hellhole-bend/5706"]
   },
   {
     "skater": "Danny Way",
@@ -561,7 +559,7 @@
     "video": "Emerica \"Stay Gold\" (2010)",
     "youtubeId": "e_fKdC9l15g",
     "youtubeTitle": "Emerica \"Stay Gold\" (2010)",
-    "startSeconds": null,
+    "startSeconds": 252,
     "stats": {
       "gapSize": "Described as a neck-high road gap, ollied uphill at full speed",
       "note": "Linked video is the full-length Stay Gold; Westgate's part timestamp not confirmed"
@@ -635,7 +633,7 @@
     "lat": 49.2832833,
     "lng": -123.0432496,
     "precision": "spot",
-    "year": null,
+    "year": 2014,
     "video": "Thrasher \"Welcome To Hastings\"",
     "youtubeId": "JRYuz43XRGk",
     "youtubeTitle": "Welcome To Hastings",
@@ -661,7 +659,7 @@
     "lat": 45.5623913,
     "lng": -73.5511451,
     "precision": "building/campus",
-    "year": null,
+    "year": 2012,
     "video": "RIDE Channel \"SKATE Montreal with Barry Walsh\"",
     "youtubeId": "VBcAksyUJNo",
     "youtubeTitle": "SKATE Montreal with Barry Walsh",
@@ -693,7 +691,7 @@
     "video": "Birdhouse \"The End\" (1998)",
     "youtubeId": "kPjzMDPJALE",
     "youtubeTitle": "Birdhouse \"The End\" (1998)",
-    "startSeconds": null,
+    "startSeconds": 1727,
     "stats": {
       "firsts": "First skater to complete a full loop",
       "rampSize": "14 ft high (12 ft transitions + 2 ft vert), 48 ft wide, with a loop attached to the end; designed by Tim Payne",
@@ -751,7 +749,7 @@
     "video": "Red Bull Building Drop (September 25, 2025)",
     "youtubeId": "JqflfjrcKjo",
     "youtubeTitle": "Biggest Skate Ramp EVER (world record)",
-    "startSeconds": null,
+    "startSeconds": 570,
     "stats": {
       "dropHeight": "60.33 m (197 ft 10 in) drop on an 88.91 m temporary quarter pipe",
       "speed": "103.8 km/h (62.1 mph); 3.9 G",
@@ -804,7 +802,7 @@
     "lat": -23.5455193,
     "lng": -46.6367375,
     "precision": "spot",
-    "year": null,
+    "year": 2022,
     "video": "Pocket Skate Mag \"Vale do Anhangabaú - Past & Future\"",
     "youtubeId": "q1k-jTtVNN4",
     "youtubeTitle": "Brazil's Most Iconic Spot: Vale do Anhangabaú - Past & Future",
@@ -832,7 +830,7 @@
     "lat": -27.5973002,
     "lng": -48.5496098,
     "precision": "city",
-    "year": null,
+    "year": 2015,
     "video": "RIDE Channel \"Pedro Barros - RTMF Bowl Session in Florianopolis, Brazil\"",
     "youtubeId": "9nm0BXQ8G0Y",
     "youtubeTitle": "Pedro Barros - RTMF Bowl Session in Florianopolis, Brazil",

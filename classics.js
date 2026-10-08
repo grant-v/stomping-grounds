@@ -14,7 +14,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Alien Workshop \"Photosynthesis\" (2000)",
     "youtubeId": "uxCfOk7rY0E",
     "youtubeTitle": "Classics: Josh Kalis \"Photosynthesis\"",
-    "startSeconds": null,
+    "startSeconds": 149,
     "stats": {
       "photo": "Shot by Mike Blabac; one of the most recognisable photos in skateboarding",
       "filmed": "1999, used as his Photosynthesis ender",
@@ -112,8 +112,8 @@ window.MYWAR_CLASSICS = [].concat(
     "lat": 39.9541495,
     "lng": -75.1657445,
     "precision": "spot",
-    "year": null,
-    "video": null,
+    "year": 2003,
+    "video": "DC Shoes - The DC Video (2003)",
     "youtubeId": "NksyfysBnAU",
     "youtubeTitle": "Love Gap, Philadelphia - #krakhistoryclip",
     "startSeconds": null,
@@ -157,12 +157,12 @@ window.MYWAR_CLASSICS = [].concat(
   {
     "skater": "Tyshawn Jones",
     "trick": "Kickflip over the subway tracks, platform to platform",
-    "spot": "145th Street subway station",
+    "spot": "145th Street subway station (IND, A/B/C/D lines), St Nicholas Ave",
     "city": "New York City, New York",
     "country": "USA",
-    "lat": 40.8204635,
-    "lng": -73.9362163,
-    "precision": "city",
+    "lat": 40.8242108,
+    "lng": -73.9446318,
+    "precision": "building/campus",
     "year": 2022,
     "video": "Thrasher December 2022 cover trick (footage reported to be in Supreme \"Play Dead\", 2022)",
     "youtubeId": "7clV9fs5X9s",
@@ -180,8 +180,7 @@ window.MYWAR_CLASSICS = [].concat(
       "https://quartersnacks.com/2022/10/my-baby-takes-the-morning-train-a-timeline-of-skateboarding-in-the-subway/",
       "https://boiltheocean.wordpress.com/2022/10/09/as-above-so-below-tyshawn-jones-and-the-power-of-the-event-trick/",
       "https://www.skateboarding.com/news/tyshawn-jones-returns-to-145th-st-subway-gap-and-360-flips-it",
-      "https://www.youtube.com/watch?v=7clV9fs5X9s"
-    ]
+      "https://www.youtube.com/watch?v=7clV9fs5X9s", "https://quartersnacks.com/tag/best-of-2013-list"]
   },
   {
     "skater": "Tyshawn Jones",
@@ -196,7 +195,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Supreme \"cherry\" (William Strobeck, 2014)",
     "youtubeId": "FiDtrKhMw2c",
     "youtubeTitle": "This Old Ledge: New York Courthouse",
-    "startSeconds": null,
+    "startSeconds": 473,
     "stats": {
       "age": "14 at the time",
       "nickname": "Dubbed 'the Courthouse Kid' by director Bill Strobeck",
@@ -300,7 +299,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": null,
     "youtubeId": "CcunKqIih6E",
     "youtubeTitle": "This Old Ledge: Brooklyn Banks",
-    "startSeconds": null,
+    "startSeconds": 303,
     "stats": {
       "firsts": "First person to ollie over the Brooklyn Banks wall (Fall 1986, aged 18)",
       "note": "Documented in photos by Stana Weisburd rather than a video part; linked video is Thrasher's history of the Banks"
@@ -394,7 +393,7 @@ window.MYWAR_CLASSICS = [].concat(
     "lat": 38.89582,
     "lng": -77.030685,
     "precision": "spot",
-    "year": null,
+    "year": 2014,
     "video": "Krooked \"Hometown Turf Killer\"",
     "youtubeId": "8N9mjjDY4_0",
     "youtubeTitle": "Bobby Worrest: Hometown Turf Killer",
@@ -448,7 +447,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "The Berrics \"PUSH\" - Aaron Homoki full part (2015)",
     "youtubeId": "2cx7Is2eodU",
     "youtubeTitle": "Aaron Homoki | PUSH: Full Part",
-    "startSeconds": null,
+    "startSeconds": 792,
     "stats": {
       "stairCount": 21,
       "dropHeight": "12 ft 8 in (about 3.86 m)",
@@ -469,7 +468,7 @@ window.MYWAR_CLASSICS = [].concat(
     "country": "USA",
     "lat": 35.9608241,
     "lng": -111.657094,
-    "precision": "city",
+    "precision": "building/campus",
     "year": 2006,
     "video": "Discovery Channel \"Stunt Junkies\" (2006)",
     "youtubeId": "wXkQhyIjRK0",
@@ -488,8 +487,7 @@ window.MYWAR_CLASSICS = [].concat(
       "https://en.wikipedia.org/wiki/Bob_Burnquist",
       "https://en.wikipedia.org/wiki/Stunt_Junkies",
       "https://www.neatorama.com/2006/11/09/skateboarding-off-the-grand-canyon/",
-      "https://www.youtube.com/watch?v=wXkQhyIjRK0"
-    ]
+      "https://www.youtube.com/watch?v=wXkQhyIjRK0", "https://topoquest.com/place/arizona/bend/hellhole-bend/5706"]
   },
   {
     "skater": "Danny Way",
@@ -563,7 +561,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Emerica \"Stay Gold\" (2010)",
     "youtubeId": "e_fKdC9l15g",
     "youtubeTitle": "Emerica \"Stay Gold\" (2010)",
-    "startSeconds": null,
+    "startSeconds": 252,
     "stats": {
       "gapSize": "Described as a neck-high road gap, ollied uphill at full speed",
       "note": "Linked video is the full-length Stay Gold; Westgate's part timestamp not confirmed"
@@ -637,7 +635,7 @@ window.MYWAR_CLASSICS = [].concat(
     "lat": 49.2832833,
     "lng": -123.0432496,
     "precision": "spot",
-    "year": null,
+    "year": 2014,
     "video": "Thrasher \"Welcome To Hastings\"",
     "youtubeId": "JRYuz43XRGk",
     "youtubeTitle": "Welcome To Hastings",
@@ -663,7 +661,7 @@ window.MYWAR_CLASSICS = [].concat(
     "lat": 45.5623913,
     "lng": -73.5511451,
     "precision": "building/campus",
-    "year": null,
+    "year": 2012,
     "video": "RIDE Channel \"SKATE Montreal with Barry Walsh\"",
     "youtubeId": "VBcAksyUJNo",
     "youtubeTitle": "SKATE Montreal with Barry Walsh",
@@ -695,7 +693,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Birdhouse \"The End\" (1998)",
     "youtubeId": "kPjzMDPJALE",
     "youtubeTitle": "Birdhouse \"The End\" (1998)",
-    "startSeconds": null,
+    "startSeconds": 1727,
     "stats": {
       "firsts": "First skater to complete a full loop",
       "rampSize": "14 ft high (12 ft transitions + 2 ft vert), 48 ft wide, with a loop attached to the end; designed by Tim Payne",
@@ -753,7 +751,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Red Bull Building Drop (September 25, 2025)",
     "youtubeId": "JqflfjrcKjo",
     "youtubeTitle": "Biggest Skate Ramp EVER (world record)",
-    "startSeconds": null,
+    "startSeconds": 570,
     "stats": {
       "dropHeight": "60.33 m (197 ft 10 in) drop on an 88.91 m temporary quarter pipe",
       "speed": "103.8 km/h (62.1 mph); 3.9 G",
@@ -806,7 +804,7 @@ window.MYWAR_CLASSICS = [].concat(
     "lat": -23.5455193,
     "lng": -46.6367375,
     "precision": "spot",
-    "year": null,
+    "year": 2022,
     "video": "Pocket Skate Mag \"Vale do Anhangabaú - Past & Future\"",
     "youtubeId": "q1k-jTtVNN4",
     "youtubeTitle": "Brazil's Most Iconic Spot: Vale do Anhangabaú - Past & Future",
@@ -834,7 +832,7 @@ window.MYWAR_CLASSICS = [].concat(
     "lat": -27.5973002,
     "lng": -48.5496098,
     "precision": "city",
-    "year": null,
+    "year": 2015,
     "video": "RIDE Channel \"Pedro Barros - RTMF Bowl Session in Florianopolis, Brazil\"",
     "youtubeId": "9nm0BXQ8G0Y",
     "youtubeTitle": "Pedro Barros - RTMF Bowl Session in Florianopolis, Brazil",
@@ -863,7 +861,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": null,
     "youtubeId": "1grq_HFt0Eo",
     "youtubeTitle": "JENKEM - Revisiting the Water Tower Ollie w/ Jeremy Wray",
-    "startSeconds": null,
+    "startSeconds": 462,
     "stats": {
       "gapSize": "About 16 ft flat-to-flat",
       "dropHeight": "Towers roughly 40 ft above the ground",
@@ -889,7 +887,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Zero - Thrill of It All (1997)",
     "youtubeId": "dqqPCqyAfl4",
     "youtubeTitle": "Jamie Thomas and the 'Leap of Faith'. Thrill Of It All (Zero, dir. Jamie Thomas, 1997).",
-    "startSeconds": null,
+    "startSeconds": 99,
     "stats": {
       "stairCount": 27,
       "dropHeight": "17 ft",
@@ -917,7 +915,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Birdhouse - The End (1998)",
     "youtubeId": "QVmoQWt_t5E",
     "youtubeTitle": "Heath Kirchart on Landing the El Toro Lipslide | EPICLY LATER'D",
-    "startSeconds": null,
+    "startSeconds": 129,
     "stats": {
       "stairCount": 20,
       "cover": "TransWorld SKATEboarding, February 1999",
@@ -943,7 +941,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": null,
     "youtubeId": "Suy2nVlQjvs",
     "youtubeTitle": "El Toro Don Nguyen Ollie Skateboarding Classic Clips #2",
-    "startSeconds": null,
+    "startSeconds": 40,
     "stats": {
       "stairCount": 20,
       "attempts": "Landed it twice - the first make was out of frame, so he returned a week later and did it again",
@@ -970,7 +968,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "eS - Menikmati (2000)",
     "youtubeId": "23IdE5CJ0hw",
     "youtubeTitle": "Classics: Arto Saari Menikmati",
-    "startSeconds": null,
+    "startSeconds": 349,
     "stats": {
       "stairCount": 20
     },
@@ -1021,7 +1019,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Plan B - Second Hand Smoke (1995)",
     "youtubeId": "H_R2Y836C0Y",
     "youtubeTitle": "Classics: Jeremy Wray \"Second Hand Smoke\"",
-    "startSeconds": null,
+    "startSeconds": 291,
     "stats": {
       "spotStatus": "Demolished February 23, 2012"
     },
@@ -1141,7 +1139,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Birdhouse - The End (1998)",
     "youtubeId": "44zOdQt8uSo",
     "youtubeTitle": "Classics: Andrew Reynolds, The End",
-    "startSeconds": null,
+    "startSeconds": 203,
     "stats": {
       "stairCount": "Triple set (3 flat 3 flat 3)"
     },
@@ -1187,7 +1185,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Plan B - Superfuture (2008)",
     "youtubeId": "TQvbYg8cx-I",
     "youtubeTitle": "Total Recall: Sheckler's Gigantic Kickflip",
-    "startSeconds": null,
+    "startSeconds": 150,
     "stats": {
       "gapSize": "14 ft long",
       "dropHeight": "5.5 ft",
@@ -1317,7 +1315,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "World Industries - 20 Shot Sequence (1995)",
     "youtubeId": "hcmy3LIw13E",
     "youtubeTitle": "20 Shot Sequence full video - World Industries",
-    "startSeconds": null,
+    "startSeconds": 235,
     "stats": {},
     "summary": "The Menace crew's 20 Shot Sequence footage turned the Lockwood blacktop, with its long bank and picnic tables, into the mecca of mid-90s LA schoolyard skating.",
     "sources": [
@@ -1365,7 +1363,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Thrasher Classics clip",
     "youtubeId": "3Fqqf1XyCU0",
     "youtubeTitle": "Classics - EMB Gonz Kickflip",
-    "startSeconds": null,
+    "startSeconds": 87,
     "stats": {
       "firsts": "First to kickflip his own namesake gap",
       "spotStatus": "Plaza partially demolished / redeveloped"
@@ -1374,8 +1372,7 @@ window.MYWAR_CLASSICS = [].concat(
     "sources": [
       "https://www.thrashermagazine.com/articles/videos/classics-emb-gonz-kickflip/",
       "https://skateboarding.fandom.com/wiki/Mark_Gonzales",
-      "https://www.youtube.com/watch?v=3Fqqf1XyCU0"
-    ]
+      "https://www.youtube.com/watch?v=3Fqqf1XyCU0", "https://hufworldwide.com/blogs/news/espn-article-history-lesson-the-gonz-gap"]
   },
   {
     "skater": "Mark Gonzales",
@@ -1466,7 +1463,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Zero - New Blood (2005)",
     "youtubeId": "WfA_0thXyMg",
     "youtubeTitle": "New Blood - Chris Cole",
-    "startSeconds": null,
+    "startSeconds": 192,
     "stats": {
       "gapSize": "16 ft 6 in long",
       "dropHeight": "4 ft 4.8 in",
@@ -1488,11 +1485,13 @@ window.MYWAR_CLASSICS = [].concat(
     "lng": -122.44668,
     "precision": "spot",
     "year": 2007,
-    "video": "Emerica - Stay Gold (2010)",
+    "video": "Thrasher cover, May 2007 (footage later in Emerica - Stay Gold, 2010)",
     "youtubeId": "meepxVVGvYk",
     "youtubeTitle": "Classic Covers: Andrew Reynolds",
-    "startSeconds": null,
+    "startSeconds": 78,
     "stats": {
+      "Footage released": "Emerica Stay Gold (2010)",
+      "Thrasher cover": "May 2007",
       "gapSize": "16 ft 6 in long",
       "dropHeight": "4 ft 4.8 in",
       "cover": "Thrasher, May 2007"
@@ -1540,7 +1539,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Toy Machine - Welcome to Hell (1996)",
     "youtubeId": "LhR68czgan8",
     "youtubeTitle": "Classics: Brian Anderson \"Welcome to Hell\"",
-    "startSeconds": null,
+    "startSeconds": 76,
     "stats": {
       "stairCount": "Two oversized sets of 6 stairs",
       "spotStatus": "Demolished January 2011"
@@ -1592,7 +1591,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "ESPN X Games V Best Trick broadcast (June 27, 1999)",
     "youtubeId": "4YYTNkAdDD8",
     "youtubeTitle": "Tony Hawk Lands FIRST-EVER 900 | World of X Games",
-    "startSeconds": null,
+    "startSeconds": 85,
     "stats": {
       "attempts": "Landed after ten failed attempts, past regulation time",
       "firsts": "First 900 ever landed",
@@ -1663,7 +1662,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Thrasher: Jaws vs the Lyon 25",
     "youtubeId": "4GFIXrybfKg",
     "youtubeTitle": "Jaws vs the Lyon 25",
-    "startSeconds": null,
+    "startSeconds": 569,
     "stats": {
       "stairCount": 25,
       "gapSize": "6.7 m (22 ft) long",
@@ -1685,7 +1684,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Flip - Sorry (2002)",
     "youtubeId": "8bo6Ckw2pqM",
     "youtubeTitle": "Classics: Ali Boulala \"Sorry\"",
-    "startSeconds": null,
+    "startSeconds": 262,
     "stats": {
       "stairCount": 25,
       "gapSize": "6.7 m (22 ft) long",
@@ -1810,7 +1809,7 @@ window.MYWAR_CLASSICS = [].concat(
     "spot": "MACBA big four (Plaça dels Àngels)",
     "city": "Barcelona", "country": "Spain",
     "lat": 41.3827589, "lng": 2.1670692, "precision": "spot",
-    "year": null,
+    "year": 2018,
     "video": "Krak history clip - Macba Big 4",
     "youtubeId": "yqhndy46Mvs",
     "youtubeTitle": "Macba Big 4, Barcelona - #krakhistoryclip",
@@ -1828,7 +1827,7 @@ window.MYWAR_CLASSICS = [].concat(
     "spot": "MACBA gap (Plaça dels Àngels)",
     "city": "Barcelona", "country": "Spain",
     "lat": 41.3827589, "lng": 2.1670692, "precision": "spot",
-    "year": null,
+    "year": 2016,
     "video": "Macba Life - Macbalifers 2",
     "youtubeId": "OfRdB9451fE",
     "youtubeTitle": "Macba Life - Aurélien Giraud´s hardflip at the big gap (raw)",
@@ -1837,7 +1836,7 @@ window.MYWAR_CLASSICS = [].concat(
       "notes": "Police arrived mid-session, then joined the crowd and let him keep trying"
     },
     "summary": "Giraud hardflips the gap from the top of the MACBA plaza into the bank, with the police watching - a raw clip that went everywhere.",
-    "sources": ["https://macbalife.com/macba-life-aurelien-girauds-hardflip-at-the-big-gap-raw/", "https://www.skateboarding.com/news/macba-life-aurelien-girauds-hardflip-at-the-big-gap", "https://skatekrak.com/mag/macba-gap"]
+    "sources": ["https://macbalife.com/macba-life-aurelien-girauds-hardflip-at-the-big-gap-raw/", "https://www.skateboarding.com/news/macba-life-aurelien-girauds-hardflip-at-the-big-gap", "https://skatekrak.com/mag/macba-gap", "https://www.vice.com/fr/article/aurelien-giraud-le-skateur-francais-qui-met-les-americains-en-pls/", "https://www.instagram.com/p/BFwdyQClDdt/"]
   },
   {
     "skater": "Chris Joslin",
@@ -1849,7 +1848,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Plan B - True",
     "youtubeId": "oyad1E01Mc0",
     "youtubeTitle": "PLAN B: TRUE.",
-    "startSeconds": null,
+    "startSeconds": 177,
     "stats": {},
     "summary": "From the breakout part that introduced Joslin to the world: a backside bigspin over the MACBA gap.",
     "sources": ["https://skatekrak.com/mag/macba-gap"]
@@ -1919,12 +1918,13 @@ window.MYWAR_CLASSICS = [].concat(
     "spot": "Bercy blocks (Palais Omnisports de Paris-Bercy / Accor Arena)",
     "city": "Paris", "country": "France",
     "lat": 48.8387085, "lng": 2.3787666, "precision": "building/campus",
-    "year": null,
+    "year": 2008,
     "video": null,
     "youtubeId": "Fl8CD3jV5-A",
     "youtubeTitle": "Andrew Reynolds Flip Front Bercy 4 blocks",
     "startSeconds": null,
     "stats": {
+      "whenLanded": "By May 2008 (the clip was online then; the exact date is not published)",
       "stairCount": "4 blocks",
       "spotStatus": "Original spot demolished in 2014"
     },
@@ -1977,7 +1977,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Olympics - Men's Street Final, Paris 2024",
     "youtubeId": "D8HdQX1jg9c",
     "youtubeTitle": "WHAT. A. FINAL. | Men's Street Skateboarding Final | #Paris2024 Highlights",
-    "startSeconds": null,
+    "startSeconds": 145,
     "stats": {
       "awards": "Olympic gold, 29 July 2024; total 281.14; the 97.08 was the highest score of the day",
       "firsts": "First skateboarder to defend an Olympic title",
@@ -2066,7 +2066,7 @@ window.MYWAR_CLASSICS = [].concat(
     "spot": "Lloyds Amphitheatre",
     "city": "Bristol", "country": "United Kingdom",
     "lat": 51.4483952, "lng": -2.5997814, "precision": "spot",
-    "year": null,
+    "year": 2017,
     "video": "Sidewalk - On the Spot: Lloyds, Bristol",
     "youtubeId": "vA5Gqtlhy3w",
     "youtubeTitle": "Lloyds, Bristol Part 1 - a history of one of the UK's most famous skate spots",
@@ -2138,7 +2138,7 @@ window.MYWAR_CLASSICS = [].concat(
     "spot": "Stalin Plaza (Letná, under the Prague Metronome)",
     "city": "Prague", "country": "Czech Republic",
     "lat": 50.0947415, "lng": 14.4159352, "precision": "spot",
-    "year": null,
+    "year": 2020,
     "video": "Thrasher - Plazacation: Stalin Square",
     "youtubeId": "jH7-UvydnL8",
     "youtubeTitle": "Plazacation: Stalin Square",
@@ -2155,7 +2155,7 @@ window.MYWAR_CLASSICS = [].concat(
     "spot": "Kulturforum",
     "city": "Berlin", "country": "Germany",
     "lat": 52.5085133, "lng": 13.3647492, "precision": "building/campus",
-    "year": null,
+    "year": 2022,
     "video": "Thrasher - Plazacation: Berlin",
     "youtubeId": "IS4xZms4ZV8",
     "youtubeTitle": "Plazacation: Berlin",
@@ -2172,7 +2172,7 @@ window.MYWAR_CLASSICS = [].concat(
     "spot": "Sants (Plaça dels Països Catalans)",
     "city": "Barcelona", "country": "Spain",
     "lat": 41.380001, "lng": 2.1416298, "precision": "spot",
-    "year": null,
+    "year": 2021,
     "video": "Free Skate Mag - Memory Screen: Sants",
     "youtubeId": "8q59LxnuBXg",
     "youtubeTitle": "Memory Screen: Sants",
@@ -2181,7 +2181,7 @@ window.MYWAR_CLASSICS = [].concat(
       "spotStatus": "OpenStreetMap currently tags the plaza as under construction"
     },
     "summary": "The ledge-and-manual-pad plaza outside Sants station, a fixture of every Barcelona-era video.",
-    "sources": ["https://www.youtube.com/watch?v=8q59LxnuBXg"]
+    "sources": ["https://www.youtube.com/watch?v=8q59LxnuBXg", "https://www.freeskatemag.com/2021/04/28/memory-screen-sants/"]
   },
   {
     "skater": "Various (Supreme team)",
@@ -2189,7 +2189,7 @@ window.MYWAR_CLASSICS = [].concat(
     "spot": "Milano Centrale station (Piazza Duca d'Aosta)",
     "city": "Milan", "country": "Italy",
     "lat": 45.4858786, "lng": 9.2042617, "precision": "building/campus",
-    "year": null,
+    "year": 2026,
     "video": "Thrasher x Supreme - Milano Centrale",
     "youtubeId": "v6QKN73ViZk",
     "youtubeTitle": "THRASHER x SUPREME \"Milano Centrale\" Video",
@@ -2338,7 +2338,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "X Games X, Los Angeles – Skateboard Big Air (inaugural)",
     "youtubeId": "BuaWU8HJnK8",
     "youtubeTitle": "The Legend of Danny Way – World of X Games",
-    "startSeconds": null,
+    "startSeconds": 79,
     "stats": {
       "event": "X Games X (August 5–8, 2004)",
       "round": "Skateboard Big Air final (first time the event was held)",
@@ -2364,7 +2364,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "X Games XIV, Los Angeles – Skateboard Big Air final (July 31, 2008)",
     "youtubeId": "mtwgitJ6u2Q",
     "youtubeTitle": "DANNY WAY IS UNSTOPPABLE | World of X Games",
-    "startSeconds": null,
+    "startSeconds": 117,
     "stats": {
       "event": "X Games XIV (July 31 – August 3, 2008)",
       "round": "Skateboard Big Air final",
@@ -2469,7 +2469,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Paris 2024 Olympics – Men's Park final (August 7, 2024)",
     "youtubeId": "-mDYPfhuStE",
     "youtubeTitle": "Every Keegan Palmer Run at Paris! | Park Skateboarding #Paris2024",
-    "startSeconds": null,
+    "startSeconds": 89,
     "stats": {
       "event": "Paris 2024 Olympic Games",
       "round": "Men's park final, run 1",
@@ -2799,11 +2799,11 @@ window.MYWAR_CLASSICS = [].concat(
     "style": "park",
     "skater": "Lizzie Armanto",
     "trick": "Full run: first-ever X Games Women's Skateboard Park gold",
-    "spot": "X Games Barcelona 2013 park course, Montjuïc",
+    "spot": "X Games Barcelona 2013 park course, Montjuïc Olympic Ring (Anella Olímpica)",
     "city": "Barcelona",
     "country": "Spain",
-    "lat": 41.3825802, "lng": 2.177073,
-    "precision": "city",
+    "lat": 41.366089, "lng": 2.1530256,
+    "precision": "building/campus",
     "year": 2013,
     "video": "X Games Barcelona 2013 – Women's Skateboard Park final",
     "youtubeId": "3xD5_yISlIY",
@@ -2817,7 +2817,7 @@ window.MYWAR_CLASSICS = [].concat(
       "ageAtTime": 20
     },
     "summary": "Women's transition skating finally got its own X Games event in 2013 and the Finnish-American bowl specialist won it, a decade before she was leading the Tokyo Olympics field for Finland.",
-    "sources": ["https://en.wikipedia.org/wiki/Lizzie_Armanto", "https://www.xgames.com/athletes/lizzie-armanto/", "https://www.barcelonaturisme.com/wv3/en/page/1500/x-games-barcelona.html"]
+    "sources": ["https://en.wikipedia.org/wiki/Lizzie_Armanto", "https://www.xgames.com/athletes/lizzie-armanto/", "https://www.barcelonaturisme.com/wv3/en/page/1500/x-games-barcelona.html", "https://catalannews.com/sports/item/almost-115000-people-joined-the-x-games-the-extreme-sport-competition-in-barcelona", "http://espnpressroom.com/press-release/espn-x-games-reveals-global-expansion-sports-disciplines-for-2013-2/"]
   },
   {
     "series": "contest",
@@ -3026,9 +3026,9 @@ window.MYWAR_CLASSICS = [].concat(
     "precision": "spot",
     "year": 2024,
     "video": "Paris 2024 Olympic Games - Women's Street final (July 28, 2024)",
-    "youtubeId": "cwwYO8gVZgI",
-    "youtubeTitle": "Yoshizawa Coco takes Gold! | Women's Street Skateboarding | #Paris2024 Highlights",
-    "startSeconds": null,
+    "youtubeId": "JtqejizcgNg",
+    "youtubeTitle": "The best of Rayssa Leal at the Olympics | Athlete Highlights",
+    "startSeconds": 182,
     "stats": {
       "event": "Paris 2024 Olympics, Women's Street",
       "round": "Final, trick section (attempts 2 and 5)",
@@ -3042,8 +3042,7 @@ window.MYWAR_CLASSICS = [].concat(
       "https://www.nbcolympics.com/news/japanese-teenagers-yoshizawa-akama-top-womens-skateboard-street",
       "https://www.olympics.com/en/news/paris-2024-skateboarding-leal-bronze-rewards-brazilian-crowd",
       "https://bleacherreport.com/articles/10129898-olympic-skateboarding-2024-womens-street-medal-winners-and-results",
-      "https://www.youtube.com/watch?v=cwwYO8gVZgI"
-    ]
+      "https://www.youtube.com/watch?v=cwwYO8gVZgI", "https://www.youtube.com/watch?v=JtqejizcgNg"]
   },
   {
     "series": "contest",
@@ -3058,8 +3057,8 @@ window.MYWAR_CLASSICS = [].concat(
     "precision": "spot",
     "year": 2024,
     "video": "Paris 2024 Olympic Games - Men's Street final (July 29, 2024)",
-    "youtubeId": "kFq_01hYaJ4",
-    "youtubeTitle": "Horigome Yuto takes gold at #Paris2024 with an incredible run in Men's Street Skateboarding final!",
+    "youtubeId": "Hl70nuN0Ivo",
+    "youtubeTitle": "The best of Jagger Eaton at the Olympics | Athlete Highlights",
     "startSeconds": null,
     "stats": {
       "event": "Paris 2024 Olympics, Men's Street",
@@ -3074,8 +3073,7 @@ window.MYWAR_CLASSICS = [].concat(
       "https://www.olympics.com/en/news/paris-2024-skateboard-street-men-horigome-eaton-huston",
       "https://en.wikipedia.org/wiki/Skateboarding_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_street",
       "https://www.nbcolympics.com/news/japans-horigome-defends-skateboard-street-gold-usas-huston-jagger-win-silver-bronze",
-      "https://www.youtube.com/watch?v=kFq_01hYaJ4"
-    ]
+      "https://www.youtube.com/watch?v=kFq_01hYaJ4", "https://www.youtube.com/watch?v=Hl70nuN0Ivo"]
   },
   {
     "series": "contest",
@@ -3113,12 +3111,12 @@ window.MYWAR_CLASSICS = [].concat(
     "style": "street",
     "skater": "Chris Cole",
     "trick": "360 double flip (tre double flip) - Skateboard Street Best Trick",
-    "spot": "X Games XII street course, Los Angeles (exact venue within the Staples Center / Home Depot Center footprint not confirmed)",
-    "city": "Los Angeles, California",
+    "spot": "X Games XII street course, The Home Depot Center (now Dignity Health Sports Park)",
+    "city": "Carson, California",
     "country": "USA",
-    "lat": 34.05,
-    "lng": -118.25,
-    "precision": "city",
+    "lat": 33.8642391,
+    "lng": -118.2610795,
+    "precision": "building/campus",
     "year": 2006,
     "video": "X Games XII, Los Angeles (August 3-6, 2006) - Skateboard Street Best Trick",
     "youtubeId": "_qNQDYdjPWY",
@@ -3135,9 +3133,7 @@ window.MYWAR_CLASSICS = [].concat(
       "https://bleacherreport.com/articles/162001-the-infestation-the-fallen-angel-chris-cole",
       "https://en.wikipedia.org/wiki/X_Games_XII",
       "https://en.wikipedia.org/wiki/Chris_Cole_(skateboarder)",
-      "https://www.youtube.com/watch?v=_qNQDYdjPWY",
-      "https://en.wikipedia.org/wiki/Los_Angeles"
-    ]
+      "https://www.youtube.com/watch?v=_qNQDYdjPWY", "https://www.fatbmx.com/bmx-news/item/1672-x-games-announces-competition-schedule-and-additions"]
   },
   {
     "series": "contest",
@@ -3186,7 +3182,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "2018 SLS World Championship (held January 12-13, 2019), Rio de Janeiro - Women's final",
     "youtubeId": "JIUUO31kpFE",
     "youtubeTitle": "Leticia Bufoni 9 Club Front Lipslide Street League Super Crown Rio 2019",
-    "startSeconds": null,
+    "startSeconds": 5,
     "stats": {
       "event": "2018 World Skate / SLS World Championship, Rio de Janeiro",
       "round": "Women's final, last attempt",
@@ -3218,7 +3214,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "SLS Championship Tour 2023, Stop 3 - Sydney (October 7, 2023)",
     "youtubeId": "8A2qN6JmG5g",
     "youtubeTitle": "Chloe Covell's Top 5 SLS Scores of 2023",
-    "startSeconds": null,
+    "startSeconds": 382,
     "stats": {
       "event": "SLS Championship Tour 2023 Sydney",
       "round": "Women's final, last attempt - needed a 7.5 for the win",
@@ -3250,7 +3246,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "X Games Minneapolis 2018 - Women's Skateboard Street (July 21, 2018)",
     "youtubeId": "IjElrYTbXNI",
     "youtubeTitle": "Mariah Duran wins Women's Skateboard Street gold | X Games Minneapolis 2018",
-    "startSeconds": null,
+    "startSeconds": 6,
     "stats": {
       "event": "X Games Minneapolis 2018",
       "round": "Women's Skateboard Street final",
@@ -3559,7 +3555,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "MoonPay X Games Sacramento 2026 - Monster Energy Women's Skateboard Street Best Trick (June 28, 2026)",
     "youtubeId": "MAxxXGwxH_8",
     "youtubeTitle": "Monster Energy Women Skateboard Street Best Trick FULL COMPETITION | MoonPay X Games Sacramento 2026",
-    "startSeconds": null,
+    "startSeconds": 1105,
     "stats": {
       "event": "MoonPay X Games Sacramento 2026",
       "round": "Women's Skateboard Street Best Trick final (jam format)",

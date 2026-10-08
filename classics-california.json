@@ -12,7 +12,7 @@
     "video": null,
     "youtubeId": "1grq_HFt0Eo",
     "youtubeTitle": "JENKEM - Revisiting the Water Tower Ollie w/ Jeremy Wray",
-    "startSeconds": null,
+    "startSeconds": 462,
     "stats": {
       "gapSize": "About 16 ft flat-to-flat",
       "dropHeight": "Towers roughly 40 ft above the ground",
@@ -38,7 +38,7 @@
     "video": "Zero - Thrill of It All (1997)",
     "youtubeId": "dqqPCqyAfl4",
     "youtubeTitle": "Jamie Thomas and the 'Leap of Faith'. Thrill Of It All (Zero, dir. Jamie Thomas, 1997).",
-    "startSeconds": null,
+    "startSeconds": 99,
     "stats": {
       "stairCount": 27,
       "dropHeight": "17 ft",
@@ -66,7 +66,7 @@
     "video": "Birdhouse - The End (1998)",
     "youtubeId": "QVmoQWt_t5E",
     "youtubeTitle": "Heath Kirchart on Landing the El Toro Lipslide | EPICLY LATER'D",
-    "startSeconds": null,
+    "startSeconds": 129,
     "stats": {
       "stairCount": 20,
       "cover": "TransWorld SKATEboarding, February 1999",
@@ -92,7 +92,7 @@
     "video": null,
     "youtubeId": "Suy2nVlQjvs",
     "youtubeTitle": "El Toro Don Nguyen Ollie Skateboarding Classic Clips #2",
-    "startSeconds": null,
+    "startSeconds": 40,
     "stats": {
       "stairCount": 20,
       "attempts": "Landed it twice - the first make was out of frame, so he returned a week later and did it again",
@@ -119,7 +119,7 @@
     "video": "eS - Menikmati (2000)",
     "youtubeId": "23IdE5CJ0hw",
     "youtubeTitle": "Classics: Arto Saari Menikmati",
-    "startSeconds": null,
+    "startSeconds": 349,
     "stats": {
       "stairCount": 20
     },
@@ -170,7 +170,7 @@
     "video": "Plan B - Second Hand Smoke (1995)",
     "youtubeId": "H_R2Y836C0Y",
     "youtubeTitle": "Classics: Jeremy Wray \"Second Hand Smoke\"",
-    "startSeconds": null,
+    "startSeconds": 291,
     "stats": {
       "spotStatus": "Demolished February 23, 2012"
     },
@@ -290,7 +290,7 @@
     "video": "Birdhouse - The End (1998)",
     "youtubeId": "44zOdQt8uSo",
     "youtubeTitle": "Classics: Andrew Reynolds, The End",
-    "startSeconds": null,
+    "startSeconds": 203,
     "stats": {
       "stairCount": "Triple set (3 flat 3 flat 3)"
     },
@@ -336,7 +336,7 @@
     "video": "Plan B - Superfuture (2008)",
     "youtubeId": "TQvbYg8cx-I",
     "youtubeTitle": "Total Recall: Sheckler's Gigantic Kickflip",
-    "startSeconds": null,
+    "startSeconds": 150,
     "stats": {
       "gapSize": "14 ft long",
       "dropHeight": "5.5 ft",
@@ -466,7 +466,7 @@
     "video": "World Industries - 20 Shot Sequence (1995)",
     "youtubeId": "hcmy3LIw13E",
     "youtubeTitle": "20 Shot Sequence full video - World Industries",
-    "startSeconds": null,
+    "startSeconds": 235,
     "stats": {},
     "summary": "The Menace crew's 20 Shot Sequence footage turned the Lockwood blacktop, with its long bank and picnic tables, into the mecca of mid-90s LA schoolyard skating.",
     "sources": [
@@ -514,7 +514,7 @@
     "video": "Thrasher Classics clip",
     "youtubeId": "3Fqqf1XyCU0",
     "youtubeTitle": "Classics - EMB Gonz Kickflip",
-    "startSeconds": null,
+    "startSeconds": 87,
     "stats": {
       "firsts": "First to kickflip his own namesake gap",
       "spotStatus": "Plaza partially demolished / redeveloped"
@@ -523,8 +523,7 @@
     "sources": [
       "https://www.thrashermagazine.com/articles/videos/classics-emb-gonz-kickflip/",
       "https://skateboarding.fandom.com/wiki/Mark_Gonzales",
-      "https://www.youtube.com/watch?v=3Fqqf1XyCU0"
-    ]
+      "https://www.youtube.com/watch?v=3Fqqf1XyCU0", "https://hufworldwide.com/blogs/news/espn-article-history-lesson-the-gonz-gap"]
   },
   {
     "skater": "Mark Gonzales",
@@ -615,7 +614,7 @@
     "video": "Zero - New Blood (2005)",
     "youtubeId": "WfA_0thXyMg",
     "youtubeTitle": "New Blood - Chris Cole",
-    "startSeconds": null,
+    "startSeconds": 192,
     "stats": {
       "gapSize": "16 ft 6 in long",
       "dropHeight": "4 ft 4.8 in",
@@ -637,11 +636,13 @@
     "lng": -122.44668,
     "precision": "spot",
     "year": 2007,
-    "video": "Emerica - Stay Gold (2010)",
+    "video": "Thrasher cover, May 2007 (footage later in Emerica - Stay Gold, 2010)",
     "youtubeId": "meepxVVGvYk",
     "youtubeTitle": "Classic Covers: Andrew Reynolds",
-    "startSeconds": null,
+    "startSeconds": 78,
     "stats": {
+      "Footage released": "Emerica Stay Gold (2010)",
+      "Thrasher cover": "May 2007",
       "gapSize": "16 ft 6 in long",
       "dropHeight": "4 ft 4.8 in",
       "cover": "Thrasher, May 2007"
@@ -689,7 +690,7 @@
     "video": "Toy Machine - Welcome to Hell (1996)",
     "youtubeId": "LhR68czgan8",
     "youtubeTitle": "Classics: Brian Anderson \"Welcome to Hell\"",
-    "startSeconds": null,
+    "startSeconds": 76,
     "stats": {
       "stairCount": "Two oversized sets of 6 stairs",
       "spotStatus": "Demolished January 2011"
@@ -741,7 +742,7 @@
     "video": "ESPN X Games V Best Trick broadcast (June 27, 1999)",
     "youtubeId": "4YYTNkAdDD8",
     "youtubeTitle": "Tony Hawk Lands FIRST-EVER 900 | World of X Games",
-    "startSeconds": null,
+    "startSeconds": 85,
     "stats": {
       "attempts": "Landed after ten failed attempts, past regulation time",
       "firsts": "First 900 ever landed",
