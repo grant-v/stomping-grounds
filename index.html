@@ -71,8 +71,10 @@
   <section class="my-clips" id="mine" aria-label="Your clips" hidden>
     <header class="mine-head">
       <h2>Add your clip</h2>
-      <p>Pin a clip of your own to the map. Everything you add is saved in this browser only: nobody else can see it, and it won&rsquo;t appear in another browser or on another device.</p>
+      <p id="mIntro">Pin a clip of your own to the map. Everything you add is saved in this browser only: nobody else can see it, and it won&rsquo;t appear in another browser or on another device.</p>
     </header>
+    <!-- sign in to save clips to your account; filled by app.js, stays hidden unless supabase-config.js is set -->
+    <div class="mine-account" id="mAccount" hidden></div>
     <div class="mine-done" id="mDone" role="status" hidden></div>
     <form class="mine-form" id="mineForm" novalidate>
       <div class="mine-fields">
@@ -184,6 +186,9 @@
 <script src="skaters.js"></script>
 <script src="portraits.js"></script>
 <script src="myclips.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.3/dist/umd/supabase.js"></script>
+<script src="supabase-config.js"></script>
+<script src="cloud.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
