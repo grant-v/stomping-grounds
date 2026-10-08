@@ -14,7 +14,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Alien Workshop \"Photosynthesis\" (2000)",
     "youtubeId": "uxCfOk7rY0E",
     "youtubeTitle": "Classics: Josh Kalis \"Photosynthesis\"",
-    "startSeconds": null,
+    "startSeconds": 149,
     "stats": {
       "photo": "Shot by Mike Blabac; one of the most recognisable photos in skateboarding",
       "filmed": "1999, used as his Photosynthesis ender",
@@ -195,7 +195,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Supreme \"cherry\" (William Strobeck, 2014)",
     "youtubeId": "FiDtrKhMw2c",
     "youtubeTitle": "This Old Ledge: New York Courthouse",
-    "startSeconds": null,
+    "startSeconds": 473,
     "stats": {
       "age": "14 at the time",
       "nickname": "Dubbed 'the Courthouse Kid' by director Bill Strobeck",
@@ -299,7 +299,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": null,
     "youtubeId": "CcunKqIih6E",
     "youtubeTitle": "This Old Ledge: Brooklyn Banks",
-    "startSeconds": null,
+    "startSeconds": 303,
     "stats": {
       "firsts": "First person to ollie over the Brooklyn Banks wall (Fall 1986, aged 18)",
       "note": "Documented in photos by Stana Weisburd rather than a video part; linked video is Thrasher's history of the Banks"
@@ -447,7 +447,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "The Berrics \"PUSH\" - Aaron Homoki full part (2015)",
     "youtubeId": "2cx7Is2eodU",
     "youtubeTitle": "Aaron Homoki | PUSH: Full Part",
-    "startSeconds": null,
+    "startSeconds": 792,
     "stats": {
       "stairCount": 21,
       "dropHeight": "12 ft 8 in (about 3.86 m)",
@@ -561,7 +561,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Emerica \"Stay Gold\" (2010)",
     "youtubeId": "e_fKdC9l15g",
     "youtubeTitle": "Emerica \"Stay Gold\" (2010)",
-    "startSeconds": null,
+    "startSeconds": 252,
     "stats": {
       "gapSize": "Described as a neck-high road gap, ollied uphill at full speed",
       "note": "Linked video is the full-length Stay Gold; Westgate's part timestamp not confirmed"
@@ -693,7 +693,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Birdhouse \"The End\" (1998)",
     "youtubeId": "kPjzMDPJALE",
     "youtubeTitle": "Birdhouse \"The End\" (1998)",
-    "startSeconds": null,
+    "startSeconds": 1727,
     "stats": {
       "firsts": "First skater to complete a full loop",
       "rampSize": "14 ft high (12 ft transitions + 2 ft vert), 48 ft wide, with a loop attached to the end; designed by Tim Payne",
@@ -751,7 +751,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Red Bull Building Drop (September 25, 2025)",
     "youtubeId": "JqflfjrcKjo",
     "youtubeTitle": "Biggest Skate Ramp EVER (world record)",
-    "startSeconds": null,
+    "startSeconds": 570,
     "stats": {
       "dropHeight": "60.33 m (197 ft 10 in) drop on an 88.91 m temporary quarter pipe",
       "speed": "103.8 km/h (62.1 mph); 3.9 G",
@@ -861,7 +861,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": null,
     "youtubeId": "1grq_HFt0Eo",
     "youtubeTitle": "JENKEM - Revisiting the Water Tower Ollie w/ Jeremy Wray",
-    "startSeconds": null,
+    "startSeconds": 462,
     "stats": {
       "gapSize": "About 16 ft flat-to-flat",
       "dropHeight": "Towers roughly 40 ft above the ground",
@@ -887,7 +887,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Zero - Thrill of It All (1997)",
     "youtubeId": "dqqPCqyAfl4",
     "youtubeTitle": "Jamie Thomas and the 'Leap of Faith'. Thrill Of It All (Zero, dir. Jamie Thomas, 1997).",
-    "startSeconds": null,
+    "startSeconds": 99,
     "stats": {
       "stairCount": 27,
       "dropHeight": "17 ft",
@@ -915,7 +915,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Birdhouse - The End (1998)",
     "youtubeId": "QVmoQWt_t5E",
     "youtubeTitle": "Heath Kirchart on Landing the El Toro Lipslide | EPICLY LATER'D",
-    "startSeconds": null,
+    "startSeconds": 129,
     "stats": {
       "stairCount": 20,
       "cover": "TransWorld SKATEboarding, February 1999",
@@ -941,7 +941,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": null,
     "youtubeId": "Suy2nVlQjvs",
     "youtubeTitle": "El Toro Don Nguyen Ollie Skateboarding Classic Clips #2",
-    "startSeconds": null,
+    "startSeconds": 40,
     "stats": {
       "stairCount": 20,
       "attempts": "Landed it twice - the first make was out of frame, so he returned a week later and did it again",
@@ -968,7 +968,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "eS - Menikmati (2000)",
     "youtubeId": "23IdE5CJ0hw",
     "youtubeTitle": "Classics: Arto Saari Menikmati",
-    "startSeconds": null,
+    "startSeconds": 349,
     "stats": {
       "stairCount": 20
     },
@@ -1019,7 +1019,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Plan B - Second Hand Smoke (1995)",
     "youtubeId": "H_R2Y836C0Y",
     "youtubeTitle": "Classics: Jeremy Wray \"Second Hand Smoke\"",
-    "startSeconds": null,
+    "startSeconds": 291,
     "stats": {
       "spotStatus": "Demolished February 23, 2012"
     },
@@ -1139,7 +1139,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Birdhouse - The End (1998)",
     "youtubeId": "44zOdQt8uSo",
     "youtubeTitle": "Classics: Andrew Reynolds, The End",
-    "startSeconds": null,
+    "startSeconds": 203,
     "stats": {
       "stairCount": "Triple set (3 flat 3 flat 3)"
     },
@@ -1185,7 +1185,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Plan B - Superfuture (2008)",
     "youtubeId": "TQvbYg8cx-I",
     "youtubeTitle": "Total Recall: Sheckler's Gigantic Kickflip",
-    "startSeconds": null,
+    "startSeconds": 150,
     "stats": {
       "gapSize": "14 ft long",
       "dropHeight": "5.5 ft",
@@ -1315,7 +1315,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "World Industries - 20 Shot Sequence (1995)",
     "youtubeId": "hcmy3LIw13E",
     "youtubeTitle": "20 Shot Sequence full video - World Industries",
-    "startSeconds": null,
+    "startSeconds": 235,
     "stats": {},
     "summary": "The Menace crew's 20 Shot Sequence footage turned the Lockwood blacktop, with its long bank and picnic tables, into the mecca of mid-90s LA schoolyard skating.",
     "sources": [
@@ -1363,7 +1363,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Thrasher Classics clip",
     "youtubeId": "3Fqqf1XyCU0",
     "youtubeTitle": "Classics - EMB Gonz Kickflip",
-    "startSeconds": null,
+    "startSeconds": 87,
     "stats": {
       "firsts": "First to kickflip his own namesake gap",
       "spotStatus": "Plaza partially demolished / redeveloped"
@@ -1463,7 +1463,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Zero - New Blood (2005)",
     "youtubeId": "WfA_0thXyMg",
     "youtubeTitle": "New Blood - Chris Cole",
-    "startSeconds": null,
+    "startSeconds": 192,
     "stats": {
       "gapSize": "16 ft 6 in long",
       "dropHeight": "4 ft 4.8 in",
@@ -1488,7 +1488,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Thrasher cover, May 2007 (footage later in Emerica - Stay Gold, 2010)",
     "youtubeId": "meepxVVGvYk",
     "youtubeTitle": "Classic Covers: Andrew Reynolds",
-    "startSeconds": null,
+    "startSeconds": 78,
     "stats": {
       "Footage released": "Emerica Stay Gold (2010)",
       "Thrasher cover": "May 2007",
@@ -1539,7 +1539,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Toy Machine - Welcome to Hell (1996)",
     "youtubeId": "LhR68czgan8",
     "youtubeTitle": "Classics: Brian Anderson \"Welcome to Hell\"",
-    "startSeconds": null,
+    "startSeconds": 76,
     "stats": {
       "stairCount": "Two oversized sets of 6 stairs",
       "spotStatus": "Demolished January 2011"
@@ -1591,7 +1591,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "ESPN X Games V Best Trick broadcast (June 27, 1999)",
     "youtubeId": "4YYTNkAdDD8",
     "youtubeTitle": "Tony Hawk Lands FIRST-EVER 900 | World of X Games",
-    "startSeconds": null,
+    "startSeconds": 85,
     "stats": {
       "attempts": "Landed after ten failed attempts, past regulation time",
       "firsts": "First 900 ever landed",
@@ -1662,7 +1662,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Thrasher: Jaws vs the Lyon 25",
     "youtubeId": "4GFIXrybfKg",
     "youtubeTitle": "Jaws vs the Lyon 25",
-    "startSeconds": null,
+    "startSeconds": 569,
     "stats": {
       "stairCount": 25,
       "gapSize": "6.7 m (22 ft) long",
@@ -1684,7 +1684,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Flip - Sorry (2002)",
     "youtubeId": "8bo6Ckw2pqM",
     "youtubeTitle": "Classics: Ali Boulala \"Sorry\"",
-    "startSeconds": null,
+    "startSeconds": 262,
     "stats": {
       "stairCount": 25,
       "gapSize": "6.7 m (22 ft) long",
@@ -1848,7 +1848,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Plan B - True",
     "youtubeId": "oyad1E01Mc0",
     "youtubeTitle": "PLAN B: TRUE.",
-    "startSeconds": null,
+    "startSeconds": 177,
     "stats": {},
     "summary": "From the breakout part that introduced Joslin to the world: a backside bigspin over the MACBA gap.",
     "sources": ["https://skatekrak.com/mag/macba-gap"]
@@ -1977,7 +1977,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Olympics - Men's Street Final, Paris 2024",
     "youtubeId": "D8HdQX1jg9c",
     "youtubeTitle": "WHAT. A. FINAL. | Men's Street Skateboarding Final | #Paris2024 Highlights",
-    "startSeconds": null,
+    "startSeconds": 145,
     "stats": {
       "awards": "Olympic gold, 29 July 2024; total 281.14; the 97.08 was the highest score of the day",
       "firsts": "First skateboarder to defend an Olympic title",
@@ -2338,7 +2338,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "X Games X, Los Angeles – Skateboard Big Air (inaugural)",
     "youtubeId": "BuaWU8HJnK8",
     "youtubeTitle": "The Legend of Danny Way – World of X Games",
-    "startSeconds": null,
+    "startSeconds": 79,
     "stats": {
       "event": "X Games X (August 5–8, 2004)",
       "round": "Skateboard Big Air final (first time the event was held)",
@@ -2364,7 +2364,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "X Games XIV, Los Angeles – Skateboard Big Air final (July 31, 2008)",
     "youtubeId": "mtwgitJ6u2Q",
     "youtubeTitle": "DANNY WAY IS UNSTOPPABLE | World of X Games",
-    "startSeconds": null,
+    "startSeconds": 117,
     "stats": {
       "event": "X Games XIV (July 31 – August 3, 2008)",
       "round": "Skateboard Big Air final",
@@ -2469,7 +2469,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Paris 2024 Olympics – Men's Park final (August 7, 2024)",
     "youtubeId": "-mDYPfhuStE",
     "youtubeTitle": "Every Keegan Palmer Run at Paris! | Park Skateboarding #Paris2024",
-    "startSeconds": null,
+    "startSeconds": 89,
     "stats": {
       "event": "Paris 2024 Olympic Games",
       "round": "Men's park final, run 1",
@@ -3028,7 +3028,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "Paris 2024 Olympic Games - Women's Street final (July 28, 2024)",
     "youtubeId": "JtqejizcgNg",
     "youtubeTitle": "The best of Rayssa Leal at the Olympics | Athlete Highlights",
-    "startSeconds": null,
+    "startSeconds": 182,
     "stats": {
       "event": "Paris 2024 Olympics, Women's Street",
       "round": "Final, trick section (attempts 2 and 5)",
@@ -3182,7 +3182,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "2018 SLS World Championship (held January 12-13, 2019), Rio de Janeiro - Women's final",
     "youtubeId": "JIUUO31kpFE",
     "youtubeTitle": "Leticia Bufoni 9 Club Front Lipslide Street League Super Crown Rio 2019",
-    "startSeconds": null,
+    "startSeconds": 5,
     "stats": {
       "event": "2018 World Skate / SLS World Championship, Rio de Janeiro",
       "round": "Women's final, last attempt",
@@ -3214,7 +3214,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "SLS Championship Tour 2023, Stop 3 - Sydney (October 7, 2023)",
     "youtubeId": "8A2qN6JmG5g",
     "youtubeTitle": "Chloe Covell's Top 5 SLS Scores of 2023",
-    "startSeconds": null,
+    "startSeconds": 382,
     "stats": {
       "event": "SLS Championship Tour 2023 Sydney",
       "round": "Women's final, last attempt - needed a 7.5 for the win",
@@ -3246,7 +3246,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "X Games Minneapolis 2018 - Women's Skateboard Street (July 21, 2018)",
     "youtubeId": "IjElrYTbXNI",
     "youtubeTitle": "Mariah Duran wins Women's Skateboard Street gold | X Games Minneapolis 2018",
-    "startSeconds": null,
+    "startSeconds": 6,
     "stats": {
       "event": "X Games Minneapolis 2018",
       "round": "Women's Skateboard Street final",
@@ -3555,7 +3555,7 @@ window.MYWAR_CLASSICS = [].concat(
     "video": "MoonPay X Games Sacramento 2026 - Monster Energy Women's Skateboard Street Best Trick (June 28, 2026)",
     "youtubeId": "MAxxXGwxH_8",
     "youtubeTitle": "Monster Energy Women Skateboard Street Best Trick FULL COMPETITION | MoonPay X Games Sacramento 2026",
-    "startSeconds": null,
+    "startSeconds": 1105,
     "stats": {
       "event": "MoonPay X Games Sacramento 2026",
       "round": "Women's Skateboard Street Best Trick final (jam format)",
