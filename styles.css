@@ -489,6 +489,24 @@ button, input, select { font: inherit; color: inherit; border-radius: 0; }
 }
 .mine-done[hidden] { display: none; }
 
+/* sign in / your account, above the form */
+.mine-account { margin: 0 0 18px; padding: 12px 14px; border: 1px solid var(--ink); background: var(--wash); }
+.mine-account[hidden] { display: none; }
+.mine-account p { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px; margin: 0; }
+.mine-account .acct-move { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line); }
+.mine-account .acct-note { display: block; margin-top: 6px; font-size: 13px; color: var(--mute); }
+.mine-account .acct-note:empty { display: none; }
+.acct-form { display: flex; align-items: flex-end; gap: 8px; flex-wrap: wrap; }
+.acct-form label { display: flex; flex-direction: column; gap: 5px; flex: 1; min-width: 200px; max-width: 360px; }
+.acct-form label > span { font: 700 11px var(--body); text-transform: uppercase; letter-spacing: .08em; }
+.acct-form input { width: 100%; padding: 8px 10px; background: var(--paper); border: 1px solid var(--ink); font: 400 15px var(--body); }
+.acct-btn {
+  flex: none; background: var(--ink); color: #fff; border: 1px solid var(--ink); padding: 9px 12px; cursor: pointer;
+  font: 700 11px var(--body); text-transform: uppercase; letter-spacing: .06em;
+}
+.acct-btn:hover { background: var(--red); border-color: var(--red); }
+.acct-btn:disabled { opacity: .6; cursor: progress; }
+
 /* desktop: fields with Save under them on the left, the pin map down the right.
    phone (below): one column, and Save moves after the map */
 .mine-form {

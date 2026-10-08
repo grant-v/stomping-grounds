@@ -25,9 +25,32 @@ then pin where you landed it: click the map, search for the spot, or use your cu
 your phone recorded where the video was filmed, the pin drops itself and the date fills in when you
 pick the file. Your clips get a ★ pin, their own page with the video, and the same 3D fly-in.
 
-Everything you add stays **in your browser only**, video included (it's kept in IndexedDB by
-`myclips.js`). Nothing is uploaded, nobody else can see your clips, and they don't carry over to
-another browser or device. Clearing the site's data in your browser deletes them.
+Signed out, everything you add stays **in your browser only**, video included (it's kept in
+IndexedDB by `myclips.js`). Nothing is uploaded, and the clips don't carry over to another browser
+or device. Clearing the site's data in your browser deletes them.
+
+**Sign in** (an emailed link, no password) and clips are saved to your account in Supabase instead:
+the details in Postgres, the video in Supabase Storage. They show up on any device you sign in on.
+Only you can see them; row-level security keeps every account's clips and videos private. Clips
+already saved in the browser can be moved into your account with one button. The account box only
+appears once a Supabase project is set up (below).
+
+### Setting up the Supabase backend
+
+1. Create a free project at <https://supabase.com/dashboard>.
+2. **SQL Editor** → New query → paste all of `supabase/setup.sql` → **Run**. That creates the `clips`
+   table, the private `clips` storage bucket and the security rules.
+3. **Authentication → URL Configuration**: set **Site URL** to
+   `https://grant-v.github.io/stomping-grounds/` and add these **Redirect URLs**:
+   `https://grant-v.github.io/stomping-grounds/**` and `http://localhost:8377/**`.
+4. **Project Settings → API**: copy the **Project URL** and the **publishable / anon** key into
+   `supabase-config.js`, then commit and push. Both are safe to publish. Never use the secret /
+   `service_role` key here.
+
+Limits worth knowing: the free plan caps a single upload at **50 MB** (the site says so and asks
+for a trimmed clip), and Supabase's built-in email sender only delivers a few sign-in emails an
+hour, and on new projects only to your own team's addresses. That's fine for you. Before other
+people sign in, add your own SMTP sender (e.g. Resend) under **Authentication → Emails → SMTP**.
 
 ## Running it
 

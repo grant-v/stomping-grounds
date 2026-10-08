@@ -370,10 +370,16 @@
   }
 
   function videoHtml(d) {
-    // your own clip plays straight from this browser's storage
+    // your own clip plays straight from this browser's storage, or from your account (render() fills in the link)
     if (d.mine) {
       var rec = MINE[d.id];
       if (liveURL) { URL.revokeObjectURL(liveURL); liveURL = null; }
+      if (rec && rec.cloud) {
+        return '<div class="video mine-video"><video controls playsinline preload="metadata" data-path="' + esc(rec.videoPath) + '"' +
+          (d.thumb ? ' poster="' + esc(d.thumb) + '"' : '') + '></video></div>' +
+          '<p class="d-approx mine-bad" hidden>This browser can&rsquo;t play this video&rsquo;s format. It&rsquo;s still saved to your account. ' +
+          'iPhone clips shot in HEVC usually play in Safari, or re-export the clip as H.264.</p>';
+      }
       if (!rec || !rec.video) return '<p class="novideo">The video for this clip is missing from this browser.</p>';
       liveURL = URL.createObjectURL(rec.video);
       return '<div class="video mine-video"><video controls playsinline preload="metadata" src="' + liveURL + '"' +
@@ -422,9 +428,19 @@
       '</div>';
     var mv = $('dossierBody').querySelector('.mine-video video');
     if (mv) mv.addEventListener('error', function () {
+      if (!mv.getAttribute('src')) return;
       var note = $('dossierBody').querySelector('.mine-bad');
       if (note) note.hidden = false;
     });
+    // a video in your account is private: ask for a short-lived link to play it
+    if (mv && mv.dataset.path && CLOUD) {
+      CLOUD.videoUrl(mv.dataset.path).then(function (url) {
+        if (mv.isConnected) mv.src = url;
+      }).catch(function () {
+        var note = $('dossierBody').querySelector('.mine-bad');
+        if (note && mv.isConnected) { note.textContent = 'Couldn’t load this video from your account. Check your connection and open the clip again.'; note.hidden = false; }
+      });
+    }
   }
 
   $('dossierBody').addEventListener('click', function (e) {
@@ -444,7 +460,8 @@
       var gone = del.dataset.del;
       del.disabled = true;
       del.textContent = 'Deleting…';
-      STORE.remove(gone).then(function () {
+      var goneRec = MINE[gone];
+      (goneRec && goneRec.cloud ? CLOUD.remove(goneRec) : STORE.remove(gone)).then(function () {
         closeDossier();
         dropMine(gone);
         mineChanged();
@@ -709,10 +726,13 @@
   window.addEventListener('hashchange', function () { var id = location.hash.slice(1); if (id && id !== current) select(id, { fly: true }); });
 
   // ---------- your clips (My Clips tab) ----------
-  // Your own clips live in this browser only (myclips.js keeps them in IndexedDB, video file and all).
+  // Signed out, your own clips live in this browser (myclips.js keeps them in IndexedDB, video file and all).
+  // Signed in, they're saved to your Supabase account (cloud.js) and follow you to any device.
   // Once loaded they join DATA like any other clip, so they get a star pin, the dossier and the 3D fly-in.
   var STORE = window.MYWAR_MINE;
-  var MINE = {};                     // id -> the stored record, which holds the video Blob
+  var CLOUD = window.MYWAR_CLOUD;    // null when no Supabase project is set in supabase-config.js
+  var MINE = {};                     // id -> the stored record: a local one holds the video Blob, a cloud one its path
+  var signedIn = function () { return !!(CLOUD && CLOUD.user()); };
   var liveURL = null;                // object URL of the video playing in the dossier
   var pick = null, pickPin = null, pickLL = null;
   var mineFile = null, previewURL = null, thumbP = null, videoLL = null, dateTouched = false;
@@ -764,7 +784,7 @@
     var n = mineList().length;
     $('who').innerHTML = '<span class="card-photo who-star" aria-hidden="true"><span class="ph">&#9733;</span></span>' +
       '<div><div class="who-name">Your clips</div><div class="who-meta">' + n + (n === 1 ? ' clip' : ' clips') +
-      ' · saved in this browser</div></div>' +
+      (signedIn() ? ' · in your account' : ' · saved in this browser') + '</div></div>' +
       '<button type="button" class="who-back" id="whoBack">Add a clip</button>';
     $('who').hidden = false;
     $('whoBack').onclick = showMine;
@@ -774,6 +794,7 @@
     document.body.classList.toggle('has-mine', mineList().length > 0);
     homeCounts();
     renderMineCards();
+    renderAccount();
     if (style === 'mine') { usePool(mineList()); whoMine(); }
     else if (style === 'street' || style === 'park') usePool(ofStyle(style));
   }
@@ -825,8 +846,108 @@
           '<span class="card-name">' + esc(d.trick) + '</span>' +
           '<span class="card-meta">' + esc(d.skater + ' · ' + fmtDate(d.date)) + '</span>' +
           '<span class="card-titles"><span>' + esc(d.spot || d.city) + '</span></span>' +
-          '<span class="card-clips">' + (d.style === 'park' ? 'Park' : 'Street') + ' · see it on the map</span></button>';
+          '<span class="card-clips">' + (d.style === 'park' ? 'Park' : 'Street') +
+          (signedIn() && !MINE[d.id].cloud ? ' · this browser only' : '') + ' · see it on the map</span></button>';
       }).join('');
+  }
+
+  // ----- your account (only when a Supabase project is set up) -----
+  var sentTo = '', moving = false;
+  function renderAccount() {
+    var box = $('mAccount');
+    if (!CLOUD) return;
+    var u = CLOUD.user(), err = CLOUD.linkError();
+    $('mIntro').textContent = u
+      ? 'Pin a clip of your own to the map. Clips you add now are saved to your account, so they show up on any device you sign in on. Only you can see them.'
+      : 'Pin a clip of your own to the map. Signed out, everything you add is saved in this browser only. Sign in to keep your clips in your account and see them on any device. Only you can see them.';
+    box.hidden = false;
+    if (u) {
+      var local = mineList().filter(function (d) { return !MINE[d.id].cloud; });
+      box.innerHTML = '<p><span>Signed in as <b>' + esc(u.email || 'you') + '</b></span>' +
+        '<button type="button" class="acct-btn" id="mSignOut">Sign out</button></p>' +
+        (local.length ? '<p class="acct-move"><span>' + local.length + (local.length === 1 ? ' clip is' : ' clips are') +
+          ' saved only in this browser.</span><button type="button" class="acct-btn" id="mMove"' + (moving ? ' disabled' : '') + '>' +
+          (moving ? 'Moving…' : 'Move ' + (local.length === 1 ? 'it' : 'them') + ' to your account') + '</button></p>' : '') +
+        '<p class="acct-note" id="mAcctNote" role="status"></p>';
+      return;
+    }
+    box.innerHTML = '<form class="acct-form" id="mSignIn" novalidate>' +
+      '<label><span>Email</span><input id="mEmail" type="email" autocomplete="email" placeholder="you@example.com" required></label>' +
+      '<button type="submit" class="acct-btn">Email me a sign-in link</button></form>' +
+      '<p class="acct-note" id="mAcctNote" role="status">' + esc(err || (sentTo
+        ? 'Sent. Open the link in the email to ' + sentTo + ' (check spam if it’s not there in a minute).'
+        : 'No password: we email you a link, and opening it signs you in.')) + '</p>';
+  }
+  function acctNote(t) { var n = $('mAcctNote'); if (n) n.textContent = t; }
+
+  $('mAccount').addEventListener('submit', function (e) {
+    if (e.target.id !== 'mSignIn') return;
+    e.preventDefault();
+    var email = $('mEmail').value.trim(), btn = e.target.querySelector('button');
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return acctNote('Type the email address to send the link to.');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    CLOUD.signIn(email).then(function () {
+      sentTo = email;
+      renderAccount();
+    }).catch(function (err) {
+      btn.disabled = false;
+      btn.textContent = 'Email me a sign-in link';
+      acctNote(/rate|security purposes/i.test(String(err && err.message))
+        ? 'Too many sign-in emails just now. Wait a minute and try again.'
+        : 'Couldn’t send the link: ' + ((err && err.message) || err));
+    });
+  });
+  $('mAccount').addEventListener('click', function (e) {
+    if (e.target.id === 'mSignOut') {
+      e.target.disabled = true;
+      CLOUD.signOut().catch(function (err) { e.target.disabled = false; acctNote('Couldn’t sign out: ' + ((err && err.message) || err)); });
+    } else if (e.target.id === 'mMove') moveToAccount();
+  });
+
+  // copy the clips kept in this browser into your account, one at a time, and drop each local copy once it's safe
+  function moveToAccount() {
+    var local = mineList().filter(function (d) { return !MINE[d.id].cloud; }).map(function (d) { return MINE[d.id]; });
+    var done = 0, big = [], failed = [];
+    moving = true;
+    renderAccount();
+    local.reduce(function (p, rec) {
+      return p.then(function () {
+        acctNote('Uploading ' + (done + big.length + failed.length + 1) + ' of ' + local.length + '…');
+        return CLOUD.put(rec).then(function () {
+          done++;
+          return STORE.remove(rec.id);
+        }).catch(function (err) {
+          if (err && err.tooBig) big.push(rec.trick); else failed.push(rec.trick);
+        });
+      });
+    }, Promise.resolve()).then(function () {
+      moving = false;
+      return loadMine();
+    }).then(function () {
+      var msg = done ? 'Moved ' + done + (done === 1 ? ' clip' : ' clips') + ' to your account.' : '';
+      if (big.length) msg += ' Too big to upload (over ' + sizeText(CLOUD.MAX_BYTES) + '), so still in this browser: ' + listText(big) + '.';
+      if (failed.length) msg += ' Couldn’t upload ' + listText(failed) + '; try again in a moment.';
+      acctNote(msg.trim());
+    });
+  }
+
+  // (re)load your clips from wherever they live right now; called on start and whenever you sign in or out
+  var loadGen = 0;
+  function loadMine() {
+    var gen = ++loadGen;
+    return Promise.all([
+      STORE ? STORE.all().catch(function (err) { console.warn('Stomping Grounds: clips in this browser could not be loaded —', err); return []; }) : [],
+      signedIn() ? CLOUD.all().catch(function (err) { console.warn('Stomping Grounds: clips in your account could not be loaded —', err); return []; }) : []
+    ]).then(function (got) {
+      if (gen !== loadGen) return;
+      if (current && byId[current] && byId[current].mine) closeDossier();
+      mineList().forEach(function (d) { dropMine(d.id); });
+      got[1].concat(got[0]).forEach(function (r) {
+        if (r && r.id && typeof r.lat === 'number' && !MINE[r.id]) addMine(r);
+      });
+      mineChanged();
+    });
   }
 
   // ----- the pin picker -----
@@ -991,9 +1112,12 @@
         lat: ll.lat, lng: ll.lng, city: got[1].city, country: got[1].country,
         thumb: got[0], video: file, videoName: file.name, videoType: file.type, saved: new Date().toISOString()
       };
-      return STORE.put(rec).then(function () { return rec; });
+      if (signedIn()) {
+        btn.textContent = 'Uploading…';
+        return CLOUD.put(rec);
+      }
+      return STORE.put(rec).then(function () { STORE.persist(); return rec; });
     }).then(function (rec) {
-      STORE.persist();
       var d = addMine(rec);
       mineChanged();
       resetForm();
@@ -1003,7 +1127,10 @@
       $('mine').scrollTop = 0;
     }).catch(function (err) {
       var why = String((err && (err.name + ' ' + err.message)) || err);
-      $('mErr').textContent = /quota/i.test(why)
+      $('mErr').textContent = err && err.tooBig
+        ? 'This video is ' + sizeText(file.size) + '. The most you can upload is ' + sizeText(CLOUD.MAX_BYTES) +
+          ', so trim it or export it at a lower resolution and try again.'
+        : /quota/i.test(why)
         ? 'Your browser ran out of storage space for this video. Try a shorter clip or free up some disk space.'
         : 'Couldn’t save the clip: ' + ((err && err.message) || err);
     }).then(function () {
@@ -1047,12 +1174,10 @@
   }
 
   // your saved clips arrive after the page is up; a link straight to one of them opens once it has loaded
-  if (STORE) STORE.all().then(function (list) {
-    (list || []).forEach(function (r) { if (r && r.id && typeof r.lat === 'number') addMine(r); });
-    if (list && list.length) mineChanged();
+  (CLOUD ? CLOUD.ready : Promise.resolve()).then(loadMine).then(function () {
     var h = location.hash.slice(1);
     if (h && MINE[h] && current !== h) openMine(h);
-  }).catch(function (err) {
-    console.warn('Stomping Grounds: your saved clips could not be loaded —', err);
+    // signing in or out (here or in another tab) swaps which clips are yours
+    if (CLOUD) CLOUD.onChange(function () { sentTo = ''; loadMine(); });
   });
 })();
