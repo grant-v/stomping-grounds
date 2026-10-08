@@ -523,8 +523,7 @@
     "sources": [
       "https://www.thrashermagazine.com/articles/videos/classics-emb-gonz-kickflip/",
       "https://skateboarding.fandom.com/wiki/Mark_Gonzales",
-      "https://www.youtube.com/watch?v=3Fqqf1XyCU0"
-    ]
+      "https://www.youtube.com/watch?v=3Fqqf1XyCU0", "https://hufworldwide.com/blogs/news/espn-article-history-lesson-the-gonz-gap"]
   },
   {
     "skater": "Mark Gonzales",
@@ -637,11 +636,13 @@
     "lng": -122.44668,
     "precision": "spot",
     "year": 2007,
-    "video": "Emerica - Stay Gold (2010)",
+    "video": "Thrasher cover, May 2007 (footage later in Emerica - Stay Gold, 2010)",
     "youtubeId": "meepxVVGvYk",
     "youtubeTitle": "Classic Covers: Andrew Reynolds",
     "startSeconds": null,
     "stats": {
+      "Footage released": "Emerica Stay Gold (2010)",
+      "Thrasher cover": "May 2007",
       "gapSize": "16 ft 6 in long",
       "dropHeight": "4 ft 4.8 in",
       "cover": "Thrasher, May 2007"

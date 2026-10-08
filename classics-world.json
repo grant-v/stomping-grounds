@@ -156,7 +156,7 @@
     "spot": "MACBA big four (Plaça dels Àngels)",
     "city": "Barcelona", "country": "Spain",
     "lat": 41.3827589, "lng": 2.1670692, "precision": "spot",
-    "year": null,
+    "year": 2018,
     "video": "Krak history clip - Macba Big 4",
     "youtubeId": "yqhndy46Mvs",
     "youtubeTitle": "Macba Big 4, Barcelona - #krakhistoryclip",
@@ -174,7 +174,7 @@
     "spot": "MACBA gap (Plaça dels Àngels)",
     "city": "Barcelona", "country": "Spain",
     "lat": 41.3827589, "lng": 2.1670692, "precision": "spot",
-    "year": null,
+    "year": 2016,
     "video": "Macba Life - Macbalifers 2",
     "youtubeId": "OfRdB9451fE",
     "youtubeTitle": "Macba Life - Aurélien Giraud´s hardflip at the big gap (raw)",
@@ -183,7 +183,7 @@
       "notes": "Police arrived mid-session, then joined the crowd and let him keep trying"
     },
     "summary": "Giraud hardflips the gap from the top of the MACBA plaza into the bank, with the police watching - a raw clip that went everywhere.",
-    "sources": ["https://macbalife.com/macba-life-aurelien-girauds-hardflip-at-the-big-gap-raw/", "https://www.skateboarding.com/news/macba-life-aurelien-girauds-hardflip-at-the-big-gap", "https://skatekrak.com/mag/macba-gap"]
+    "sources": ["https://macbalife.com/macba-life-aurelien-girauds-hardflip-at-the-big-gap-raw/", "https://www.skateboarding.com/news/macba-life-aurelien-girauds-hardflip-at-the-big-gap", "https://skatekrak.com/mag/macba-gap", "https://www.vice.com/fr/article/aurelien-giraud-le-skateur-francais-qui-met-les-americains-en-pls/", "https://www.instagram.com/p/BFwdyQClDdt/"]
   },
   {
     "skater": "Chris Joslin",
@@ -265,12 +265,13 @@
     "spot": "Bercy blocks (Palais Omnisports de Paris-Bercy / Accor Arena)",
     "city": "Paris", "country": "France",
     "lat": 48.8387085, "lng": 2.3787666, "precision": "building/campus",
-    "year": null,
+    "year": 2008,
     "video": null,
     "youtubeId": "Fl8CD3jV5-A",
     "youtubeTitle": "Andrew Reynolds Flip Front Bercy 4 blocks",
     "startSeconds": null,
     "stats": {
+      "whenLanded": "By May 2008 (the clip was online then; the exact date is not published)",
       "stairCount": "4 blocks",
       "spotStatus": "Original spot demolished in 2014"
     },
@@ -412,7 +413,7 @@
     "spot": "Lloyds Amphitheatre",
     "city": "Bristol", "country": "United Kingdom",
     "lat": 51.4483952, "lng": -2.5997814, "precision": "spot",
-    "year": null,
+    "year": 2017,
     "video": "Sidewalk - On the Spot: Lloyds, Bristol",
     "youtubeId": "vA5Gqtlhy3w",
     "youtubeTitle": "Lloyds, Bristol Part 1 - a history of one of the UK's most famous skate spots",
@@ -484,7 +485,7 @@
     "spot": "Stalin Plaza (Letná, under the Prague Metronome)",
     "city": "Prague", "country": "Czech Republic",
     "lat": 50.0947415, "lng": 14.4159352, "precision": "spot",
-    "year": null,
+    "year": 2020,
     "video": "Thrasher - Plazacation: Stalin Square",
     "youtubeId": "jH7-UvydnL8",
     "youtubeTitle": "Plazacation: Stalin Square",
@@ -501,7 +502,7 @@
     "spot": "Kulturforum",
     "city": "Berlin", "country": "Germany",
     "lat": 52.5085133, "lng": 13.3647492, "precision": "building/campus",
-    "year": null,
+    "year": 2022,
     "video": "Thrasher - Plazacation: Berlin",
     "youtubeId": "IS4xZms4ZV8",
     "youtubeTitle": "Plazacation: Berlin",
@@ -518,7 +519,7 @@
     "spot": "Sants (Plaça dels Països Catalans)",
     "city": "Barcelona", "country": "Spain",
     "lat": 41.380001, "lng": 2.1416298, "precision": "spot",
-    "year": null,
+    "year": 2021,
     "video": "Free Skate Mag - Memory Screen: Sants",
     "youtubeId": "8q59LxnuBXg",
     "youtubeTitle": "Memory Screen: Sants",
@@ -527,7 +528,7 @@
       "spotStatus": "OpenStreetMap currently tags the plaza as under construction"
     },
     "summary": "The ledge-and-manual-pad plaza outside Sants station, a fixture of every Barcelona-era video.",
-    "sources": ["https://www.youtube.com/watch?v=8q59LxnuBXg"]
+    "sources": ["https://www.youtube.com/watch?v=8q59LxnuBXg", "https://www.freeskatemag.com/2021/04/28/memory-screen-sants/"]
   },
   {
     "skater": "Various (Supreme team)",
@@ -535,7 +536,7 @@
     "spot": "Milano Centrale station (Piazza Duca d'Aosta)",
     "city": "Milan", "country": "Italy",
     "lat": 45.4858786, "lng": 9.2042617, "precision": "building/campus",
-    "year": null,
+    "year": 2026,
     "video": "Thrasher x Supreme - Milano Centrale",
     "youtubeId": "v6QKN73ViZk",
     "youtubeTitle": "THRASHER x SUPREME \"Milano Centrale\" Video",

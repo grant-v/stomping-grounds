@@ -177,8 +177,8 @@
     "precision": "spot",
     "year": 2024,
     "video": "Paris 2024 Olympic Games - Women's Street final (July 28, 2024)",
-    "youtubeId": "cwwYO8gVZgI",
-    "youtubeTitle": "Yoshizawa Coco takes Gold! | Women's Street Skateboarding | #Paris2024 Highlights",
+    "youtubeId": "JtqejizcgNg",
+    "youtubeTitle": "The best of Rayssa Leal at the Olympics | Athlete Highlights",
     "startSeconds": null,
     "stats": {
       "event": "Paris 2024 Olympics, Women's Street",
@@ -193,8 +193,7 @@
       "https://www.nbcolympics.com/news/japanese-teenagers-yoshizawa-akama-top-womens-skateboard-street",
       "https://www.olympics.com/en/news/paris-2024-skateboarding-leal-bronze-rewards-brazilian-crowd",
       "https://bleacherreport.com/articles/10129898-olympic-skateboarding-2024-womens-street-medal-winners-and-results",
-      "https://www.youtube.com/watch?v=cwwYO8gVZgI"
-    ]
+      "https://www.youtube.com/watch?v=cwwYO8gVZgI", "https://www.youtube.com/watch?v=JtqejizcgNg"]
   },
   {
     "series": "contest",
@@ -209,8 +208,8 @@
     "precision": "spot",
     "year": 2024,
     "video": "Paris 2024 Olympic Games - Men's Street final (July 29, 2024)",
-    "youtubeId": "kFq_01hYaJ4",
-    "youtubeTitle": "Horigome Yuto takes gold at #Paris2024 with an incredible run in Men's Street Skateboarding final!",
+    "youtubeId": "Hl70nuN0Ivo",
+    "youtubeTitle": "The best of Jagger Eaton at the Olympics | Athlete Highlights",
     "startSeconds": null,
     "stats": {
       "event": "Paris 2024 Olympics, Men's Street",
@@ -225,8 +224,7 @@
       "https://www.olympics.com/en/news/paris-2024-skateboard-street-men-horigome-eaton-huston",
       "https://en.wikipedia.org/wiki/Skateboarding_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_street",
       "https://www.nbcolympics.com/news/japans-horigome-defends-skateboard-street-gold-usas-huston-jagger-win-silver-bronze",
-      "https://www.youtube.com/watch?v=kFq_01hYaJ4"
-    ]
+      "https://www.youtube.com/watch?v=kFq_01hYaJ4", "https://www.youtube.com/watch?v=Hl70nuN0Ivo"]
   },
   {
     "series": "contest",
@@ -264,12 +262,12 @@
     "style": "street",
     "skater": "Chris Cole",
     "trick": "360 double flip (tre double flip) - Skateboard Street Best Trick",
-    "spot": "X Games XII street course, Los Angeles (exact venue within the Staples Center / Home Depot Center footprint not confirmed)",
-    "city": "Los Angeles, California",
+    "spot": "X Games XII street course, The Home Depot Center (now Dignity Health Sports Park)",
+    "city": "Carson, California",
     "country": "USA",
-    "lat": 34.05,
-    "lng": -118.25,
-    "precision": "city",
+    "lat": 33.8642391,
+    "lng": -118.2610795,
+    "precision": "building/campus",
     "year": 2006,
     "video": "X Games XII, Los Angeles (August 3-6, 2006) - Skateboard Street Best Trick",
     "youtubeId": "_qNQDYdjPWY",
@@ -286,9 +284,7 @@
       "https://bleacherreport.com/articles/162001-the-infestation-the-fallen-angel-chris-cole",
       "https://en.wikipedia.org/wiki/X_Games_XII",
       "https://en.wikipedia.org/wiki/Chris_Cole_(skateboarder)",
-      "https://www.youtube.com/watch?v=_qNQDYdjPWY",
-      "https://en.wikipedia.org/wiki/Los_Angeles"
-    ]
+      "https://www.youtube.com/watch?v=_qNQDYdjPWY", "https://www.fatbmx.com/bmx-news/item/1672-x-games-announces-competition-schedule-and-additions"]
   },
   {
     "series": "contest",

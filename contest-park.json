@@ -580,11 +580,11 @@
     "style": "park",
     "skater": "Lizzie Armanto",
     "trick": "Full run: first-ever X Games Women's Skateboard Park gold",
-    "spot": "X Games Barcelona 2013 park course, Montjuïc",
+    "spot": "X Games Barcelona 2013 park course, Montjuïc Olympic Ring (Anella Olímpica)",
     "city": "Barcelona",
     "country": "Spain",
-    "lat": 41.3825802, "lng": 2.177073,
-    "precision": "city",
+    "lat": 41.366089, "lng": 2.1530256,
+    "precision": "building/campus",
     "year": 2013,
     "video": "X Games Barcelona 2013 – Women's Skateboard Park final",
     "youtubeId": "3xD5_yISlIY",
@@ -598,7 +598,7 @@
       "ageAtTime": 20
     },
     "summary": "Women's transition skating finally got its own X Games event in 2013 and the Finnish-American bowl specialist won it, a decade before she was leading the Tokyo Olympics field for Finland.",
-    "sources": ["https://en.wikipedia.org/wiki/Lizzie_Armanto", "https://www.xgames.com/athletes/lizzie-armanto/", "https://www.barcelonaturisme.com/wv3/en/page/1500/x-games-barcelona.html"]
+    "sources": ["https://en.wikipedia.org/wiki/Lizzie_Armanto", "https://www.xgames.com/athletes/lizzie-armanto/", "https://www.barcelonaturisme.com/wv3/en/page/1500/x-games-barcelona.html", "https://catalannews.com/sports/item/almost-115000-people-joined-the-x-games-the-extreme-sport-competition-in-barcelona", "http://espnpressroom.com/press-release/espn-x-games-reveals-global-expansion-sports-disciplines-for-2013-2/"]
   },
   {
     "series": "contest",

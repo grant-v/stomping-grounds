@@ -38,6 +38,9 @@
     d.series = d.series || 'mywar';
     d.style = d.style === 'park' ? 'park' : 'street';
     d.located = typeof d.lat === 'number' && typeof d.lng === 'number';
+    // a My War episode can come out years after the trick (Bachinsky's 2006 kickflip got its episode in 2015):
+    // list, sort and filter by the year it was landed, and name the episode year in the dossier
+    if (d.series === 'mywar' && d.landed && d.landed !== d.year) { d.episodeYear = d.year; d.year = d.landed; }
     var id = slug(d.skater + '-' + (d.spot || d.trick || d.year || ''));
     while (seen[id]) id += '-2';
     seen[id] = true;
@@ -398,7 +401,9 @@
     if (d.mine) links.push('<button type="button" class="del" data-del="' + esc(d.id) + '">Delete clip</button>');
 
     $('dossierBody').innerHTML =
-      '<p class="d-year">' + esc(d.year || '') + (d.title ? ' · ' + esc(d.title) : '') + '</p>' +
+      '<p class="d-year">' + (d.episodeYear
+        ? 'Landed ' + esc(d.year) + ' · ' + esc(d.title) + ', ' + esc(d.episodeYear)
+        : esc(d.year || '') + (d.title ? ' · ' + esc(d.title) : '')) + '</p>' +
       '<h2 class="d-skater">' + esc(d.skater) + '</h2>' +
       (d.trick || d.spot ? '<p class="d-vs">' + esc(d.trick || '') + (d.trick && d.spot ? ' <b>vs.</b> ' : '') + esc(d.spot || '') + '</p>' : '') +
       '<p class="d-place">' + esc(place(d)) + '</p>' +

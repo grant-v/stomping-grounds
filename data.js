@@ -3,6 +3,7 @@
 // approx: true  = pinned at city/neighbourhood level (hollow pin, wider 3D view).
 // no lat/lng    = spot never identified; shows in the list with stats + video but has no pin.
 // camera        = optional per-spot 3D framing: { tilt, range (metres), heading }.
+// year          = when the episode came out; landed = when the trick went down, if earlier (the site lists by landed).
 var EL_TORO = { lat: 33.6378, lng: -117.68909, camera: { tilt: 72, range: 135, heading: -30 } };
 var CLIPPER = { lat: 37.74936, lng: -122.43282 };
 
@@ -14,7 +15,7 @@ window.MYWAR = [
     spot: 'Municipal Services Building kinked rail',
     city: 'Philadelphia, Pennsylvania', country: 'USA',
     lat: 39.95413, lng: -75.1644,
-    year: 2015, youtubeId: 'Y-zYVtwaGCo',
+    year: 2015, landed: 2013, youtubeId: 'Y-zYVtwaGCo',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-dane-burman/',
     stats: [
       ['Battle span', 'A few months'],
@@ -30,7 +31,7 @@ window.MYWAR = [
     spot: 'El Toro 20',
     city: 'Lake Forest, California', country: 'USA',
     lat: EL_TORO.lat, lng: EL_TORO.lng, camera: EL_TORO.camera,
-    year: 2015, youtubeId: 'SR02gR-G1ok',
+    year: 2015, landed: 2006, youtubeId: 'SR02gR-G1ok',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-dave-bachinsky/',
     stats: [
       ['Stairs', '20', true],
@@ -46,7 +47,7 @@ window.MYWAR = [
     spot: 'Double-set double-kink rail (school undisclosed)',
     city: 'San Pedro, Los Angeles, California', country: 'USA',
     lat: 33.7358518, lng: -118.2922934, approx: true,
-    year: 2015, youtubeId: 'WdpA-Xhr98A',
+    year: 2015, landed: 2009, youtubeId: 'WdpA-Xhr98A',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-arto-saari/',
     stats: [
       ['Filmed for', 'Alien Workshop "Mind Field" (2009) — opener'],
@@ -63,7 +64,7 @@ window.MYWAR = [
     spot: 'Clipper hubba (James Lick Middle School)',
     city: 'San Francisco, California', country: 'USA',
     lat: CLIPPER.lat, lng: CLIPPER.lng,
-    year: 2015, youtubeId: 'Y7ebSFQpB-g',
+    year: 2015, landed: 2013, youtubeId: 'Y7ebSFQpB-g',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-jamie-thomas/',
     stats: [
       ['Trips', '5', true],
@@ -79,7 +80,7 @@ window.MYWAR = [
     spot: 'Valencia Park Elementary 20 stair',
     city: 'San Diego, California', country: 'USA',
     lat: 32.7018, lng: -117.0701,
-    year: 2015, youtubeId: 'pD1vL2J_u6Q',
+    year: 2015, landed: 2013, youtubeId: 'pD1vL2J_u6Q',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-tommy-sandoval/',
     stats: [
       ['Stairs', '20', true],
@@ -95,7 +96,7 @@ window.MYWAR = [
     spot: 'Davis Gap (by Roessler Hall, UC Davis)',
     city: 'Davis, California', country: 'USA',
     lat: 38.53699, lng: -121.75167,
-    year: 2016, youtubeId: 'ukcmncNJKy8',
+    year: 2016, landed: 2014, youtubeId: 'ukcmncNJKy8',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-chris-joslin/',
     stats: [
       ['Attempts', '12', true],
@@ -111,7 +112,7 @@ window.MYWAR = [
     city: 'Los Angeles, California', country: 'USA',
     lat: 34.0915152, lng: -118.2549956,
     camera: { tilt: 72, range: 260, heading: 60 },
-    year: 2016, youtubeId: 'lmJ73LWSgq0',
+    year: 2016, landed: 2016, youtubeId: 'lmJ73LWSgq0',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-nuge-s-hill-bomb/',
     stats: [
       ['Grade', '~32%', true],
@@ -140,13 +141,17 @@ window.MYWAR = [
   {
     skater: 'Justin "Figgy" Figueroa',
     title: 'My War: Justin "Figgy" Figueroa',
+    trick: 'Biggie frontside boardslide',
     spot: 'Muirlands Middle School 14-stair rail',
     city: 'La Jolla, San Diego, California', country: 'USA',
     lat: 32.83312, lng: -117.26886,
-    year: 2016, youtubeId: 'fVF6g-u7oEQ',
+    year: 2016, landed: 2016, youtubeId: 'fVF6g-u7oEQ',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-justin-figgy-figueroa/',
     stats: [
-      ['Stairs', '14', true]
+      ['Stairs', '14', true],
+      ['Filmed for', 'Emerica "Made Chapter 2" (2016)'],
+      ['Thrasher verdict', '"Biggest biggie front board ever"'],
+      ['Earned', '2016 Skater of the Year finalist']
     ],
     summary: 'Nobody puts up a fight like Figgy: he takes the big hits and refuses to give in until four wheels hit the \'crete.'
   },
@@ -157,7 +162,7 @@ window.MYWAR = [
     spot: 'Infamous San Francisco double set',
     city: 'San Francisco, California', country: 'USA',
     lat: 37.7749, lng: -122.4194, approx: true,
-    year: 2017, youtubeId: 'NyFNX2GKOA0',
+    year: 2017, landed: 2017, youtubeId: 'NyFNX2GKOA0',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-ryan-decenzo/',
     stats: [
       ['Before him', 'Only ollied — Diego Bucchieri, 1999'],
@@ -173,7 +178,7 @@ window.MYWAR = [
     spot: 'El Toro 20 rail',
     city: 'Lake Forest, California', country: 'USA',
     lat: EL_TORO.lat, lng: EL_TORO.lng, camera: EL_TORO.camera,
-    year: 2017, youtubeId: 'Ofhz8VgQ6Ho',
+    year: 2017, landed: 2017, youtubeId: 'Ofhz8VgQ6Ho',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-jamie-foy/',
     stats: [
       ['Stairs', '20', true],
@@ -218,7 +223,7 @@ window.MYWAR = [
     city: 'Los Angeles, California', country: 'USA',
     lat: 34.0618, lng: -118.305,
     camera: { tilt: 68, range: 420, heading: 90 },
-    year: 2018, youtubeId: 'Tr2kaIKBInM',
+    year: 2018, landed: 2018, youtubeId: 'Tr2kaIKBInM',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-miles-silvas/',
     stats: [
       ['City blocks', '7', true],
@@ -235,7 +240,7 @@ window.MYWAR = [
     spot: 'House banister, Ingleside',
     city: 'San Francisco, California', country: 'USA',
     lat: 37.7233, lng: -122.453, approx: true,
-    year: 2018, youtubeId: 'yk2VP_iDxOY',
+    year: 2018, landed: 2018, youtubeId: 'yk2VP_iDxOY',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-pedro-delfino-2/',
     stats: [
       ['Earned', 'Thrasher cover, February 2018 (photo: Jon Spitzer)'],
@@ -249,11 +254,13 @@ window.MYWAR = [
     trick: 'Blizzard flip (backside 360 kickflip)',
     spot: 'Cologne Cathedral stairs (Domplatte)',
     city: 'Cologne', country: 'Germany',
-    lat: 50.9413, lng: 6.9583,
-    year: 2018, youtubeId: 'ZYNcoe2xgu4',
+    lat: 50.941994, lng: 6.9585414,
+    year: 2018, landed: 2018, youtubeId: 'ZYNcoe2xgu4',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-chris-joslin-2/',
     stats: [
-      ['Up against', 'Bad weather, crowds, security, injuries']
+      ['Up against', 'Bad weather, crowds, security, injuries'],
+      ['Stairs', '13', true],
+      ['Filmed for', 'etnies "Album" (2018)']
     ],
     summary: 'Chris stomps an epic blizzard flip over and over at the Cologne Cathedral stairs, yet a roll-away requires an all-out war.'
   },
@@ -264,10 +271,12 @@ window.MYWAR = [
     spot: 'Hollywood High 16',
     city: 'Hollywood, Los Angeles, California', country: 'USA',
     lat: 34.10003, lng: -118.33889,
-    year: 2018, youtubeId: 'JoFSMvn64r0',
+    year: 2018, landed: 2018, youtubeId: 'JoFSMvn64r0',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-zion-wright/',
     stats: [
-      ['Stairs', '16', true]
+      ['Stairs', '16', true],
+      ['Filmed for', 'REAL Skateboards "REAL" part (June 2018) — ender'],
+      ['Context', 'His first full-length part since turning pro for REAL']
     ],
     summary: 'Zion took a ludicrously gnarly trick to one of skateboarding\'s most iconic proving grounds, the Hollywood High 16.'
   },
@@ -279,7 +288,7 @@ window.MYWAR = [
     city: 'Mojave, California', country: 'USA',
     lat: 35.006176, lng: -118.15702,
     camera: { tilt: 70, range: 220, heading: -30 },
-    year: 2019, youtubeId: '1AazV1J6uQQ',
+    year: 2019, landed: 2019, youtubeId: '1AazV1J6uQQ',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-clive-dixon/',
     stats: [
       ['Earned', 'Thrasher cover (photo: Michael Burnett)'],
@@ -294,7 +303,7 @@ window.MYWAR = [
     spot: 'Sunset Carwash',
     city: 'Hollywood, Los Angeles, California', country: 'USA',
     lat: 34.098194, lng: -118.363106,
-    year: 2020, youtubeId: 'BAqNOneGRiM',
+    year: 2020, landed: 2019, youtubeId: 'BAqNOneGRiM',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-milton-martinez/',
     stats: [
       ['Battle span', 'Years — first attempt mid-2010s, landed 2019'],
@@ -313,7 +322,7 @@ window.MYWAR = [
     spot: 'Wallenberg four block',
     city: 'San Francisco, California', country: 'USA',
     lat: 37.78014, lng: -122.44664,
-    year: 2020, youtubeId: 'W1-Kyv3M33w',
+    year: 2020, landed: 2019, youtubeId: 'W1-Kyv3M33w',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-miles-silvas-2/',
     stats: [
       ['Trips', '5', true],
@@ -331,7 +340,7 @@ window.MYWAR = [
     spot: 'Large curved handrail',
     city: 'Los Angeles, California', country: 'USA',
     lat: 34.0522, lng: -118.2437, approx: true,
-    year: 2020, youtubeId: 'WHASYE2e5Xo',
+    year: 2020, landed: 2019, youtubeId: 'WHASYE2e5Xo',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-sammy-baca/',
     stats: [
       ['Bus trips', '27', true],
@@ -344,9 +353,8 @@ window.MYWAR = [
   {
     skater: 'Beagle',
     title: 'My War: Beagle',
-    city: 'Los Angeles area, California', country: 'USA',
-    lat: 34.0522, lng: -118.2437, approx: true,
-    year: 2020, youtubeId: 'SB9ldNNL2zU',
+    city: 'Location not published', country: 'USA',
+    year: 2020, landed: 2019, youtubeId: 'SB9ldNNL2zU',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-beagle/',
     stats: [
       ['Filmed for', 'Baker 4 (2019) — ender'],
@@ -361,10 +369,12 @@ window.MYWAR = [
     spot: 'Hunters Point Sundial',
     city: 'San Francisco, California', country: 'USA',
     lat: 37.7329, lng: -122.38365,
-    year: 2020, youtubeId: '53FVtRJlmvc',
+    year: 2020, landed: 2020, youtubeId: '53FVtRJlmvc',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-zane-timpson/',
     stats: [
-      ['Injuries', 'Bloody slams — "you gotta be willing to bleed"']
+      ['Injuries', 'Bloody slams — "you gotta be willing to bleed"'],
+      ['Filmed for', '"FFFurther" part (Oct 2020) — closer'],
+      ['Follow-up', 'Thrasher on his 2021 part: "He blessed us with the Sundial hammer last time around"']
     ],
     summary: 'Zane respects the legacy of the Hunters Point Sundial and adds to its history with the heaviest huck so far.'
   },
@@ -375,7 +385,7 @@ window.MYWAR = [
     spot: 'Glendale Blvd bank',
     city: 'Glendale, California', country: 'USA',
     lat: 34.12158, lng: -118.25673,
-    year: 2021, youtubeId: 'CzmwGZ3Ohpc',
+    year: 2021, landed: 2021, youtubeId: 'CzmwGZ3Ohpc',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-ronnie-sandoval/',
     stats: [
       ['Sessions', 'Multiple return sessions'],
@@ -388,7 +398,7 @@ window.MYWAR = [
     title: 'My War: Gabriel Summers',
     trick: 'Boardslide',
     spot: 'Four-kink handrail',
-    year: 2022, youtubeId: 'nLY-kH9n_tY',
+    year: 2022, landed: 2019, youtubeId: 'nLY-kH9n_tY',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-gabriel-summers-2/',
     stats: [
       ['Hours', '40', true],
@@ -410,7 +420,7 @@ window.MYWAR = [
     spot: 'Double-set double-kink rail (school undisclosed)',
     city: 'San Pedro, Los Angeles, California', country: 'USA',
     lat: 33.7358518, lng: -118.2922934, approx: true,
-    year: 2022, youtubeId: 'SSpr7Evz1zc',
+    year: 2022, landed: 2019, youtubeId: 'SSpr7Evz1zc',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-alex-midler/',
     stats: [
       ['Event', 'Thrasher Bust or Bail "Trouble at the Double" (2019)'],
@@ -426,14 +436,14 @@ window.MYWAR = [
     spot: 'The "Euro gap"',
     city: 'Burbank, California', country: 'USA',
     lat: 34.1812089, lng: -118.307201, approx: true,
-    year: 2023, youtubeId: 'dDTlAieAbgo',
+    year: 2023, landed: 2023, youtubeId: 'dDTlAieAbgo',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-ryan-sheckler/',
     stats: [
       ['Trips', '3', true],
       ['Broken bungees', '2', true],
       ['Heat', '100°F', true],
-      ['Injuries', 'Torn ACL'],
-      ['Before him', 'Pedro Delfino ollied into the gap first'],
+      ['Injuries', 'Torn ACL — he skated the first session on it without knowing; surgery followed'],
+      ['Battle span', 'About 2 years'],
       ['Aftermath', 'Drew blood trying to ollie back down it after the make'],
       ['Filmed for', 'Red Bull "LIFER" (2023)']
     ],
@@ -446,7 +456,7 @@ window.MYWAR = [
     spot: 'Yonkers triple rail',
     city: 'Yonkers, New York', country: 'USA',
     lat: 40.9312099, lng: -73.8987469, approx: true,
-    year: 2023, youtubeId: 'rZVAwWPfEC8',
+    year: 2023, landed: 2023, youtubeId: 'rZVAwWPfEC8',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-rob-pace/',
     stats: [
       ['Rails', '3', true],
@@ -465,7 +475,7 @@ window.MYWAR = [
     spot: 'Clipper hubba (James Lick Middle School)',
     city: 'San Francisco, California', country: 'USA',
     lat: CLIPPER.lat, lng: CLIPPER.lng,
-    year: 2023, youtubeId: 'fv2XXUnUh-c',
+    year: 2023, landed: 2021, youtubeId: 'fv2XXUnUh-c',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-david-reyes/',
     stats: [
       ['Trips', '6', true],
@@ -480,15 +490,17 @@ window.MYWAR = [
   {
     skater: 'Ethan Loy',
     title: 'My War: Ethan Loy',
+    trick: 'Lipslide onto the head-high ledge atop the brick quarterpipe',
     spot: 'Brick Banks, Los Angeles Mall',
     city: 'Downtown Los Angeles, California', country: 'USA',
     lat: 34.05364, lng: -118.24173,
-    year: 2025, youtubeId: 'aiJLTpF2i9k',
+    year: 2025, landed: 2024, youtubeId: 'aiJLTpF2i9k',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-ethan-loy/',
     stats: [
       ['Sessions', '26', true],
       ['Filmed for', '"Avalon" part (Thrasher, 2024)'],
-      ['Record', 'Thrasher: perhaps the longest battle in My War history']
+      ['Record', 'Thrasher: perhaps the longest battle in My War history'],
+      ['Battle span', 'About 8 months']
     ],
     summary: 'In perhaps the longest battle of My War history, Ethan pushes through 26 grueling sessions against LA\'s most maddening bricks.'
   },
@@ -499,7 +511,7 @@ window.MYWAR = [
     spot: 'El Toro 20',
     city: 'Lake Forest, California', country: 'USA',
     lat: EL_TORO.lat, lng: EL_TORO.lng, camera: EL_TORO.camera,
-    year: 2025, youtubeId: 'jH7rLKQHBgg',
+    year: 2025, landed: 2025, youtubeId: 'jH7rLKQHBgg',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-chris-joslin-el-toro/',
     stats: [
       ['Stairs', '20', true],
@@ -525,7 +537,7 @@ window.MYWAR = [
     city: 'Laguna Niguel, California', country: 'USA',
     lat: 33.55618, lng: -117.67856,
     camera: { tilt: 72, range: 180, heading: -30 },
-    year: 2026, youtubeId: 'r7c4YNWO8DU',
+    year: 2026, landed: 2026, youtubeId: 'r7c4YNWO8DU',
     thrasherUrl: 'https://www.thrashermagazine.com/articles/videos/my-war-jace-de-tomasso/',
     stats: [
       ['The gap', '~14 ft', true],
