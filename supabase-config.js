@@ -6,6 +6,6 @@
 //
 // Leave either value empty and My Clips keeps working the old way, saved in this browser only.
 window.MYWAR_SUPABASE = {
-  url: '',
-  anonKey: ''
+  url: 'https://tdsxhfcxuapbftfktlje.supabase.co',
+  anonKey: 'sb_publishable_wAVAYorkRXCmmu9XPsDUew_RQQjx18O'
 };
